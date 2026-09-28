@@ -1,0 +1,84 @@
+# ==============================
+# Core Python
+# ==============================
+python-dotenv
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+
+# ==============================
+# Deep Learning
+# ==============================
+torch
+torchvision
+torchaudio
+
+# ==============================
+# NLP / Transformers
+# ==============================
+transformers
+datasets
+tokenizers
+sentence-transformers
+accelerate
+evaluate
+seqeval
+
+# ==============================
+# Multilingual NLP
+# ==============================
+langdetect
+lingua-language-detector
+
+# ==============================
+# NLP Utilities
+# ==============================
+nltk
+spacy
+
+# ==============================
+# Vector Database / Retrieval
+# ==============================
+chromadb
+faiss-cpu
+
+# ==============================
+# LLM / AI
+# ==============================
+google-generativeai
+
+# ==============================
+# API
+# ==============================
+fastapi
+uvicorn
+pydantic
+python-multipart
+
+# ==============================
+# Frontend
+# ==============================
+streamlit
+
+# ==============================
+# Visualization
+# ==============================
+plotly
+
+# ==============================
+# Testing
+# ==============================
+pytest
+
+# ==============================
+# HTTP / Web
+# ==============================
+requests
+httpx
+
+# ==============================
+# Production
+# ==============================
+gunicorn

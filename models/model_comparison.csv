@@ -1,0 +1,4 @@
+Model,Accuracy,Macro F1,Weighted F1,Test Samples
+TF-IDF + Logistic Regression,88.71,88.54,88.68,5118
+BiLSTM + Attention,92.34,92.26,92.33,5118
+XLM-R Embedding Classifier,93.73,93.6,93.73,5118

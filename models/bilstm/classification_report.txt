@@ -1,0 +1,36 @@
+MULTILINGUAL BiLSTM + ATTENTION
+======================================================================
+
+                          precision    recall  f1-score   support
+
+            cancel_order     0.9677    0.8219    0.8889       146
+            change_order     0.9337    0.9086    0.9210       186
+ change_shipping_address     0.8679    0.9293    0.8976       198
+  check_cancellation_fee     0.9468    0.9128    0.9295       195
+           check_invoice     0.8472    0.9531    0.8971       192
+   check_payment_methods     0.9850    0.9850    0.9850       200
+     check_refund_policy     0.9479    0.9381    0.9430       194
+               complaint     0.9275    0.9600    0.9435       200
+contact_customer_service     0.9450    0.9450    0.9450       200
+     contact_human_agent     0.9188    0.9050    0.9118       200
+          create_account     0.9309    0.9259    0.9284       189
+          delete_account     0.9140    0.9091    0.9115       187
+        delivery_options     0.9677    0.9494    0.9585       158
+         delivery_period     0.9126    0.9495    0.9307       198
+            edit_account     0.9490    0.8713    0.9085       171
+             get_invoice     0.9486    0.8737    0.9096       190
+              get_refund     0.9050    0.8710    0.8877       186
+ newsletter_subscription     0.9660    0.9950    0.9803       200
+           payment_issue     0.9303    0.9397    0.9350       199
+             place_order     0.8863    0.9350    0.9100       200
+        recover_password     0.9048    0.9500    0.9268       200
+   registration_problems     0.9369    0.9650    0.9507       200
+                  review     0.9344    0.8593    0.8953       199
+ set_up_shipping_address     0.9286    0.9100    0.9192       200
+          switch_account     0.9189    0.9290    0.9239       183
+             track_order     0.8660    0.9492    0.9057       177
+            track_refund     0.8834    0.8471    0.8649       170
+
+                accuracy                         0.9234      5118
+               macro avg     0.9249    0.9218    0.9226      5118
+            weighted avg     0.9245    0.9234    0.9233      5118

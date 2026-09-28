@@ -1,0 +1,393 @@
+﻿text,language,intent,category,source,predicted_intent,correct
+ucstomer service mail address,en,contact_customer_service,contact,bitext,set_up_shipping_address,False
+i do not know how i can see ur payhment options,en,check_payment_methods,payment,bitext,delivery_options,False
+need help switching to my new profile,en,switch_account,account,bitext,recover_password,False
+lcate order {{Order Number}},en,track_order,order,bitext,change_order,False
+what is the ucstomer support working hours,en,contact_customer_service,contact,bitext,delivery_period,False
+where do I check my last purchase estimated time of arrival?,en,track_order,order,bitext,check_invoice,False
+I don't know how I cansee my invoices from {{Person Name}},en,check_invoice,invoice,bitext,get_invoice,False
+I have a question about opening user profiles,en,registration_problems,account,bitext,create_account,False
+I need an {{Account Type}} account,en,create_account,account,bitext,delete_account,False
+i cannot inform of a isgnup issue,en,registration_problems,account,bitext,payment_issue,False
+need to report an issue with paymentr,en,payment_issue,payment,bitext,registration_problems,False
+when can I expect a refund,en,get_refund,refund,bitext,track_refund,False
+gedtting bill from {{Person Name}},en,get_invoice,invoice,bitext,check_invoice,False
+what do I need to do to cancell a {{Account Category}} account?,en,delete_account,account,bitext,create_account,False
+I am trying to inform of an error with paymenys,en,payment_issue,payment,bitext,registration_problems,False
+could you help me editing my fucking account?,en,edit_account,account,bitext,delete_account,False
+need help to notify of problems with paymenst,en,payment_issue,payment,bitext,registration_problems,False
+have a questoon about creating user profiles,en,registration_problems,account,bitext,create_account,False
+मुझे समस्याओं के बारे में सूचित करने की जरूरत है एक पंजीकरण आप मुझे मदद कर सकते हैं,hi,registration_problems,account,bitext,payment_issue,False
+मुझे नहीं पता कि मैं आपके लेख से कुछ कैसे कमा सकता हूं,hi,place_order,order,bitext,complaint,False
+आदेश की स्थिति,hi,track_order,order,bitext,contact_human_agent,False
+सेवा के लिए समीक्षा छोड़ें,hi,review,feedback,bitext,place_order,False
+मुझे नहीं पता कि आपकी कंपनी की न्यूज़लेटर से सदस्यता कैसे रद्द की जाए,hi,newsletter_subscription,subscription,bitext,complaint,False
+मुझे अपने भाड़ में जाओ धनवापसी नीति की जाँच करने के लिए की जरूरत है मुझे मदद,hi,check_refund_policy,refund,bitext,track_refund,False
+मैं आदेश में कुछ उत्पादों को याद किया {{Order Number}},hi,change_order,order,bitext,cancel_order,False
+मैं किसी ऑर्डर के आइटम का आदान-प्रदान नहीं कर सकता {{Order Number}},hi,change_order,order,bitext,track_order,False
+मैं निकासी जुर्माना कैसे जांच सकता हूँ,hi,check_cancellation_fee,cancel,bitext,recover_password,False
+मुझे भुगतान के साथ एक खूनी त्रुटि की रिपोर्ट करने के लिए मदद की जरूरत है,hi,payment_issue,payment,bitext,registration_problems,False
+"द्वितीयक वितरण पता मान्य नहीं है, यह कैसे किया जाए?",hi,set_up_shipping_address,shipping,bitext,complaint,False
+क्या आप मुझे मेरे भाड़ में जाओ शिपिंग पते को ठीक करने में मदद कर सकते हैं?,hi,change_shipping_address,shipping,bitext,set_up_shipping_address,False
+मुझे कस्टमर सपोर्ट से संपर्क करना है,hi,contact_customer_service,contact,bitext,contact_human_agent,False
+व्यवस्था को कैसे सुधारें ? {{Order Number}},hi,change_order,order,bitext,track_order,False
+यूर कोपेनी के बारे में समीक्षा लिखने के लिए सहायता की आवश्यकता होती है,hi,review,feedback,bitext,recover_password,False
+अपनी धनवापसी नीति दिखाएं,hi,check_refund_policy,refund,bitext,track_refund,False
+मैं कैसे जांचूं कि मेरा आइटम कब आएगा?,hi,delivery_period,delivery,bitext,check_invoice,False
+मुझे कुछ आइटम प्राप्त करने की जरूरत है,hi,place_order,order,bitext,get_refund,False
+मैं डॉलर्स के एक भाड़ में जाओ क्षतिपूर्ति के लिए इंतजार कर रहा हूँ {{Refund Amount}},hi,track_refund,refund,bitext,change_shipping_address,False
+आप मुझे अपनी सेवाओं के लिए एक समीक्षा लिखने में मदद कर सकते हैं?,hi,review,feedback,bitext,place_order,False
+मैं कहां से कुछ कमाऊं?,hi,place_order,order,bitext,create_account,False
+खाता पर आंकड़े {{Account Type}},hi,edit_account,account,bitext,switch_account,False
+फ्रीमियम खाता निकालने के साथ समस्याएं,hi,delete_account,account,bitext,registration_problems,False
+मुझे धनवापसी मिलने में कितना समय लगेगा?,hi,get_refund,refund,bitext,check_refund_policy,False
+"मैंने एक लेख के लिए भुगतान किया, मैं अपना मुआवजा चाहता हूँ {{Currency Symbol}} {{Refund Amount}}",hi,get_refund,refund,bitext,check_refund_policy,False
+मैं अपने पैसे की प्रतिपूर्ति पाने की कोशिश कर रहा हूँ,hi,get_refund,refund,bitext,recover_password,False
+मैं अपने खाते पर विवरण अद्यतन करना चाहते हैं मुझे मदद की जरूरत है,hi,edit_account,account,bitext,change_shipping_address,False
+क्या आप मुझे अपनी कंपनी के लिए एक राय लिखने में मदद कर सकते हैं?,hi,review,feedback,bitext,place_order,False
+प्रो अकाउंट के आंकड़ों को अद्यतन करना,hi,edit_account,account,bitext,change_order,False
+"मैंने इस आइटम के लिए भुगतान किया, मुझे धनवापसी प्राप्त करने में मदद करें {{Currency Symbol}} {{Refund Amount}}",hi,get_refund,refund,bitext,payment_issue,False
+मेरे कमबख्त नए शिपिंग पते में एक त्रुटि है,hi,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+क्या आप मुझे एक गणना रद्द करने में मदद कर सकते हैं {{Account Type}},hi,delete_account,account,bitext,contact_human_agent,False
+मुझे मदद करने के लिए एक बकवास दावा करना चाहते हैं,hi,complaint,feedback,bitext,contact_human_agent,False
+मैं नहीं जानता कि कैसे मेरे माध्यमिक डिलीवरी पते sybmit करने के लिए,hi,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+मुझे अपने पेशेवर खाते को हटाने के लिए मदद की जरूरत है,hi,delete_account,account,bitext,switch_account,False
+क्या आप मुझे एक शातिर ऑपरेटर का मार्गदर्शन कर सकते हैं?,hi,contact_human_agent,contact,bitext,newsletter_subscription,False
+"मैं भुगतान के अनुमत तरीकों को देखना चाहता हूँ, मैं इसे कैसे कर सकता हूँ?",hi,check_payment_methods,payment,bitext,check_invoice,False
+सम्पादन खाता,hi,edit_account,account,bitext,get_invoice,False
+मुझे नहीं पता कि उपयोगकर्ता डेटा को संशोधित करने के लिए क्या करना है,hi,edit_account,account,bitext,change_shipping_address,False
+मैं अपने उत्पाद के कुछ प्राप्त करने के लिए मदद की जरूरत है,hi,place_order,order,bitext,review,False
+मैं नहीं जानता कि कैसे अपने उत्पादों के लिए एक समीक्षा छोड़ने के लिए,hi,review,feedback,bitext,place_order,False
+"मैं एक गलत शिपिंग पता दर्ज किया है, मैं इसे संशोधित करना चाहते हैं",hi,change_shipping_address,shipping,bitext,set_up_shipping_address,False
+मैं किसी व्यक्ति से बात नहीं कर सकता,hi,contact_human_agent,contact,bitext,complaint,False
+सोने के खाते के विवरण को अद्यतन करना,hi,edit_account,account,bitext,change_shipping_address,False
+क्या आप मुझे दिखा सकते हैं कि मैं जल्द ही शिपमेंट की उम्मीद कर सकता हूं?,hi,delivery_period,delivery,bitext,check_cancellation_fee,False
+अन्ना फ्रीमैन से बिल प्राप्त करें,hi,get_invoice,invoice,bitext,recover_password,False
+अपनी धनवापसी नीति की जांच करने में सहायता चाहते हैं,hi,check_refund_policy,refund,bitext,get_refund,False
+मुझे नहीं पता कि कई चीजें अर्जित करने के लिए क्या करना है,hi,place_order,order,bitext,track_order,False
+शिपिंग पते की समस्या,hi,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+अपनी कंपनी के खिलाफ पुनर्मूल्यांकन करने के लिए कहाँ?,hi,complaint,feedback,bitext,review,False
+प्रीमियम खाते के विवरण को अद्यतन करना,hi,edit_account,account,bitext,change_shipping_address,False
+यह जानने में मदद करें कि क्या प्रतिपूर्ति के साथ कुछ भी गलत है,hi,track_refund,refund,bitext,delivery_period,False
+किसी व्यक्ति से बात करने में सहायता,hi,contact_human_agent,contact,bitext,contact_customer_service,False
+क्या आप मुझे मेरे बिल भेज सकते हैं ? {{Person Name}},hi,get_invoice,invoice,bitext,check_invoice,False
+मुझे प्लेटिनम खाता बनाने में सहायता की आवश्यकता है,hi,create_account,account,bitext,delete_account,False
+क्या आप मुझे कुछ आदेश देने में मदद कर सकते हैं,hi,place_order,order,bitext,complaint,False
+मैं नहीं जानता कि मैं कैसे खरीद camcel कर सकते हैं {{Order Number}},hi,cancel_order,order,bitext,track_order,False
+मैं एक भाड़ में जाओ ऑपरेटर के साथ चैट नहीं कर सकते,hi,contact_human_agent,contact,bitext,place_order,False
+मैं फ्रीम अकाउंट कहां बना सकता हूँ?,hi,create_account,account,bitext,get_refund,False
+मुझे वापसी का पता लगाने में मदद की जरूरत है,hi,track_refund,refund,bitext,check_cancellation_fee,False
+मुझे नहीं पता कि कुछ वस्तुओं को अर्जित करने के लिए मुझे क्या करना चाहिए,hi,place_order,order,bitext,change_shipping_address,False
+मैं अपने भाड़ में जाओ धनवापसी ट्रैक कर सकते हैं?,hi,track_refund,refund,bitext,get_refund,False
+धनवापसी पर कुछ नया,hi,track_refund,refund,bitext,get_refund,False
+यह जांचने में मदद करें कि उत्पाद आने में कितना समय लगता है,hi,delivery_period,delivery,bitext,place_order,False
+आदेश को संशोधित करने में मेरी मदद करें {{Order Number}},hi,change_order,order,bitext,change_shipping_address,False
+मुझे बिल कहाँ से मिलते हैं? {{Person Name}},hi,get_invoice,invoice,bitext,check_invoice,False
+"मेरा नया शिपिंग पता अमान्य है, क्या आप मेरी मदद कर सकते हैं?",hi,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+को वितरित किया जाता है {{Delivery Country}},hi,delivery_options,delivery,bitext,delivery_period,False
+क्या आप मुझे मेरे द्वारा किए गए खरीद को हल करने में मदद कर सकते हैं?,hi,cancel_order,order,bitext,check_cancellation_fee,False
+ಆದೇಶದ ಸ್ಥಿತಿ,kn,track_order,order,bitext,place_order,False
+ಒಂದು ಸೇವೆಗಾಗಿ ವಿಮರ್ಶೆಯನ್ನು ಬಿಟ್ಟುಬಿಡಿ,kn,review,feedback,bitext,contact_customer_service,False
+ನನ್ನ ಬಿಲ್ಗಳನ್ನು ಪಡೆಯಲು ಏನು ಮಾಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ {{Person Name}},kn,get_invoice,invoice,bitext,check_invoice,False
+ಪ್ಲಾಟಿನಂ ಖಾತೆಯನ್ನು ಬಳಸಿ,kn,switch_account,account,bitext,edit_account,False
+ನಾನು ಗ್ರಾಹಕ ಸೇವೆಯನ್ನು ಸಂಪರ್ಕಿಸಬೇಕು,kn,contact_customer_service,contact,bitext,complaint,False
+"ನನ್ನ ಪ್ಲಾಟಿನಂ ಖಾತೆಯನ್ನು ನಾನು ಮುಚ್ಚಬೇಕಾಗಿದೆ, ನನಗೆ ಸಹಾಯ ಬೇಕು",kn,delete_account,account,bitext,recover_password,False
+"ದ್ವಿತೀಯ ವಿತರಣಾ ವಿಳಾಸವು ಮಾನ್ಯವಾಗಿಲ್ಲ, ಅದನ್ನು ಹೇಗೆ ಮಾಡುವುದು?",kn,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+ನಾನು ಕಸ್ಟಮ್ಸ್ ಬೆಂಬಲ ಸಂಪರ್ಕಿಸಲು ಹೊಂದಿವೆ,kn,contact_customer_service,contact,bitext,delivery_options,False
+ನಾನು ಏನು ಮಾಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ ಕೆಲವು ಫೀಡ್ಬ್ಯಾಕ್ ಕಳುಹಿಸಲು,kn,review,feedback,bitext,payment_issue,False
+ನಿಮ್ಮ ಕಂಪನಿಯ ಬಗ್ಗೆ ವಿಮರ್ಶೆ ಬರೆಯಲು ಸಹಾಯ ಬೇಕಾಗುತ್ತದೆ,kn,review,feedback,bitext,check_cancellation_fee,False
+ನೀವು ನನಗೆ ಒಂದು ಶಾಪಿಂಗ್ ಸಹಾಯ ಮಾಡಬಹುದು?,kn,place_order,order,bitext,contact_human_agent,False
+ಹ್ಯೂಮನ್ ಏಜೆಂಟ್ ಜೊತೆ ಚಾಟ್,kn,contact_human_agent,contact,bitext,check_invoice,False
+ಪರಿಹಾರದ ಬಗ್ಗೆ ಏನಾದರೂ ಹೊಸತೇನಿದೆ ಎಂದು ನಾನು ನೋಡಲಾರೆ.,kn,track_refund,refund,bitext,get_refund,False
+ಚಿನ್ನದ ಖಾತೆಯನ್ನು ಬಳಸಿ,kn,switch_account,account,bitext,create_account,False
+ಒಂದು ಸೇವೆಗಾಗಿ ಒಂದು ಕಾಮೆಂಟ್ ಬಿಡಲು ನನಗೆ ಸಹಾಯ ಬೇಕು,kn,review,feedback,bitext,contact_customer_service,False
+ನಿಮ್ಮ ಸೇವೆಗಳಿಗಾಗಿ ವಿಮರ್ಶೆ ಬರೆಯಲು ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಹುದೇ?,kn,review,feedback,bitext,contact_customer_service,False
+ನಾನು ಹಣವನ್ನು ಮರಳಿ ಪಡೆಯುವವರೆಗೆ ಎಷ್ಟು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ?,kn,get_refund,refund,bitext,delivery_period,False
+"ಒಂದು ಲೇಖನಕ್ಕಾಗಿ ನಾನು ಪಾವತಿಸಿದೆ, ನನ್ನ ಪರಿಹಾರವನ್ನು ನಾನು ಬಯಸುತ್ತೇನೆ {{Currency Symbol}} {{Refund Amount}}",kn,get_refund,refund,bitext,payment_issue,False
+ಒಂದು ಸೇವೆಗಾಗಿ ಕಾಮೆಂಟ್ ಬಿಡಲು ನಾನು ಸಹಾಯ ಬಯಸುತ್ತೇನೆ,kn,review,feedback,bitext,contact_customer_service,False
+ಪ್ರೊ ಖಾತೆಗೆ ಎಲ್ಲಿ ಬದಲಾಯಿಸಬೇಕು,kn,switch_account,account,bitext,delete_account,False
+"ನೀವು ಸಹಾಯಕವಾಗುವುದಿಲ್ಲ, ಯಾರೊಂದಿಗಾದರೂ ಮಾತನಾಡಲು ಸಹಾಯ ಮಾಡಿ",kn,contact_human_agent,contact,bitext,complaint,False
+ನನ್ನ ಖಾತೆಯ ವಿವರಗಳನ್ನು ನಾನು ನವೀಕರಿಸಲು ಬಯಸುತ್ತೇನೆ. ನನಗೆ ಸಹಾಯ ಬೇಕು.,kn,edit_account,account,bitext,switch_account,False
+"ಈ ಐಟಂಗಾಗಿ ನಾನು ಪಾವತಿಸಿದೆ, ಮರುಪಾವತಿ ಪಡೆಯಲು ನನಗೆ ಸಹಾಯ ಮಾಡಿ {{Currency Symbol}} {{Refund Amount}}",kn,get_refund,refund,bitext,track_refund,False
+ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡುತ್ತೀರಿ ಎಂದು ಹೇಳಿಕೊಳ್ಳಲು ಬಯಸಿದರೆ,kn,complaint,feedback,bitext,track_refund,False
+ನನ್ನ ಹಡಗು ವಿಳಾಸವನ್ನು ಹೇಗೆ ನವೀಕರಿಸುವುದು ಎಂದು ನನಗೆ ತಿಳಿದಿಲ್ಲ,kn,change_shipping_address,shipping,bitext,set_up_shipping_address,False
+ಹೆಂಡತಿಗಾಗಿ ಪ್ಲಾಟಿನಂ ಖಾತೆಯನ್ನು ರಚಿಸಿ,kn,create_account,account,bitext,recover_password,False
+ಮರುಪಾವತಿಯ ಬಗ್ಗೆ ನನಗೆ ತಿಳಿಸಲು ಸಹಾಯ ಮಾಡಿ,kn,payment_issue,payment,bitext,track_refund,False
+ನಾನು ಬಿಲ್ #00108 ಅನ್ನು ಕಂಡುಹಿಡಿಯಲು ಸಾಧ್ಯವಿಲ್ಲ ಅದು ನನಗೆ ಕಳುಹಿಸುತ್ತದೆ,kn,get_invoice,invoice,bitext,check_invoice,False
+ಸಂಪಾದನೆ ಖಾತೆ,kn,edit_account,account,bitext,create_account,False
+ನಾನು ವಿಳಾಸವನ್ನು ಸಂಪಾದಿಸುವ ಸಮಸ್ಯೆಯನ್ನು ಹೊಂದಿದ್ದೇನೆ,kn,change_shipping_address,shipping,bitext,set_up_shipping_address,False
+ನಾನು ಒಂದು ಸೇವೆಯ ಫೀಡ್ಬ್ಯಾಕ್ ಕಳುಹಿಸಲು ಹೇಗೆ ಗೊತ್ತಿಲ್ಲ,kn,review,feedback,bitext,switch_account,False
+ನನ್ನ ಹಡಗು ವಿಳಾಸವನ್ನು ನಾನು ಹೇಗೆ ಬದಲಾಯಿಸಬಹುದು ಎಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ,kn,change_shipping_address,shipping,bitext,set_up_shipping_address,False
+ನೋಂದಣಿ ಫ್ಯಾಕ್ಟ್ಸ್ {{Person Name}},kn,check_invoice,invoice,bitext,get_invoice,False
+ನಾನು ಬಳಕೆದಾರ ಡೇಟಾವನ್ನು ಮಾರ್ಪಡಿಸಲು ಏನು ಮಾಡಬೇಕೆಂದು ಗೊತ್ತಿಲ್ಲ,kn,edit_account,account,bitext,newsletter_subscription,False
+ನಾನು ಖರೀದಿಗೆ ಪಾವತಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ {{Order Number}},kn,cancel_order,order,bitext,change_order,False
+ನಿಮ್ಮ ಉತ್ಪನ್ನಗಳಿಗೆ ವಿಮರ್ಶೆಯನ್ನು ಹೇಗೆ ಬಿಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ,kn,review,feedback,bitext,check_cancellation_fee,False
+ನಾನು ಇನ್ನು ಮುಂದೆ ಆದೇಶಕ್ಕಾಗಿ ಪಾವತಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ {{Order Number}},kn,cancel_order,order,bitext,change_order,False
+"ನಾನು ತಪ್ಪು ಹಡಗು ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿದ್ದೇನೆ, ನಾನು ಅದನ್ನು ಮಾರ್ಪಡಿಸಲು ಬಯಸುತ್ತೇನೆ",kn,change_shipping_address,shipping,bitext,set_up_shipping_address,False
+ನನ್ನ ಬಿಲ್ಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಲು ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಹುದು {{Person Name}},kn,get_invoice,invoice,bitext,check_invoice,False
+ನಾನು ಒಬ್ಬ ವ್ಯಕ್ತಿಯೊಂದಿಗೆ ಮಾತನಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ,kn,contact_human_agent,contact,bitext,contact_customer_service,False
+ಆದೇಶಕ್ಕಾಗಿ ನಾನು ಪಾವತಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ {{Order Number}},kn,cancel_order,order,bitext,change_order,False
+ನಾನು ನನ್ನ ಬಳಕೆದಾರ ಖಾತೆ ಪಿನ್ ಪಡೆಯಲು ಬಯಸುವ,kn,recover_password,account,bitext,create_account,False
+ಇದು ಈಗಾಗಲೇ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲಾಗಿದೆ ಎಂದು ಒಂದು ಮರುಪಾವತಿ ನಿರೀಕ್ಷಿಸಿ {{Currency Symbol}} {{Refund Amount}},kn,track_refund,refund,bitext,registration_problems,False
+"ನಾನು ಹಡಗು ಅವಧಿಗಳನ್ನು ಹುಡುಕಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದೇನೆ, ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಹುದೇ?",kn,delivery_period,delivery,bitext,delivery_options,False
+ನಿಮ್ಮ ಹಣವನ್ನು ಮರಳಿ ನೀತಿ ಪರಿಶೀಲಿಸಲು ಸಹಾಯ ಬೇಕು,kn,check_refund_policy,refund,bitext,check_cancellation_fee,False
+ಹಡಗು ವಿಳಾಸದ ಸಮಸ್ಯೆ,kn,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+ನಾನು ನನ್ನ ತಂದೆಗೆ ವೃತ್ತಿಪರ ಖಾತೆಯನ್ನು ತೆರೆಯಬಹುದೇ?,kn,create_account,account,bitext,complaint,False
+ನಾನು ನನ್ನ ರಕ್ತಸಿಕ್ತ ಬಳಕೆದಾರ pwd ಮರುರೂಪಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ,kn,recover_password,account,bitext,review,False
+ನಾನು ಪ್ರೊಫೈಲ್ ಅನ್ನು ಹೇಗೆ ಬಳಸಬೇಕು? {{Account Type}},kn,switch_account,account,bitext,delete_account,False
+ಫ್ಯಾಕ್ಟ್ #85632 ಅನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಲು ನನಗೆ ಸಹಾಯ ಬೇಕು,kn,get_invoice,invoice,bitext,check_invoice,False
+ನನ್ನ ಹಡಗು ವಿಳಾಸವನ್ನು ಸಂಪಾದಿಸಲು ಸಹಾಯ ಬೇಕು,kn,change_shipping_address,shipping,bitext,set_up_shipping_address,False
+ಡೌನ್ಲೋಡ್ ಬಿಲ್ #85632,kn,get_invoice,invoice,bitext,check_invoice,False
+ನಾನು ಖಾತೆ ತೆರೆಯುವ ಬಗ್ಗೆ ಇನ್ನಷ್ಟು ತಿಳಿದುಕೊಳ್ಳಲು ಬಯಸುತ್ತೇನೆ {{Account Type}},kn,create_account,account,bitext,delete_account,False
+ಪ್ಲಾಟಿನಂ ಖಾತೆಯನ್ನು ಹೇಗೆ ಬಳಸುವುದು,kn,switch_account,account,bitext,delete_account,False
+ಮರುಪಾವತಿಯಲ್ಲಿ ಏನಾದರೂ ತಪ್ಪಿದೆಯೇ ಎಂದು ತಿಳಿಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ,kn,track_refund,refund,bitext,check_refund_policy,False
+ವ್ಯಕ್ತಿಯೊಂದಿಗೆ ಮಾತನಾಡುವ ಸಹಾಯ,kn,contact_human_agent,contact,bitext,contact_customer_service,False
+ಕೊಳ್ಳುವಿಕೆಯಿಂದ ಆರ್ಟೈಲ್ ಅನ್ನು ಅಳಿಸಲು ನನಗೆ ಸಹಾಯ ಮಾಡಿ {{Order Number}},kn,change_order,order,bitext,cancel_order,False
+ನಾನು ಒಬ್ಬ ವ್ಯಕ್ತಿಯೊಂದಿಗೆ ಮಾತನಾಡಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದೇನೆ,kn,contact_human_agent,contact,bitext,contact_customer_service,False
+ನೀವು ನನಗೆ ನನ್ನ ಬಿಲ್ಗಳನ್ನು ಕಳುಹಿಸಬಹುದೇ ? {{Person Name}},kn,get_invoice,invoice,bitext,check_invoice,False
+ನಾನು ಹೇಗೆ ಕ್ಯಾಮ್ಸೆಲ್ ಖರೀದಿ ಗೊತ್ತಿಲ್ಲ {{Order Number}},kn,cancel_order,order,bitext,track_order,False
+ಖಾತೆಯನ್ನು ಬದಲಾಯಿಸಲು ನಾನು ಏನು ಮಾಡಬೇಕು? {{Account Category}},kn,switch_account,account,bitext,delete_account,False
+ಮರುಪಾವತಿಯನ್ನು ಪತ್ತೆಹಚ್ಚಲು ನನಗೆ ಸಹಾಯ ಬೇಕು,kn,track_refund,refund,bitext,check_refund_policy,False
+ನನ್ನ ಆಪಾದಿತ ಮರುಪಾವತಿಯನ್ನು ನಾನು ಟ್ರ್ಯಾಕ್ ಮಾಡಬಹುದೇ?,kn,track_refund,refund,bitext,recover_password,False
+ರಕ್ತಸಿಕ್ತ ವ್ಯಕ್ತಿಯೊಂದಿಗೆ ಹೇಗೆ ಮಾತನಾಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ,kn,contact_human_agent,contact,bitext,delete_account,False
+ಮಗಳಿಗೆ ಹೊಸ ಪ್ಲಾಟಿನಂ ಖಾತೆಯನ್ನು ರಚಿಸಿ,kn,create_account,account,bitext,recover_password,False
+ನಾನು ಏನು ಡೌನ್ಲೋಡ್ ಮಾಡಲು ಗೊತ್ತಿಲ್ಲ ಫ್ಯಾಕ್ಟ್ #37777,kn,get_invoice,invoice,bitext,check_invoice,False
+ಫ್ರೀಮಿಯಂ ಖಾತೆಗಳನ್ನು ತೆರೆಯುವ ಬಗ್ಗೆ ನನಗೆ ಒಂದು ಪ್ರಶ್ನೆ ಇದೆ,kn,create_account,account,bitext,delete_account,False
+ನಾನು ಏನು ಮಾಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ ಫ್ಯಾಕ್ಟ್ #12588 ಅನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಲು,kn,get_invoice,invoice,bitext,check_invoice,False
+"ನನ್ನ ಹೊಸ ಹಡಗು ವಿಳಾಸವು ಅಮಾನ್ಯವಾಗಿದೆ, ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಹುದೇ?",kn,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+ನಾನು ಮಾಡಿದ ಖರೀದಿಗೆ ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಹುದೇ?,kn,cancel_order,order,bitext,contact_human_agent,False
+"ನಾನು ಕೆಲವು ವಸ್ತುಗಳನ್ನು ಆದೇಶಿಸಿದೆ, ಖರೀದಿ ರದ್ದು {{Order Number}}",kn,cancel_order,order,bitext,track_order,False
+ஆர்டர் நிலை,ta,track_order,order,bitext,contact_human_agent,False
+ஒரு சேவைக்கான மறுபரிசீலனை அனுமதிக்கவும்,ta,review,feedback,bitext,set_up_shipping_address,False
+நான் முகவரியை திருத்துவதில் பிழைகள் உள்ளன,ta,change_shipping_address,shipping,bitext,registration_problems,False
+நான் உதவி வேண்டும் உங்கள் சேவைகள் சில பின்னூட்டம் விட்டு,ta,review,feedback,bitext,payment_issue,False
+வாடிக்கையாளர் உதவியை தொடர்பு கொள்ள உங்களுக்கு ஒரு தொலைபேசி எண் இருக்கிறதா?,ta,contact_customer_service,contact,bitext,complaint,False
+திரும்பப் பெறுவதற்கான தண்டனையை நான் எவ்வாறு சரிபார்க்க முடியும்?,ta,check_cancellation_fee,cancel,bitext,track_refund,False
+நான் பணம் ஒரு இரத்த பிழை அறிக்கை உதவ வேண்டும்,ta,payment_issue,payment,bitext,registration_problems,False
+"இரண்டாம் நிலை விநியோக முகவரி செல்லுபடியாகும் அல்ல, அதை எப்படி செய்வது?",ta,set_up_shipping_address,shipping,bitext,contact_human_agent,False
+நான் வாங்க விரும்பவில்லை {{Order Number}},ta,cancel_order,order,bitext,track_order,False
+எப்படி ஒழுங்கை சரிசெய்வது ? {{Order Number}},ta,change_order,order,bitext,track_order,False
+எந்த கட்டண விருப்பங்கள் அனுமதிக்கப்படுகின்றன என்பதை சரிபார்க்க எனக்கு உதவுங்கள்,ta,check_payment_methods,payment,bitext,delivery_period,False
+நான் என்ன செய்ய வேண்டும் என்று எனக்கு தெரியாது சில damn பின்னூட்டம் அனுப்ப,ta,review,feedback,bitext,contact_human_agent,False
+நான் முன்கூட்டியே வெளியேறும் கட்டணம் பற்றி எதுவும் கண்டுபிடிக்க முடியவில்லை,ta,check_cancellation_fee,cancel,bitext,payment_issue,False
+தங்கக் கணக்கைப் பயன்படுத்தவும்,ta,switch_account,account,bitext,edit_account,False
+பில் #12588 ஐக் கண்டறியவும்,ta,check_invoice,invoice,bitext,get_invoice,False
+நான் ஆன்லைன் கட்டணம் ஒரு சிக்கல் புகாரளிக்க வேண்டும்,ta,payment_issue,payment,bitext,contact_human_agent,False
+நான் என் பிளாட்டினம் கணக்கு முறிவு பற்றி தகவல் வேண்டும்,ta,delete_account,account,bitext,switch_account,False
+கணக்கு தரவு {{Account Type}},ta,edit_account,account,bitext,create_account,False
+கணக்கை மாற்றவும் {{Account Category}},ta,edit_account,account,bitext,switch_account,False
+சில பொருட்களை ஆர்டருக்கு சேர்க்க முடிந்தால் {{Order Number}},ta,change_order,order,bitext,track_order,False
+எவ்வளவு நேரம் நான் பணத்தை திரும்ப பெற முடியும் வரை?,ta,get_refund,refund,bitext,check_refund_policy,False
+"நான் ஒரு கட்டுரைக்கு பணம் கொடுத்தேன், நான் என் இழப்பீடு வேண்டும் {{Currency Symbol}} {{Refund Amount}}",ta,get_refund,refund,bitext,track_refund,False
+நான் என் பணம் திருப்பி பெற முயற்சிக்கிறேன்,ta,get_refund,refund,bitext,check_invoice,False
+"நீங்கள் எந்த உதவியும் இல்லை, யாராவது பேச உதவி",ta,contact_human_agent,contact,bitext,complaint,False
+"நான் இந்த உருப்படியை செலுத்தினேன், எனக்கு பணத்தைத் திருப்பிச் செலுத்த உதவுங்கள் {{Currency Symbol}} {{Refund Amount}}",ta,get_refund,refund,bitext,track_refund,False
+எனது தயாரிப்பு எப்போது வரும் என்பதை அறிய உதவுதல்,ta,delivery_period,delivery,bitext,place_order,False
+நான் என் தொழில்முறை கணக்கு முடக்கம் பற்றி தகவல் வேண்டும்,ta,delete_account,account,bitext,get_invoice,False
+நுகர்வோர் சேவை அஞ்சல் முகவரி,ta,contact_customer_service,contact,bitext,place_order,False
+என் தொழில்முறை கணக்கை நீக்க எனக்கு உதவி தேவை,ta,delete_account,account,bitext,switch_account,False
+நான் உதவ வேண்டும் என் fucking கடவுச்சொல்லை மீட்டெடுக்க,ta,recover_password,account,bitext,contact_human_agent,False
+நான் மசோதா #00108 கண்டுபிடிக்க முடியாது எனக்கு அதை அனுப்ப வேண்டும்,ta,get_invoice,invoice,bitext,check_invoice,False
+"நான் ஒரு சுயவிவர திறக்க முடியாது, நான் பதிவு பிழைகள் புகாரளிக்க உதவி தேவை",ta,registration_problems,account,bitext,review,False
+திருத்த கணக்கு,ta,edit_account,account,bitext,create_account,False
+கடந்த மாதத்திற்கான காசோலைக் கணக்கு,ta,check_invoice,invoice,bitext,payment_issue,False
+முடிவுக்கு வருவதற்கான தண்டனையை நான் எப்படி பார்க்கிறேன்?,ta,check_cancellation_fee,cancel,bitext,delivery_period,False
+நான் ஒரு சேவைக்கு எப்படி fucking பின்னூட்டம் அனுப்ப தெரியாது,ta,review,feedback,bitext,recover_password,False
+கட்டணத் தவறைத் தீர்க்கவும்,ta,payment_issue,payment,bitext,track_refund,False
+நான் பயனர் தரவுகளை மாற்ற என்ன செய்ய தெரியாது,ta,edit_account,account,bitext,newsletter_subscription,False
+நான் கொள்முதல் செலுத்த முடியாது {{Order Number}},ta,cancel_order,order,bitext,change_order,False
+முன்கூட்டியே வெளியேறுவதற்கான கட்டணங்களை நான் எவ்வாறு சரிபார்க்க முடியும்?,ta,check_cancellation_fee,cancel,bitext,check_invoice,False
+நான் ஒரு தொழில்முறை கணக்கை ரத்து செய்தல் பற்றிய தகவல்களை விரும்புகிறேன்,ta,delete_account,account,bitext,get_invoice,False
+நான் எப்படி உங்கள் தயாரிப்புகள் ஒரு விமர்சனம் விட்டு தெரியாது,ta,review,feedback,bitext,place_order,False
+நான் இனி ஆர்டர் செலுத்த முடியாது {{Order Number}},ta,cancel_order,order,bitext,change_order,False
+"நான் ஒரு தவறான கப்பல் முகவரியை உள்ளிட்டேன், நான் அதை மாற்ற வேண்டும்",ta,change_shipping_address,shipping,bitext,set_up_shipping_address,False
+நான் விநியோக முகவரியை மேம்படுத்த ஆதரவு வேண்டும்,ta,change_shipping_address,shipping,bitext,set_up_shipping_address,False
+நான் ஒரு விரைவான பார்வை கொடுக்க வேண்டும் இருந்து விலைப்பட்டியல் {{Person Name}},ta,check_invoice,invoice,bitext,get_invoice,False
+முடிவுக்கு வருவதற்கான கட்டணங்களை எங்கே சரிபார்க்கலாம்?,ta,check_cancellation_fee,cancel,bitext,check_invoice,False
+நான் ஒழிப்பு தண்டனை சரிபார்க்க வேண்டும் எப்படி அதை செய்ய,ta,check_cancellation_fee,cancel,bitext,track_refund,False
+"நான் உங்களுக்கு புரியவில்லை, நான் ஒரு மனித முகவர் பேச வேண்டும்",ta,contact_human_agent,contact,bitext,place_order,False
+முன்கூட்டியே வெளியேறுவதற்கான கட்டணங்கள் உள்ளனவா?,ta,check_cancellation_fee,cancel,bitext,registration_problems,False
+அன்னா ஃப்ரீமன் இருந்து பில் பெற,ta,get_invoice,invoice,bitext,place_order,False
+"நான் கப்பல் காலங்களை கண்டுபிடிக்க முயற்சிக்கிறேன், நீங்கள் எனக்கு உதவ முடியுமா?",ta,delivery_period,delivery,bitext,delivery_options,False
+நான் என்ன செய்ய வேண்டும் என்று தெரியாது ஒரு தேவையற்ற பணத்தை திரும்ப பெற,ta,get_refund,refund,bitext,edit_account,False
+நான் ஒரு நேரடி முகவர் பேச என்ன தெரியாது todo,ta,contact_human_agent,contact,bitext,change_shipping_address,False
+நான் ஒரு கணக்கை திறப்பது பற்றி மேலும் அறிய விரும்புகிறேன் {{Account Type}},ta,create_account,account,bitext,edit_account,False
+orer இலிருந்து ஒரு உருப்படியை நீக்க உதவி தேவை {{Order Number}},ta,change_order,order,bitext,track_order,False
+நீங்கள் எனக்கு ஒரு மீட்பு தாக்கல் உதவ முடியும்,ta,complaint,feedback,bitext,place_order,False
+நான் எப்படி ஆன்லைன் கட்டணம் ஒரு பிழை தெரிவிக்க முடியும் என்று எனக்கு தெரியாது,ta,payment_issue,payment,bitext,track_refund,False
+நான் பணம் சம்பாதிப்பதில் சிக்கல்களை புகாரளிக்க முயற்சிக்கிறேன்,ta,payment_issue,payment,bitext,place_order,False
+நீங்கள் எனக்கு ஏதாவது ஆர்டர் உதவ முடியுமா,ta,place_order,order,bitext,contact_human_agent,False
+நான் எப்படி வாங்குவது என்று எனக்கு தெரியாது {{Order Number}},ta,cancel_order,order,bitext,change_order,False
+திருப்பிச் செலுத்தும் நிலையை எங்கே சரிபார்க்க முடியும்?,ta,track_refund,refund,bitext,get_refund,False
+இருந்து ஆர்டர் செய்ய முடியுமா? {{Delivery City}},ta,delivery_options,delivery,bitext,contact_human_agent,False
+மீட்பு கண்காணிக்க எனக்கு உதவி தேவை,ta,track_refund,refund,bitext,check_cancellation_fee,False
+நான் என் இழிவான இழப்பீடு கண்காணிக்க முடியுமா?,ta,track_refund,refund,bitext,recover_password,False
+நான் ஒரு கொடூரமான நபருடன் எப்படி பேச வேண்டும் என்று தெரியாது,ta,contact_human_agent,contact,bitext,get_refund,False
+ஒழுங்கை மாற்றியமைக்க எனக்கு உதவுங்கள் {{Order Number}},ta,change_order,order,bitext,track_order,False
+ஃப்ரீமியம் கணக்குகளைத் திறப்பது பற்றி எனக்கு ஒரு கேள்வி உள்ளது,ta,create_account,account,bitext,registration_problems,False
+"என் புதிய கப்பல் முகவரி செல்லுபடியாகும், நீங்கள் எனக்கு உதவ முடியுமா?",ta,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+நான் ஆர்டர் செய்ய முடியுமா ? {{Delivery Country}},ta,delivery_options,delivery,bitext,contact_human_agent,False
+நான் செய்த கொள்முதல் செய்ய எனக்கு உதவ முடியுமா?,ta,cancel_order,order,bitext,newsletter_subscription,False
+ఆర్డర్ స్థితి,te,track_order,order,bitext,check_cancellation_fee,False
+ఒక సేవ కోసం సమీక్షను వదిలివేయండి,te,review,feedback,bitext,place_order,False
+మీ అనుకున్నాను వాపసు విధానం తనిఖీ అవసరం నాకు సహాయం,te,check_refund_policy,refund,bitext,check_invoice,False
+నేను నా బిల్లులు పొందడానికి ఏమి చేయాలో తెలియదు {{Person Name}},te,get_invoice,invoice,bitext,check_invoice,False
+ప్లాటినం అకౌంట్ ఉపయోగించండి,te,switch_account,account,bitext,check_cancellation_fee,False
+నేను చిరునామా సరిదిద్దడంలో లోపాలు ఉన్నాయి,te,change_shipping_address,shipping,bitext,newsletter_subscription,False
+నేను ఒక డిస్కౌంట్ పొందాలి,te,get_refund,refund,bitext,create_account,False
+నేను క్రమంలో కొన్ని ఉత్పత్తులు మిస్ {{Order Number}},te,change_order,order,bitext,cancel_order,False
+నా కొత్త డెలివరీ చిరునామాను నమోదు చేయడానికి నాకు సహాయం కావాలి,te,set_up_shipping_address,shipping,bitext,delivery_period,False
+నేను సహాయం అవసరం Bvill # 37777 ఒక శీఘ్ర వీక్షణ ఇవ్వడం,te,check_invoice,invoice,bitext,get_invoice,False
+నేను కొనుగోలు చేయాలనుకోవడం లేదు {{Order Number}},te,cancel_order,order,bitext,track_order,False
+ఎలా క్రమంలో సరిచేయడానికి ? {{Order Number}},te,change_order,order,bitext,track_order,False
+నేను కొన్ని ఫ్రీక్వ్యాక్ పంపడానికి ఏమి చేయాలో నాకు తెలియదు,te,review,feedback,bitext,place_order,False
+యుఆర్ కోపానీ గురించి సమీక్ష రాయడానికి సహాయం కావాలి,te,review,feedback,bitext,recover_password,False
+"నేను నా వాపసు మీద కొత్త ఏదైనా ఉంటే చూడాలి, నాకు సహాయం",te,track_refund,refund,bitext,contact_human_agent,False
+మీ రిఫండ్ పాలసీని చూపించు,te,check_refund_policy,refund,bitext,complaint,False
+నేను పరిహారం గురించి ఏదైనా కొత్త ఉంది లేదో చూడలేను,te,track_refund,refund,bitext,get_refund,False
+బంగారు అకౌంట్ ను ఉపయోగించు,te,switch_account,account,bitext,place_order,False
+మీరు మీ సేవల కోసం ఒక సమీక్ష రాయడానికి నాకు సహాయం చేయగలరా?,te,review,feedback,bitext,complaint,False
+నేను ప్రారంభ టెర్మినేషన్ ఛార్జ్ తనిఖీ సహాయం అవసరం,te,check_cancellation_fee,cancel,bitext,switch_account,False
+కొన్ని ఉత్పత్తులను ఆర్డర్కు జోడించడం సాధ్యమైతే {{Order Number}},te,change_order,order,bitext,track_order,False
+నేను డబ్బు తిరిగి పొందే వరకు ఎంత సమయం పడుతుంది?,te,get_refund,refund,bitext,check_refund_policy,False
+"నేను ఒక వ్యాసం కోసం చెల్లించిన, నేను నా పరిహారం కావాలి {{Currency Symbol}} {{Refund Amount}}",te,get_refund,refund,bitext,track_refund,False
+నేను మీ కంపెనీ గురించి ఒక వ్యాఖ్య రాయవచ్చు?,te,review,feedback,bitext,complaint,False
+నేను నా ఖాతా వివరాలు అప్డేట్ చేయాలనుకుంటున్నాను నేను సహాయం అవసరం,te,edit_account,account,bitext,switch_account,False
+నేను వాపసు కోసం అడగాలి,te,get_refund,refund,bitext,check_refund_policy,False
+నా ప్రామాణిక ఖాతా యొక్క తొలగింపుతో నాకు సమస్య ఉంది,te,delete_account,account,bitext,create_account,False
+"నేను ఈ అంశం కోసం చెల్లించిన, నాకు ఒక వాపసు పొందడానికి సహాయం {{Currency Symbol}} {{Refund Amount}}",te,get_refund,refund,bitext,check_refund_policy,False
+నేను ఎలా ఒక వినియోగదారు క్లెయిమ్ చేయవచ్చు తెలియదు,te,complaint,feedback,bitext,place_order,False
+మీరు ఒక కౌంట్ రద్దు నాకు సహాయం చేయవచ్చు {{Account Type}},te,delete_account,account,bitext,switch_account,False
+ఒక ఫలదీకరణం చేయడానికి అనుకున్నాను మీరు నాకు సహాయం చేస్తాము,te,complaint,feedback,bitext,place_order,False
+నా షిప్పింగ్ చిరునామాను ఎలా అప్డేట్ చేయాలో నాకు తెలియదు,te,change_shipping_address,shipping,bitext,set_up_shipping_address,False
+వినియోగదారుల సేవల మెయిల్ చిరునామా,te,contact_customer_service,contact,bitext,newsletter_subscription,False
+ఖాతా తొలగింపు గురించి సమాచారాన్ని నేను ఎక్కడ పొందగలను? {{Account Type}},te,delete_account,account,bitext,create_account,False
+నేను బిల్లును కనుగొనలేను #00108 ఇది నాకు పంపబడుతుంది,te,get_invoice,invoice,bitext,check_invoice,False
+కొనుగోలు చేయడానికి అనేక ఉత్పత్తులను జోడించాల్సిన అవసరం ఉంది {{Order Number}},te,change_order,order,bitext,cancel_order,False
+తిరిగి చెల్లింపు యొక్క స్థితిని చూడండి,te,track_refund,refund,bitext,payment_issue,False
+విరమణ పెనాల్టీని నేను ఎలా చూస్తాను?,te,check_cancellation_fee,cancel,bitext,payment_issue,False
+నేను కొనుగోలు కోసం చెల్లించలేరు {{Order Number}},te,cancel_order,order,bitext,track_order,False
+సాంప్రదాయ రీఫండ్స్ ఎంత సమయం తీసుకుంటారో తనిఖీ చేయడానికి నాకు సహాయం చేయండి,te,check_refund_policy,refund,bitext,registration_problems,False
+నేను ఒక కోల్పోయిన పిన్ కోడ్ గురించి ఒక ప్రశ్న కలిగి,te,recover_password,account,bitext,review,False
+"నేను ఫ్రీమియం ప్రొఫైల్ ఉపయోగించాలి, నేను సహాయం అవసరం",te,switch_account,account,bitext,newsletter_subscription,False
+"నేను తిరిగి చెల్లింపులు ఎంత సమయం పడుతుంది చూడాలి, నేను దీన్ని ఎలా చేయాలో?",te,check_refund_policy,refund,bitext,payment_issue,False
+నేను మీ ఉత్పత్తులు కోసం ఒక సమీక్ష వదిలి ఎలా తెలియదు,te,review,feedback,bitext,place_order,False
+నేను ఇకపై ఆర్డర్ కోసం చెల్లించలేరు {{Order Number}},te,cancel_order,order,bitext,track_order,False
+"నేను తప్పు షిప్పింగ్ చిరునామాను నమోదు చేసాను, నేను దానిని సవరించాలనుకుంటున్నాను",te,change_shipping_address,shipping,bitext,set_up_shipping_address,False
+ఫ్రీమియం ప్రొఫైల్ను ఉపయోగించడానికి సహాయం,te,switch_account,account,bitext,edit_account,False
+నేను ఆర్డర్ కోసం చెల్లించలేరు {{Order Number}},te,cancel_order,order,bitext,track_order,False
+దావా వేయడం సాధ్యమేనా?,te,complaint,feedback,bitext,check_payment_methods,False
+మీరు నాకు క్రమంలో గుర్తించడానికి సహాయం చేయగలరా ? {{Order Number}},te,track_order,order,bitext,change_order,False
+"నేను షిప్పింగ్ వ్యవధి కనుగొనేందుకు ప్రయత్నిస్తున్నాను, మీరు నాకు సహాయం చేయగలరా?",te,delivery_period,delivery,bitext,check_payment_methods,False
+"నేను తిరిగి చెల్లింపులు సాధారణంగా ఎంత సమయం పడుతుంది చూడాలి, నాకు సహాయం",te,check_refund_policy,refund,bitext,payment_issue,False
+రవాణా చిరునామా సమస్య,te,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+నా ఖాతాలో ఉన్న డేటాను ఎలా సరిచేయాలో నాకు తెలియదు,te,edit_account,account,bitext,delete_account,False
+మీరు నాకు అనేక ఆర్టికల్స్ ఆర్డర్ సహాయపడుతుంది?,te,place_order,order,bitext,check_invoice,False
+పునరుద్ధరణలో ఏదైనా తప్పు ఉందో లేదో తెలుసుకోవడానికి సహాయపడుతుంది,te,track_refund,refund,bitext,registration_problems,False
+నేను cancelliung ఆర్డర్ తో సహాయం అవసరం {{Order Number}},te,cancel_order,order,bitext,track_order,False
+మర్చిపోయిన పిన్ గురించి ఒక ప్రశ్న ఉంది,te,recover_password,account,bitext,review,False
+నేను కొనుగోలు camcel ఎలా తెలియదు {{Order Number}},te,cancel_order,order,bitext,track_order,False
+నేను ఒక చెడ్డ ఆపరేటర్ తో చాట్ కాదు,te,contact_human_agent,contact,bitext,track_refund,False
+నుండి ఆర్డర్ చేయడం సాధ్యమేనా? {{Delivery City}},te,delivery_options,delivery,bitext,get_invoice,False
+నేను పునరుద్ధరణ ట్రాక్ సహాయం అవసరం,te,track_refund,refund,bitext,get_refund,False
+నేను నా అనుకున్నాను రీఫండ్ ట్రాక్ చేయవచ్చు?,te,track_refund,refund,bitext,get_refund,False
+వాపసుపై ఏదైనా కొత్తదనం,te,track_refund,refund,bitext,payment_issue,False
+నేను ఆర్డర్ నుండి అనేక రక్తపాత అంశాలు తొలగించడానికి అవసరం {{Order Number}},te,change_order,order,bitext,track_order,False
+నేను #12588 బిల్లును ఎక్కడ పొందగలను?,te,get_invoice,invoice,bitext,check_invoice,False
+మర్చిపోయిన కీ గురించి ప్రశ్న,te,recover_password,account,bitext,review,False
+మరొక ప్రామాణిక ఖాతా,te,create_account,account,bitext,switch_account,False
+"నా కొత్త షిప్పింగ్ చిరునామా చెల్లదు, మీరు నాకు సహాయం చేయగలరా?",te,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+నేను నుండి ఆర్డర్ చేయవచ్చు ? {{Delivery Country}},te,delivery_options,delivery,bitext,check_invoice,False
+మీరు నేను చేసిన కొనుగోలు క్యామ్లింగ్ నాకు సహాయం చేయగలరా?,te,cancel_order,order,bitext,place_order,False
+मला काही समस्येची माहिती द्यावी लागेल. नोंदणी करा. तुम्ही मला मदत करू शकता का?,mr,registration_problems,account,bitext,payment_issue,False
+मला माहित नाही मी तुमच्या लेखातून काही कसे मिळवू शकतो,mr,place_order,order,bitext,delete_account,False
+मला माहित नाही मला रिबेट स्टेटस पाहण्यासाठी काय करावे लागेल,mr,track_refund,refund,bitext,recover_password,False
+ऑर्डरची स्थिती,mr,track_order,order,bitext,track_refund,False
+मला मदतीची गरज आहे. मी कोणत्या प्रकारच्या शिपमेंटची निवड करू शकतो हे पाहण्यासाठी.,mr,delivery_options,delivery,bitext,delivery_period,False
+एखाद्या सेवेसाठी पुनरावलोकन सोडा,mr,review,feedback,bitext,recover_password,False
+मला बदलत्या व्यवस्थेबद्दल माहिती हवी आहे. {{Order Number}},mr,change_order,order,bitext,track_order,False
+मला परतफेड धोरण तपासण्याची गरज नाही मला मदत करा,mr,check_refund_policy,refund,bitext,check_invoice,False
+प्रो खात्यातून पैसे काढण्याची समस्या,mr,delete_account,account,bitext,recover_password,False
+मी काय करावे हे मला ठाऊक नाही. {{Person Name}},mr,get_invoice,invoice,bitext,check_invoice,False
+प्लॅटिनम खाते वापरा,mr,switch_account,account,bitext,edit_account,False
+मला सवलत मिळायला हवी.,mr,get_refund,refund,bitext,place_order,False
+मला पत्ता शोधण्यात मदत करा #37777,mr,check_invoice,invoice,bitext,change_shipping_address,False
+"दुय्यम वितरण पत्ता वैध नाही, ते कसे करावे?",mr,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+आपल्या लेखातील काही मिळविण्यासाठी मदत करा,mr,place_order,order,bitext,review,False
+मला खरेदी नको आहे. {{Order Number}},mr,cancel_order,order,bitext,track_order,False
+आपल्या सहकार्याबद्दल पुनरावलोकन लिहिण्यासाठी मदतीची आवश्यकता आहे,mr,review,feedback,bitext,recover_password,False
+"मला बघायचे आहे की माझ्या परताव्याबद्दल काही नवीन आहे का, मला मदत करा.",mr,track_refund,refund,bitext,check_refund_policy,False
+या भरपाईबद्दल काही नवीन आहे का ते मला कळत नाही.,mr,track_refund,refund,bitext,complaint,False
+मला लवकर बाहेर पडण्याच्या शुल्काबद्दल काहीही सापडत नाही.,mr,check_cancellation_fee,cancel,bitext,delivery_period,False
+मला पत्ता शोधायचा आहे #85632,mr,check_invoice,invoice,bitext,change_shipping_address,False
+तुम्ही मला तुमच्या सेवेचा आढावा लिहायला मदत करू शकता का?,mr,review,feedback,bitext,contact_customer_service,False
+मला कुठून पैसे मिळतील?,mr,place_order,order,bitext,get_refund,False
+माझ्या खात्यात समाविष्ट केलेली माहिती कशी दुरुस्त करावी हे मला ठाऊक नाही,mr,edit_account,account,bitext,delete_account,False
+मला क्लायंट सपोर्टशी संपर्क साधण्यासाठी मदतीची गरज आहे,mr,contact_customer_service,contact,bitext,contact_human_agent,False
+मला पैसे परत येण्यापूर्वी किती वेळ लागेल?,mr,get_refund,refund,bitext,review,False
+"मी एका लेखासाठी पैसे दिले, मला माझी भरपाई हवी आहे. {{Currency Symbol}} {{Refund Amount}}",mr,get_refund,refund,bitext,track_refund,False
+मानक लेखाची माहिती संपादित करा,mr,edit_account,account,bitext,delete_account,False
+मला माझ्या खात्याचा तपशील अपडेट करायचा आहे मला मदतीची गरज आहे,mr,edit_account,account,bitext,delete_account,False
+तुम्ही मला तुमच्या कंपनीसाठी मत लिहायला मदत करू शकता का?,mr,review,feedback,bitext,place_order,False
+मला परतावा मागितला पाहिजे.,mr,get_refund,refund,bitext,check_refund_policy,False
+माझ्या स्टँडर्ड खात्यातील ओपीएफ काढून टाकण्यात मला अडचण आहे.,mr,delete_account,account,bitext,switch_account,False
+मला माहित नाही मला लवकर बाहेर पडण्यासाठी काय करावे लागेल,mr,check_cancellation_fee,cancel,bitext,delivery_period,False
+मला काही सांगायचं असेल तर मला मदत कर,mr,complaint,feedback,bitext,contact_customer_service,False
+मला माझ्या दुय्यम डिलिव्हरी अॅड्रेसची माहिती नाही.,mr,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+त्रुटी उघडणे वापरकर्ता प्रोफाइल,mr,registration_problems,account,bitext,edit_account,False
+ग्राहक सेवा पत्त्याचा पत्ता,mr,contact_customer_service,contact,bitext,change_shipping_address,False
+मला हे बघायचे आहे की शिपमेंट येण्यासाठी किती वेळ लागतो.,mr,delivery_period,delivery,bitext,change_shipping_address,False
+मला परतफेड केल्याबद्दल सूचना देण्यास मदत करा.,mr,payment_issue,payment,bitext,review,False
+मला माझ्या प्रो अकाऊंटला हटवण्यासाठी मदतीची गरज आहे.,mr,delete_account,account,bitext,recover_password,False
+मला माझा पासवर्ड मिळवण्यासाठी मदत हवी आहे.,mr,recover_password,account,bitext,get_refund,False
+आपण मला एक गोंधळ ऑपरेटर निर्देश करू शकता?,mr,contact_human_agent,contact,bitext,check_cancellation_fee,False
+मला बिल सापडत नाही #00108 मला पाठवेल,mr,get_invoice,invoice,bitext,check_invoice,False
+मला सोन्याच्या खात्याची माहिती हवी आहे.,mr,delete_account,account,bitext,switch_account,False
+मी लवकर बाहेर पडण्याची फी पाहण्याचा प्रयत्न करत आहे.,mr,check_cancellation_fee,cancel,bitext,delivery_period,False
+खाते संपादित करा,mr,edit_account,account,bitext,recover_password,False
+मला पत्ता संपादित करताना समस्या आहे.,mr,change_shipping_address,shipping,bitext,set_up_shipping_address,False
+पेमेंट अयशस्वी झाले मला पेमेंटमध्ये त्रुटी नोंदवण्यास मदतीची आवश्यकता आहे,mr,payment_issue,payment,bitext,check_payment_methods,False
+मी निलंबन दंड कसा पाहतो?,mr,check_cancellation_fee,cancel,bitext,review,False
+मला माहित नाही फ्रीमियम अकाऊंट हटवण्यासाठी मला काय करावे लागेल,mr,delete_account,account,bitext,create_account,False
+मला माहित नाही वापरकर्ता डेटा बदलण्यासाठी काय करावे,mr,edit_account,account,bitext,switch_account,False
+मी खरेदीसाठी पैसे देऊ शकत नाही. {{Order Number}},mr,cancel_order,order,bitext,change_order,False
+मी लवकर बाहेर पडण्याची फी कशी तपासू शकतो?,mr,check_cancellation_fee,cancel,bitext,delivery_period,False
+परतफेड करण्यासाठी किती वेळ लागतो हे तपासण्यासाठी मला मदत करा,mr,check_refund_policy,refund,bitext,delivery_period,False
+माझा क्रमांक ८५६३२ पाहण्यासाठी मला काय करावे लागेल?,mr,check_invoice,invoice,bitext,delivery_period,False
+मला लवकर बाहेर पडण्याची फी तपासण्यासाठी मदत हवी आहे.,mr,check_cancellation_fee,cancel,bitext,delivery_period,False
+मी आता ऑर्डरसाठी पैसे देऊ शकत नाही. {{Order Number}},mr,cancel_order,order,bitext,change_order,False
+मला हे बघायचे आहे की मी किती लवकर आदेश मिळवू शकतो.,mr,delivery_period,delivery,bitext,track_refund,False
+पैशांची परतफेड करण्याची विनंती करणाऱ्यांना मदत हवी आहे,mr,get_refund,refund,bitext,registration_problems,False
+मी ऑर्डरसाठी पैसे देऊ शकत नाही. {{Order Number}},mr,cancel_order,order,bitext,track_order,False
+प्रारंभी बाहेर पडण्याची फी आहे का?,mr,check_cancellation_fee,cancel,bitext,contact_customer_service,False
+मला माझा वापरकर्ता खाते पिन मिळवायचा आहे,mr,recover_password,account,bitext,switch_account,False
+"मी शिपिंग कालावधी शोधण्याचा प्रयत्न करत आहे, तुम्ही मला मदत कराल का?",mr,delivery_period,delivery,bitext,delivery_options,False
+मला बघायचे आहे की परतफेड किती वेळ घेते. मला मदत करा.,mr,check_refund_policy,refund,bitext,track_refund,False
+शिपिंग पत्त्याचा प्रश्न,mr,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+मी माझ्या खात्याची माहिती मिळवण्याचा प्रयत्न करतो. {{Person Name}},mr,get_invoice,invoice,bitext,check_invoice,False
+मी माझ्या वडिलांसाठी व्यावसायिक खाते उघडू शकतो का?,mr,create_account,account,bitext,recover_password,False
+मी माझ्या वापरकर्त्याच्या पु. व्ही. डी. ला दुरुस्त करू शकत नाही.,mr,recover_password,account,bitext,edit_account,False
+मला क्रमांक 85632 क्रमांक डाऊनलोड करण्यासाठी मदत हवी आहे.,mr,get_invoice,invoice,bitext,check_invoice,False
+मला पैशाची भरपाई मिळावी लागेल.,mr,get_refund,refund,bitext,track_refund,False
+ऑर्डरची एटीएम कुठे पाहता येईल {{Order Number}},mr,track_order,order,bitext,change_order,False
+परतफेड करताना काही अडचण आहे का हे जाणून घेण्यास मदत,mr,track_refund,refund,bitext,get_refund,False
+मला बघायचे आहे की तुम्ही कोणत्या डिलिव्हरी पर्याय ऑफर करता. मला मदत करा.,mr,delivery_options,delivery,bitext,delivery_period,False
+आपल्याकडे विसरलेल्या पिनबद्दल काही प्रश्न आहेत,mr,recover_password,account,bitext,review,False
+मला कोणत्या हॉर्सचा शोध घेण्यासाठी मदतीची आवश्यकता आहे मी ग्राहक सेवेशी संपर्क साधू शकतो,mr,contact_customer_service,contact,bitext,delivery_period,False
+एखाद्या व्यक्तीशी बोलण्यास मदत करणे,mr,contact_human_agent,contact,bitext,complaint,False
+मला खरेदीमधून एक आर्टिल हटवण्यास मदत करा {{Order Number}},mr,change_order,order,bitext,track_order,False
+orer मधून एखादा आयटम हटविण्यासाठी मदत हवी आहे {{Order Number}},mr,change_order,order,bitext,track_order,False
+तुम्ही मला माझे बिल पाठवू शकता का ? {{Person Name}},mr,get_invoice,invoice,bitext,check_invoice,False
+मला प्लॅटिनम खाते तयार करण्यासाठी मदतीची गरज आहे,mr,create_account,account,bitext,delete_account,False
+मला माहित नाही मी खरेदी कशी करू शकतो {{Order Number}},mr,cancel_order,order,bitext,track_order,False
+मी एखाद्या ऑपरेटरशी गप्पा मारू शकत नाही.,mr,contact_human_agent,contact,bitext,get_refund,False
+मला पुनर्प्राप्तीचा मागोवा घेण्यास मदत हवी आहे.,mr,track_refund,refund,bitext,recover_password,False
+मी माझ्या भरपाईचा मागोवा घेऊ शकतो का?,mr,track_refund,refund,bitext,get_refund,False
+मला रक्तरंजित व्यक्तीशी कसे बोलावे हे माहित नाही.,mr,contact_human_agent,contact,bitext,change_shipping_address,False
+मला माझ्या दुय्यम शिपिंग पत्त्यावर कसे जायचे हे माहित नाही,mr,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+मी १२५८८ क्रमांकाचा क्रमांक कुठून मिळवू शकतो?,mr,get_invoice,invoice,bitext,check_invoice,False
+मला बिल कुठून मिळतील? {{Person Name}},mr,get_invoice,invoice,bitext,check_invoice,False
+मला फ्रीम अकाऊंट उघडण्याबाबत एक प्रश्न आहे.,mr,create_account,account,bitext,get_refund,False
+"माझा नवीन शिपिंग पत्ता अमान्य आहे, तुम्ही मला मदत करू शकता का?",mr,set_up_shipping_address,shipping,bitext,change_shipping_address,False
+मी काय ऑर्डर करू शकतो ? {{Delivery Country}},mr,delivery_options,delivery,bitext,delivery_period,False
+तुम्ही मला माझ्या खरेदीला मदत करू शकता का?,mr,cancel_order,order,bitext,place_order,False

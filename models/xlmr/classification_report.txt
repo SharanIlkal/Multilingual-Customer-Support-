@@ -1,0 +1,38 @@
+MULTILINGUAL XLM-R EMBEDDING CLASSIFIER
+======================================================================
+
+Classification Report:
+
+                          precision    recall  f1-score   support
+
+            cancel_order     0.9538    0.8493    0.8986       146
+            change_order     0.9128    0.9570    0.9344       186
+ change_shipping_address     0.9091    0.9596    0.9337       198
+  check_cancellation_fee     0.9626    0.9231    0.9424       195
+           check_invoice     0.9015    0.9531    0.9266       192
+   check_payment_methods     0.9845    0.9550    0.9695       200
+     check_refund_policy     0.9565    0.9072    0.9312       194
+               complaint     0.9453    0.9500    0.9476       200
+contact_customer_service     0.9845    0.9550    0.9695       200
+     contact_human_agent     0.9417    0.9700    0.9557       200
+          create_account     0.9351    0.9153    0.9251       189
+          delete_account     0.9396    0.9144    0.9268       187
+        delivery_options     0.9470    0.9051    0.9256       158
+         delivery_period     0.9600    0.9697    0.9648       198
+            edit_account     0.8807    0.9064    0.8934       171
+             get_invoice     0.9171    0.9316    0.9243       190
+              get_refund     0.8974    0.9409    0.9186       186
+ newsletter_subscription     0.9796    0.9600    0.9697       200
+           payment_issue     0.9372    0.9749    0.9557       199
+             place_order     0.9545    0.9450    0.9497       200
+        recover_password     0.8676    0.9500    0.9069       200
+   registration_problems     0.9734    0.9150    0.9433       200
+                  review     0.9596    0.9548    0.9572       199
+ set_up_shipping_address     0.9684    0.9200    0.9436       200
+          switch_account     0.8846    0.8798    0.8822       183
+             track_order     0.9326    0.9379    0.9352       177
+            track_refund     0.8644    0.9000    0.8818       170
+
+                accuracy                         0.9349      5118
+               macro avg     0.9352    0.9333    0.9338      5118
+            weighted avg     0.9360    0.9349    0.9350      5118

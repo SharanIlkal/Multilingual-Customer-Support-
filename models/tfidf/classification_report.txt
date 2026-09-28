@@ -1,0 +1,36 @@
+TF-IDF + LOGISTIC REGRESSION
+======================================================================
+
+                          precision    recall  f1-score   support
+
+            cancel_order     0.8952    0.7603    0.8222       146
+            change_order     0.8586    0.9140    0.8854       186
+ change_shipping_address     0.8301    0.8636    0.8465       198
+  check_cancellation_fee     0.9115    0.8974    0.9044       195
+           check_invoice     0.8821    0.8958    0.8889       192
+   check_payment_methods     0.9146    0.9100    0.9123       200
+     check_refund_policy     0.9222    0.8557    0.8877       194
+               complaint     0.9069    0.9250    0.9158       200
+contact_customer_service     0.9894    0.9300    0.9588       200
+     contact_human_agent     0.8008    0.9650    0.8753       200
+          create_account     0.9064    0.8201    0.8611       189
+          delete_account     0.8840    0.8556    0.8696       187
+        delivery_options     0.8817    0.9430    0.9113       158
+         delivery_period     0.8756    0.9242    0.8993       198
+            edit_account     0.8562    0.8012    0.8278       171
+             get_invoice     0.9126    0.8789    0.8954       190
+              get_refund     0.7850    0.9032    0.8400       186
+ newsletter_subscription     0.9375    0.9750    0.9559       200
+           payment_issue     0.9058    0.8693    0.8872       199
+             place_order     0.8512    0.9150    0.8819       200
+        recover_password     0.8911    0.9000    0.8955       200
+   registration_problems     0.9492    0.9350    0.9421       200
+                  review     0.8889    0.8844    0.8866       199
+ set_up_shipping_address     0.8708    0.9100    0.8900       200
+          switch_account     0.9299    0.7978    0.8588       183
+             track_order     0.8920    0.8870    0.8895       177
+            track_refund     0.8675    0.7706    0.8162       170
+
+                accuracy                         0.8871      5118
+               macro avg     0.8888    0.8847    0.8854      5118
+            weighted avg     0.8892    0.8871    0.8868      5118

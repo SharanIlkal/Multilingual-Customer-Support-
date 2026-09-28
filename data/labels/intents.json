@@ -1,0 +1,90 @@
+{
+  "order": [
+    "order_status",
+    "order_delay",
+    "order_not_received",
+    "cancel_order",
+    "modify_order"
+  ],
+  "delivery": [
+    "delivery_delay",
+    "delivery_failed",
+    "delivery_complaint",
+    "wrong_delivery_address",
+    "delivery_tracking"
+  ],
+  "refund": [
+    "refund_request",
+    "refund_delayed",
+    "refund_not_received",
+    "partial_refund",
+    "refund_status"
+  ],
+  "payment": [
+    "payment_failed",
+    "payment_declined",
+    "duplicate_payment",
+    "charged_wrong_amount",
+    "payment_not_reflected"
+  ],
+  "product": [
+    "product_issue",
+    "damaged_product",
+    "defective_product",
+    "wrong_product",
+    "missing_product",
+    "product_information"
+  ],
+  "account": [
+    "account_locked",
+    "login_issue",
+    "password_reset",
+    "account_update",
+    "account_security"
+  ],
+  "subscription": [
+    "subscription_cancel",
+    "subscription_renewal",
+    "subscription_upgrade",
+    "subscription_downgrade",
+    "subscription_payment"
+  ],
+  "technical": [
+    "app_crash",
+    "website_issue",
+    "feature_not_working",
+    "technical_error",
+    "performance_issue"
+  ],
+  "returns": [
+    "return_request",
+    "return_status",
+    "return_rejected",
+    "exchange_request"
+  ],
+  "complaint": [
+    "service_complaint",
+    "employee_complaint",
+    "delivery_complaint",
+    "product_complaint",
+    "billing_complaint"
+  ],
+  "feedback": [
+    "positive_feedback",
+    "negative_feedback",
+    "feature_request",
+    "general_feedback"
+  ],
+  "security": [
+    "suspicious_activity",
+    "fraud_report",
+    "unauthorized_transaction",
+    "account_compromised"
+  ],
+  "general": [
+    "general_question",
+    "product_question",
+    "service_question",
+    "other"
+  ]
+}
