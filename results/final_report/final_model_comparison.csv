@@ -1,0 +1,4 @@
+Model,Test Accuracy,Macro F1,Weighted F1
+TF-IDF + Logistic Regression,0.9224,0.9205,0.9224
+XLM-R Embeddings + Logistic Regression,0.9593,0.957,0.9592
+BiLSTM + Attention,0.9801,0.9793,0.9802

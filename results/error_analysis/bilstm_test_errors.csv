@@ -1,0 +1,295 @@
+sample_id,text,language,intent,predicted_intent,category
+test_001514,"मला काही वस्तू मागवण्याची गरज आहे, तुम्ही मला मदत करू शकता का?",mr,place_order,change_order,ORDER
+test_001246,ನನಗೆ ಅಸ್ಸಿಯೊಸ್ಟ್ಯಾನ್ಸ್ ಆರ್ಡರ್ ರದ್ದು ಅಗತ್ಯವಿದೆ.,kn,cancel_order,delete_account,ORDER
+test_002459,मी ऑर्डर क्रमांक मागू शकतो का?,mr,change_order,track_order,ORDER
+test_001991,ಸಾಗಾಟಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಆಯ್ಕೆಗಳ ಬಗ್ಗೆ ಮಾಹಿತಿ,kn,delivery_options,contact_customer_service,DELIVERY
+test_000631,ఎలా మీరు అనేక వ్యాసం షాపింగ్ ఎలా?,te,place_order,complaint,ORDER
+test_002039,கொள்முதல் செய்யுங்கள்,ta,place_order,track_order,ORDER
+test_001669,तुम्ही मला काही वस्तू मागवण्यास मदत करू शकता का?,mr,place_order,change_order,ORDER
+test_000051,मुझे अपना बिल {{Person Name}} HPW से मिलना है क्या मैं यह कर सकता हूँ,hi,get_invoice,check_invoice,INVOICE
+test_001400,நான் ஒரு இரத்த பிழை அறிவிக்க உதவி வேண்டும் ஆன்லைன் கொடுப்பனவுகள்,ta,payment_issue,registration_problems,PAYMENT
+test_001484,मला प्रतिसाद द्यावा लागेल,mr,review,get_refund,FEEDBACK
+test_000813,"मला समजत नाही की, तुम्हाला ओस्मेबॉडीशी बोलता येते का?",mr,contact_human_agent,check_invoice,CONTACT
+test_001692,ನವೀಕೃತ ಖರೀದಿ00123842,kn,change_order,track_order,ORDER
+test_000409,मी त्या बिलला गमावलं.,mr,get_invoice,check_invoice,INVOICE
+test_000220,எனது கணக்கை எவ்வாறு மூடுவது?,ta,delete_account,recover_password,ACCOUNT
+test_001306,ನಿಮ್ಮ ಐಟಂ ಹಲವಾರು ಖರೀದಿಸಲು ಸಹಾಯ ಬಯಸುವ,kn,place_order,change_order,ORDER
+test_001346,ఎక్కడ మూనీ యొక్క తిరిగి చెల్లించే స్వీట్ అనుకున్నాను,te,get_refund,track_refund,REFUND
+test_002160,मी खरेदीसाठी पैसे देऊ शकत नाही.,mr,cancel_order,change_order,ORDER
+test_002459,can I edi order {{Order Number}}?,en,change_order,track_order,ORDER
+test_001569,ಎಷ್ಟು ಹಣವನ್ನು ಹಿಂತೆಗೆದುಕೊಳ್ಳುವ ಶುಲ್ಕ?,kn,check_cancellation_fee,delivery_period,CANCEL
+test_002404,நான் எப்படி ஒரு பிளாட்டினம் குவிப்பு அகற்ற முடியும்,ta,delete_account,recover_password,ACCOUNT
+test_001495,कस्टमर सेवेला कोणत्या वेळी कॉल करता येईल हे पाहण्यासाठी मदत,mr,contact_customer_service,delivery_period,CONTACT
+test_000435,मैं एक अपचैस पता करना चाहते हैं मैं कुछ मदद मिल सकती है,hi,track_order,change_shipping_address,ORDER
+test_001411,gedtting bill from {{Person Name}},en,get_invoice,check_invoice,INVOICE
+test_000988,मला निवृत्त होण्याची शिक्षा पाहण्यासाठी मदत हवी आहे,mr,check_cancellation_fee,track_order,CANCEL
+test_002297,என் இரத்த திருப்பி பற்றி எந்த செய்தி,ta,track_refund,get_refund,REFUND
+test_002405,புதுப்பிப்பு சார்பு கணக்கு,ta,edit_account,change_order,ACCOUNT
+test_001929,माझ्या डिलिव्हरी अॅड्रेसमध्ये त्रुटी आली आहे.,mr,change_shipping_address,set_up_shipping_address,SHIPPING
+test_000308,నేను మరణం యొక్క ఆరోపణలు తనిఖీ చేయాలనుకుంటున్నాను,te,check_cancellation_fee,track_order,CANCEL
+test_002050,நான் ஒரு ஓடர் வைக்க முடியுமா,ta,delivery_options,complaint,DELIVERY
+test_000965,என் கணக்கை மூட நீங்கள் எனக்கு உதவ முடியுமா,ta,delete_account,recover_password,ACCOUNT
+test_001378,मुझे नहीं पता कि मैं अपना बिल #00108 के लिए क्या करूँ,hi,check_invoice,get_invoice,INVOICE
+test_000435,ನಾನು ಒಂದು ಅಪ್ಚೈಸ್ ಹುಡುಕಲು ಬಯಸುವಿರಾ ನಾನು ಕೆಲವು ಸಹಾಯ ಪಡೆಯಬಹುದು,kn,track_order,change_shipping_address,ORDER
+test_000456,நான் ஒரு கிளிம் தங்க முயற்சி,ta,complaint,place_order,FEEDBACK
+test_001544,क्या {{ऑर्डर नंबर}} को ऑर्डर करने के लिए cxancel करना संभव है?,hi,cancel_order,change_order,ORDER
+test_001466,"मला खरेदीची संख्या सुधारावी लागेल, तुम्ही मला मदत करू शकता का?",mr,change_order,track_order,ORDER
+test_001501,मला खरेदी करायची नाही.,mr,cancel_order,place_order,ORDER
+test_002235,நான் மறந்து போன கடவுச்சொல்லை பிரச்சினைகள் உள்ளன,ta,recover_password,track_refund,ACCOUNT
+test_001283,కాన్య న్యూస్లెటర్కు నా చందా రద్దు చేయడంలో నాకు సహాయం చేయండి,te,newsletter_subscription,cancel_order,SUBSCRIPTION
+test_002459,நான் ஆர்டர் செய்யலாமா?,ta,change_order,track_order,ORDER
+test_000908,i need assistance listing the payment omdalities,en,check_payment_methods,payment_issue,PAYMENT
+test_000562,मैं नहीं जानता कि क्या करना है करने के लिए प्राप्त करने के लिए नरक धनवापसी,hi,get_refund,place_order,REFUND
+test_000694,मुझे मदद की ज़रूरत है मेरे इनव्यूस को जल्दी से देखने के लिए,hi,check_invoice,delivery_period,INVOICE
+test_000041,मैं मदद करना चाहता हूँ खाते के लिए बदली,hi,switch_account,edit_account,ACCOUNT
+test_002316,मी काही गोंधळल्याबद्दल माहिती देऊ शकत नाही.,mr,registration_problems,delivery_period,ACCOUNT
+test_000795,ನನಗೆ ಸಹಾಯ ಬೇಕಾಗಿದೆ.,kn,complaint,check_invoice,FEEDBACK
+test_001811,நான் வாங்கும் போது உதவுங்கள்.,ta,track_order,place_order,ORDER
+test_001411,{{ಪರ್ಸನ್ ಹೆಸರು}} ನಿಂದ ಬಿಲ್ ಅನ್ನು ಗೆಡ್ಡಿಂಗ್ ಮಾಡುವುದು,kn,get_invoice,check_invoice,INVOICE
+test_002199,आदेश संख्या,hi,cancel_order,track_order,ORDER
+test_000969,ಆದೇಶ ಒಂದು ಐಟಂ,kn,place_order,change_order,ORDER
+test_000611,ಕೊನೆಯ ಖರೀದಿಯ ಲೆಕ್ಕಾಚಾರಗಳನ್ನು ಪರಿಶೀಲಿಸಿ,kn,check_invoice,track_order,INVOICE
+test_002007,మీ న్యూస్ సెల్టర్ నా చందా యొక్క స్థితి తనిఖీ చేయాలనుకుంటున్నాను,te,newsletter_subscription,track_order,SUBSCRIPTION
+test_001264,कैसे पता करें कि मेरे पुनर्भुगतान में कुछ भी गलत है या नहीं?,hi,track_refund,get_refund,REFUND
+test_001925,మీ కంపెనీకి నమోదు చేసుకోవడానికి సహాయం,te,newsletter_subscription,complaint,SUBSCRIPTION
+test_000497,मेरी अंतिम पैकेज की जाँच करें,hi,track_order,delivery_period,ORDER
+test_002404,నేను ఒక ప్లాటినం అక్లంట్ తొలగించడానికి ఎలా,te,delete_account,contact_human_agent,ACCOUNT
+test_000759,பிளாட்டினம் கணக்கு,ta,create_account,delete_account,ACCOUNT
+test_001643,I need help with canxeling purchase {{Order Number}},en,cancel_order,track_order,ORDER
+test_002428,நான் ஆரம்ப வெளியேறும் எப்னால்டி பார்க்க வேண்டும் எப்படி அதை செய்ய,ta,check_cancellation_fee,check_invoice,CANCEL
+test_002354,मुझे अपने पैसे की जांच करने में मदद करें,hi,check_refund_policy,delivery_period,REFUND
+test_000249,నేను అస్సాన్సును కోరుకుంటున్నాను.,te,check_invoice,place_order,INVOICE
+test_001049,நீங்கள் என்னை பார்க்க உதவ முடியும் refnd நிலை,ta,track_refund,track_order,REFUND
+test_001098,मी कॉल नंबर ३७७७७ वर कुठे लवकर बघू शकतो?,mr,check_invoice,delivery_period,INVOICE
+test_002099,நான் என் கணக்கை எப்படி மூடுவது என்று எனக்குத் தெரியவில்லை,ta,delete_account,recover_password,ACCOUNT
+test_000261,ನನಗೆ ಸಹಾಯ ಮಾಡಿ.,kn,get_invoice,track_order,INVOICE
+test_001631,"నేను కొనుగోలు అనుకుంటున్నారా, మీరు నాకు సహాయం చేయగలరా?",te,change_order,track_order,ORDER
+test_000469,ಸಾಗಣೆ ಸೇರ್ಪಡೆ ತೊಂದರೆ,kn,set_up_shipping_address,delivery_options,SHIPPING
+test_001879,तुमच्याकडे ई-मेल आहे का ज्यामुळे तुम्ही कमेंट सोडू शकता?,mr,review,track_refund,FEEDBACK
+test_000456,నేను ఒక క్లైమ్ నిల్వ ప్రయత్నించండి,te,complaint,place_order,FEEDBACK
+test_000072,मी माझ्या शिपिंग पत्त्याची नोंद कुठे करतो,mr,set_up_shipping_address,change_shipping_address,SHIPPING
+test_002284,"ನನ್ನ ಹಡಗು ವಿಳಾಸವು ಅಮಾನ್ಯವಾಗಿದೆ, ನನಗೆ ಸಹಾಯ ಬೇಕು",kn,set_up_shipping_address,change_shipping_address,SHIPPING
+test_000395,"నేను నమోదు చేయలేదు, నేను ఒక ఖాతాను తెరవాలి",te,create_account,registration_problems,ACCOUNT
+test_000825,वापरकर्ता तयार करण्यात मदत,mr,registration_problems,create_account,ACCOUNT
+test_000795,ನನಗೆ ಸಹಾಯ ಬೇಕಾಗಿದೆ.,kn,change_order,check_invoice,ORDER
+test_000728,"तू मला मदत करशील ना, मला मदत करशील.",mr,contact_human_agent,delivery_options,CONTACT
+test_000761,i want help requesting a reimbursement of moey,en,get_refund,track_refund,REFUND
+test_001300,"मी तुमच्या कामाबद्दल समाधानी नाही, कृपया मला मदत करा.",mr,complaint,review,FEEDBACK
+test_001501,I don't want purchase {{Order Number}},en,cancel_order,track_order,ORDER
+test_002374,मला माझा पास परत मिळवण्यासाठी मदत झाली नाही.,mr,recover_password,get_refund,ACCOUNT
+test_000895,நான் உதவி வேண்டும் என்று நான் திரும்பப் பெனாண்ட் பார்க்க,ta,check_cancellation_fee,track_refund,CANCEL
+test_001732,ನಾನು ಕೆಲವು ಆದೇಶದ ಐಟಂಗಳನ್ನು ಅತಿಕ್ರಮಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತೇನೆ,kn,change_order,place_order,ORDER
+test_000760,मेरी पास वापस पाने में मदद करें,hi,recover_password,get_refund,ACCOUNT
+test_000174,நான் என்ன செய்ய வேண்டும் என்று டிடோ டவுன்லோட் செய்ய வேண்டும் விலைப்பட்டியல் #85632?,ta,get_invoice,check_invoice,INVOICE
+test_000795,ನನಗೆ ಸಹಾಯ ಬೇಕಾಗಿದೆ.,kn,track_order,check_invoice,ORDER
+test_001631,"मैं आदेश संख्या खरीदना चाहता हूँ, आप मुझे मदद कर सकते हैं?",hi,change_order,track_order,ORDER
+test_002106,రికవరీ కోసం సహాయం కోరుకుంటారు,te,complaint,contact_customer_service,FEEDBACK
+test_001028,मला त्या खोट्या बिलची मदत हवी आहे.,mr,get_invoice,check_invoice,INVOICE
+test_000214,आप मुझे मेरे addfess अद्यतन के बारे में अधिक बता सकते हैं,hi,change_shipping_address,track_refund,SHIPPING
+test_000214,என் addfess மேம்படுத்த பற்றி எனக்கு மேலும் சொல்ல முடியும்,ta,change_shipping_address,delete_account,SHIPPING
+test_000454,తిరిగి చెల్లించడం{{కరెన్సీ చిహ్నం}}{{ తిరిగి చెల్లించే మొత్తం}},te,get_refund,track_refund,REFUND
+test_000750,మార్పులు కొనుగోలు {{ఆర్డర్ నంబర్}},te,change_order,track_order,ORDER
+test_000728,ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡುವುದಿಲ್ಲ . ನನಗೆ ಸಹಾಯ ಮಾಡಿ .,kn,contact_human_agent,check_cancellation_fee,CONTACT
+test_001925,आपकी कंपनी के लिए पंजीकरण में सहायता,hi,newsletter_subscription,review,SUBSCRIPTION
+test_000813,ನಾನು ನೀವು ಅರ್ಥ ಇಲ್ಲ ಇದು ಸಾಧ್ಯ ಓಸ್ಮೆಬೋಡಿ ಮಾತನಾಡಲು,kn,contact_human_agent,contact_customer_service,CONTACT
+test_000323,मला माझ्या वडिलांसाठी अकाऊंट हवा आहे. मी ते कसे काढू शकतो?,mr,create_account,delivery_period,ACCOUNT
+test_000318,फ्रीम खाते बदलणे,mr,switch_account,edit_account,ACCOUNT
+test_000808,क्या मैं वीजा के बिना भुगतान कर सकता हूँ,hi,check_payment_methods,get_invoice,PAYMENT
+test_002319,मला दाखव जेव्हा माझा लेख सुधरेल,mr,delivery_period,check_invoice,DELIVERY
+test_001620,तुम्हाला रिव्हिव्ह पाठवण्याचा एक मार्ग आहे,mr,review,delivery_period,FEEDBACK
+test_001411,{{Person Name}} पासून बिल काढणे,mr,get_invoice,check_invoice,INVOICE
+test_001219,सहायता देखना कि मैं कितनी जल्दी मेरी डिलीवरी को निष्पादित कर सकता हूं,hi,delivery_period,complaint,DELIVERY
+test_000073,கட்டணக் கணக்கீடு,ta,payment_issue,check_invoice,PAYMENT
+test_000795,ನನಗೆ ಸಹಾಯ ಬೇಕಾಗಿದೆ.,kn,get_invoice,check_invoice,INVOICE
+test_000261,मला त्या बिलची मदत कर.,mr,get_invoice,check_invoice,INVOICE
+test_002031,கொள்முதல் செய்ய உதவுதல்,ta,place_order,track_order,ORDER
+test_001096,ನಾನು ಒಂದು {{ಖಾತೆ ವರ್ಗ}} ಖಾತೆಯನ್ನು ಬಯಸುವ ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಹುದು ರಚಿಸಲು,kn,create_account,switch_account,ACCOUNT
+test_001536,உங்கள் பிஸிமென்ட் விருப்பங்களை பார்க்க உதவி தேவை,ta,check_payment_methods,delivery_options,PAYMENT
+test_001522,तुमच्या सेवांचा आढावा,mr,review,switch_account,FEEDBACK
+test_002018,मी काय करू शकतो?,mr,check_invoice,track_order,INVOICE
+test_000961,मैं किसी के साथ चुदाई में मदद करना चाहता हूँ,hi,contact_human_agent,track_order,CONTACT
+test_000761,मैं मदद की जरूरत है Moey की धनवापसी के लिए अनुरोध,hi,get_refund,check_refund_policy,REFUND
+test_000043,வாங்கும் போது எட்டாவை சரிபார்க்க உதவுங்கள்.,ta,track_order,delivery_period,ORDER
+test_000615,ನಾನು ಏನು ಮಾಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ .,kn,check_cancellation_fee,complaint,CANCEL
+test_000365,मला माहित नाही मला काय करावे लागेल हे मला माहित नाही,mr,delete_account,check_payment_methods,ACCOUNT
+test_001049,ನೀವು ನನಗೆ ರೆಫರೆನ್ಸ್ ಸ್ಥಿತಿಯನ್ನು ನೋಡಲು ಸಹಾಯ ಮಾಡಬಹುದು,kn,track_refund,track_order,REFUND
+test_000520,i have a question about thepayments,en,payment_issue,registration_problems,PAYMENT
+test_000759,ప్లాటినం ఖాతా,te,create_account,edit_account,ACCOUNT
+test_000854,நான் பணத்தை திருப்பிச் செலுத்த என்ன செய்ய வேண்டும்?,ta,track_refund,get_refund,REFUND
+test_000804,"என்னிடம் கணக்கு இல்லை, நான் எப்படி பதிவு செய்வது?",ta,create_account,registration_problems,ACCOUNT
+test_002459,मैं आदेश संख्या आदेश कर सकते हैं?,hi,change_order,track_order,ORDER
+test_000583,ನಾನು ಸಹಾಯಕನನ್ನು ಹುಡುಕಲು ಬಯಸುತ್ತೇನೆ,kn,contact_human_agent,check_invoice,CONTACT
+test_002062,நான் எங்கே திருப்பிச் செலுத்த முடியும்,ta,track_refund,get_refund,REFUND
+test_001049,can ya help me seeing the refnd status,en,track_refund,track_order,REFUND
+test_000497,माझी शेवटची पॅकेज तपासा,mr,track_order,delivery_options,ORDER
+test_001544,is it possible to cxancel order {{Order Number}},en,cancel_order,track_order,ORDER
+test_001752,నేను ఆర్డర్ ఎడిట్ సహాయం కావాలి,te,change_order,track_order,ORDER
+test_001899,माझ्या मुलीसाठी अकाऊंट तयार करणे शक्य आहे का?,mr,create_account,registration_problems,ACCOUNT
+test_001845,{{खाता श्रेणी}} खाते,mr,edit_account,create_account,ACCOUNT
+test_001963,నేను రవాణా కాలం కోసం చూస్తున్నాను,te,delivery_period,track_order,DELIVERY
+test_000497,నా చివరి ప్యాకేజీని తనిఖీ చేయండి,te,track_order,delivery_options,ORDER
+test_001732,मी काही ऑर्डर आयटम कमी करण्याचा प्रयत्न करतो.,mr,change_order,place_order,ORDER
+test_002040,can you help me cancelong purchase {{Order Number}}?,en,cancel_order,track_order,ORDER
+test_001732,నేను కొన్ని ఆర్డర్ అంశాలను పాడు ప్రయత్నిస్తున్నారు,te,change_order,place_order,ORDER
+test_001456,ಏನನ್ನಾದರೂ ಸಂಪಾದಿಸುವುದು,kn,place_order,change_order,ORDER
+test_001986,{{खाता श्रेणी}} के साथ समस्या अकोनोट हटाने,hi,delete_account,registration_problems,ACCOUNT
+test_000524,I want help to inform of problems with payment,en,payment_issue,registration_problems,PAYMENT
+test_000327,"मला एक उत्पादन देऊन परत जायचं आहे, मला मदतीची गरज आहे",mr,review,change_order,FEEDBACK
+test_001684,मला माहित नाही काय करावे ते मिळवण्यासाठी #37777 ची फाईल,mr,get_invoice,check_invoice,INVOICE
+test_002209,is there an address to leave an opinion ?,en,review,change_shipping_address,FEEDBACK
+test_002297,मेरे रक्तदान की कोई खबर,hi,track_refund,recover_password,REFUND
+test_000759,प्लॅटिनम खाते,mr,create_account,edit_account,ACCOUNT
+test_001569,ఎంత డబ్బు ఉపసంహరణ రుసుము?,te,check_cancellation_fee,check_refund_policy,CANCEL
+test_000118,modify order370795561790,en,change_order,change_shipping_address,ORDER
+test_000805,ಒಂದು ವಸ್ತುವನ್ನು ಖರೀದಿಸಲು ಸಾಧ್ಯವೇ?,kn,place_order,change_order,ORDER
+test_001845,{{ ఖాతా వర్గం}} ఖాతా,te,edit_account,switch_account,ACCOUNT
+test_002050,నేను ఒక oeder ఉంచవచ్చు?,te,delivery_options,place_order,DELIVERY
+test_000895,ನಾನು ಸಹಾಯಕನನ್ನು ಬಯಸುತ್ತೇನೆ.,kn,check_cancellation_fee,track_order,CANCEL
+test_001019,నేను ఆర్డర్ ఎడిటింగ్ సహాయం అవసరం,te,change_order,track_order,ORDER
+test_000474,सहायता प्रदान करना,hi,review,registration_problems,FEEDBACK
+test_000409,मैं अपने आदमी के नाम से मुझे मेल से एक बकवास बिल खो दिया,hi,get_invoice,check_invoice,INVOICE
+test_002144,ಅಳಿಸುವ ಬಳಕೆದಾರ,kn,delete_account,contact_customer_service,ACCOUNT
+test_001641,நான் எங்கே விரைவாக ஒரு பார்வை செய்ய முடியும் #00108 விலைப்பட்டியல்,ta,check_invoice,complaint,INVOICE
+test_001048,நான் இரத்தக்களரிப்பு திரும்பப் பெனல்கள் பார்க்க முடியுமா?,ta,check_cancellation_fee,check_refund_policy,CANCEL
+test_000214,माझ्या अॅडफेसच्या अद्ययावत करण्याबद्दल मला अधिक सांगू शकता,mr,change_shipping_address,change_order,SHIPPING
+test_001128,डेविड मिलर से बिल प्राप्त करें,hi,get_invoice,get_refund,INVOICE
+test_001690,வரிசை எண்,ta,change_order,cancel_order,ORDER
+test_001833,ಮರುಪಾವತಿಗಾಗಿ ನನಗೆ ಸಹಾಯ ಬೇಕು,kn,track_refund,get_refund,REFUND
+test_000214,నా అడ్మిసెస్ నవీకరించడం గురించి మరింత నాకు చెప్పగలరా,te,change_shipping_address,check_cancellation_fee,SHIPPING
+test_000261,ನನಗೆ ಸಹಾಯ ಮಾಡಿ.,kn,check_invoice,track_order,INVOICE
+test_000961,ಯಾರೋ ಜೊತೆ ಹುಡುಕಾಟ ನಡೆಸಲು ನನಗೆ ಸಹಾಯ ಬೇಕು,kn,contact_human_agent,check_invoice,CONTACT
+test_001994,सहायता चाहते हैं रियायत प्राप्त करने के लिए,hi,get_refund,newsletter_subscription,REFUND
+test_001729,मैं अपने खाते का पता नहीं कर सकते,hi,recover_password,create_account,ACCOUNT
+test_000694,मला माझ्या नावाने लिहीलेल्या माहितीचा त्वरित आढावा घेण्यास मदत हवी आहे.,mr,check_invoice,track_order,INVOICE
+test_001400,मला ऑनलाईन पेमेंट्समध्ये एक खोट्या त्रुटीची माहिती देण्यासाठी मदत हवी आहे.,mr,payment_issue,registration_problems,PAYMENT
+test_001400,నేను ఒక రక్తపాత లోపం నివేదించడానికి సహాయం కావాలి Onlien చెల్లింపులు,te,payment_issue,registration_problems,PAYMENT
+test_000893,wanna submita goddamn delivery address how could i do it,en,set_up_shipping_address,change_shipping_address,SHIPPING
+test_002007,நான் உங்கள் செய்திகள்eltter என் சந்தா நிலையை பார்க்க வேண்டும்,ta,newsletter_subscription,track_refund,SUBSCRIPTION
+test_002010,ग्राहक से रिस्क लेने के लिए सहायता,hi,complaint,contact_customer_service,FEEDBACK
+test_000825,उपयोगकर्ता बनाने में मदद करें,hi,registration_problems,create_account,ACCOUNT
+test_000469,రవాణా అదనపు సమస్య,te,set_up_shipping_address,delivery_options,SHIPPING
+test_002050,क्या मैं एक ओडर डाल सकता हूँ,hi,delivery_options,check_cancellation_fee,DELIVERY
+test_001019,எனக்கு உதவி தேவை .,ta,change_order,get_invoice,ORDER
+test_000615,ನಾನು ಏನು ಮಾಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ .,kn,check_cancellation_fee,complaint,CANCEL
+test_002253,मी खरेदीची वेळ पाहू शकतो का?,mr,track_order,delivery_period,ORDER
+test_001331,मला माहित नाही की माझ्या खात्यांची माहिती कशी मिळावी,mr,get_invoice,check_invoice,INVOICE
+test_000261,ನನಗೆ ಸಹಾಯ ಮಾಡಿ.,kn,get_invoice,track_order,INVOICE
+test_000261,ನನಗೆ ಸಹಾಯ ಮಾಡಿ.,kn,check_invoice,track_order,INVOICE
+test_001925,ನಿಮ್ಮ ಕಂಪನಿಗೆ ನೋಂದಣಿ ಮಾಡುವ ಸಹಾಯ,kn,newsletter_subscription,registration_problems,SUBSCRIPTION
+test_001501,मैं नहीं खरीदना चाहता,hi,cancel_order,track_order,ORDER
+test_001789,i want assistance to locatr my bill #00108,en,check_invoice,get_invoice,INVOICE
+test_000761,ಮೊಯಿ ಅವರ ಮರುಪಾವತಿಯನ್ನು ಕೋರುವಲ್ಲಿ ನನಗೆ ಸಹಾಯ ಬೇಕು,kn,get_refund,check_refund_policy,REFUND
+test_002177,ఎక్కడ purchase ఉంది,te,track_order,place_order,ORDER
+test_000808,can i pay witj visa,en,check_payment_methods,check_cancellation_fee,PAYMENT
+test_000435,நான் ஒரு உதவியை பெற முடியும்,ta,track_order,place_order,ORDER
+test_001073,assistance informing of an error with onlinepayment,en,payment_issue,registration_problems,PAYMENT
+test_002459,ನಾನು ಆದೇಶ ಸಂಖ್ಯೆ ನೀಡಬಹುದೇ?,kn,change_order,track_order,ORDER
+test_000570,"मला त्या बिलची माहिती हवी आहे, मला मदत करा.",mr,get_invoice,check_invoice,INVOICE
+test_001046,"உங்கள் வேலையில் நான் திருப்தி அடையவில்லை, நான் எப்படி கோரிக்கை வைப்பது?",ta,complaint,check_refund_policy,FEEDBACK
+test_001096,i want a {{Account Category}} accounr can ya help me creating it,en,create_account,registration_problems,ACCOUNT
+test_000908,చెల్లింపు నిబంధనలను జాబితా చేయడంలో నాకు సహాయం కావాలి,te,check_payment_methods,payment_issue,PAYMENT
+test_001695,modify order00123842,en,change_order,change_shipping_address,ORDER
+test_002419,वापरकर्ता तयार करणे,mr,registration_problems,create_account,ACCOUNT
+test_000869,मैं अपने चालान से मदद की जरूरत है,hi,get_invoice,check_invoice,INVOICE
+test_000477,నేను ఒక నమోదు తో ఈ ఉపయోగం నివేదించాలి,te,registration_problems,complaint,ACCOUNT
+test_001923,क्या यह संभव है एक बकवास आदेश करने के लिए करने के लिए से {{Delivery City}},hi,delivery_options,place_order,DELIVERY
+test_002040,ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?,kn,cancel_order,track_order,ORDER
+test_000699,मला माझ्या बिलची मदत हवी आहे.,mr,get_invoice,check_invoice,INVOICE
+test_001569,எவ்வளவு பணம் திரும்பப் பெறுவது?,ta,check_cancellation_fee,get_refund,CANCEL
+test_002438,can you help me restoring myPIN code?,en,recover_password,contact_human_agent,ACCOUNT
+test_000808,నేను వీసా లేకుండా చెల్లించగలనా,te,check_payment_methods,newsletter_subscription,PAYMENT
+test_000050,ಪ್ಯೂರಚೇಸ್ ನ ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಲು ಸಹಾಯ ಬೇಕಾಗುತ್ತದೆ.,kn,track_order,track_refund,ORDER
+test_001527,எனக்கு நிதியுதவி தேவை,ta,get_refund,get_invoice,REFUND
+test_001411,{{వ్యక్తి పేరు}} నుండి బిల్లును తొలగించడం,te,get_invoice,check_invoice,INVOICE
+test_001196,need assistance cancelinv purchase {{Order Number}},en,cancel_order,track_order,ORDER
+test_000944,నేను మరొక వినియోగదారు ప్రొఫైల్ మార్చడానికి ఏమి తెలియదు,te,switch_account,edit_account,ACCOUNT
+test_000371,पोलिसांना पैसे परत दाखवा,mr,check_refund_policy,get_refund,REFUND
+test_000409,ನಾನು ನನ್ನ ಫೈಲ್ ಅನ್ನು ಕಳೆದುಕೊಂಡಿದ್ದೇನೆ.,kn,get_invoice,check_invoice,INVOICE
+test_002459,నేను ఆర్డర్ సంఖ్యను ఆర్డర్ చేయవచ్చా?,te,change_order,track_order,ORDER
+test_000116,मानक खाता,hi,edit_account,delete_account,ACCOUNT
+test_000908,ಪಾವತಿ ದೋಷಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುವಲ್ಲಿ ನನಗೆ ಸಹಾಯ ಬೇಕು,kn,check_payment_methods,payment_issue,PAYMENT
+test_001695,बदलण्याची क्रमवारी 00123842,mr,change_order,switch_account,ORDER
+test_002092,I am trying to inform of an error with paymenys,en,payment_issue,registration_problems,PAYMENT
+test_000075,अन्नाने माझा शिपिंग पत्ता सेट केला,mr,set_up_shipping_address,change_shipping_address,SHIPPING
+test_001400,मैं मदद की जरूरत है एक रक्तरंजित त्रुटि की रिपोर्ट करने के लिए ऑनलाइन भुगतान के साथ,hi,payment_issue,registration_problems,PAYMENT
+test_001776,என் கியீ மீட்டமைப்பில் ஒரு பிரச்சனை உள்ளது,ta,recover_password,track_refund,ACCOUNT
+test_000944,मला माहित नाही दुसर्या वापरकर्त्याच्या प्रोफाइलवर बदलण्यासाठी काय करावे,mr,switch_account,edit_account,ACCOUNT
+test_000656,பில் #12588ஐ நான் எப்படி கண்டுபிடிப்பது?,ta,check_invoice,track_order,INVOICE
+test_002404,मी प्लॅटिनमचा एक गट कसा काढू शकतो?,mr,delete_account,complaint,ACCOUNT
+test_000697,माझ्या वितरण पत्त्याची माहिती देणारी समस्या,mr,set_up_shipping_address,change_shipping_address,SHIPPING
+test_001620,మీరు ఒక రీవీవ్ పంపడానికి ఒక మార్గం కలిగి,te,review,check_refund_policy,FEEDBACK
+test_001656,మీరు నాకు సహాయం చేయగలరా?,te,switch_account,check_invoice,ACCOUNT
+test_001692,తాజా కొనుగోలు00123842,te,change_order,place_order,ORDER
+test_002038,எனக்கு பில் #00108 கிடைப்பதற்கு உதவி தேவை,ta,get_invoice,check_invoice,INVOICE
+test_001646,मी लिकला लिकला लिहून माहिती तपासून बघायची.,mr,check_invoice,track_refund,INVOICE
+test_001902,நான் கொள்முதல் செய்ய வேண்டிய நேரத்தை பார்க்கலாமா?,ta,track_order,cancel_order,ORDER
+test_001198,ஊதியம் பிரச்சினைகள் அறிவிக்க,ta,payment_issue,registration_problems,PAYMENT
+test_000001,నేను కొత్త షిప్పింగ్ చిరునామా కనుగొనేందుకు సహాయం కావాలి,te,set_up_shipping_address,change_shipping_address,SHIPPING
+test_000958,ನನಗೆ ಸಹಾಯ ಬೇಕಾಗಿದೆ .,kn,check_cancellation_fee,check_invoice,CANCEL
+test_001978,"நான் என் பணத்தை திரும்ப பார்க்க வேண்டும், நீங்கள் எனக்கு உதவ முடியுமா?",ta,track_refund,check_refund_policy,REFUND
+test_000597,நான் என்ன செய்ய வேண்டும் என்று தெரியாது வரிசை,ta,track_order,cancel_order,ORDER
+test_000178,मेरे खाते के प्रकार के बारे में एक प्रश्न है,hi,delete_account,create_account,ACCOUNT
+test_000116,mlవిధింపు ప్రామాణిక ఖాతా,te,edit_account,create_account,ACCOUNT
+test_001087,मला एका {{खाता प्रकार}} खात्याची माहिती हवी आहे,mr,create_account,delete_account,ACCOUNT
+test_000387,"నేను ఏదో ఆర్డర్ అవసరం, మీరు నాకు సహాయం చేస్తావా?",te,place_order,change_order,ORDER
+test_000394,ನನಗೆ ಸಹಾಯ ಮಾಡಿ ಯಾವ ಸಮಯದಲ್ಲಿ ನಾನು ಸಂಪರ್ಕಿಸಬಹುದು ಎಂದು ಪರಿಶೀಲಿಸಿ cuswtomer ಬೆಂಬಲ,kn,contact_customer_service,check_refund_policy,CONTACT
+test_002374,मैं अपनी पास बहाल करने में मदद नहीं की,hi,recover_password,get_refund,ACCOUNT
+test_000759,ಪ್ಲಾಟಿನಂ ಖಾತೆ,kn,create_account,delete_account,ACCOUNT
+test_000347,నా వినియోగదారు ఖాతాను మార్చాలనుకుంటున్నాను నేను ఎలా చేయగలను,te,edit_account,switch_account,ACCOUNT
+test_000022,"मैंने कुछ आइटम खरीदा, आदेशों में से एक को रद्द करने में मदद करें",hi,cancel_order,change_order,ORDER
+test_002272,मी माझा धिक्कारित अॅकपंट पास कुठे मिळवू शकतो?,mr,recover_password,delivery_period,ACCOUNT
+test_000569,{{व्यक्ति नाम}} से मेरे आईबीएल की जाँच करें,hi,check_invoice,delivery_period,INVOICE
+test_001833,मला परत मिळविण्यासाठी मदतीची गरज आहे.,mr,track_refund,get_refund,REFUND
+test_001656,मला एकाउंट टाइप करायचा आहे. तुम्ही मला मदत करू शकता का?,mr,switch_account,complaint,ACCOUNT
+test_000759,प्लैटिनम खाता,hi,create_account,edit_account,ACCOUNT
+test_001256,வாங்கிய நேரத்தை எனக்குக் காட்ட முடியுமா?,ta,track_order,cancel_order,ORDER
+test_002439,"मैं किस परिस्थिति में धनराशि की मांग कर सकता हूँ, यह देखने में मदद की ज़रूरत है",hi,check_refund_policy,delivery_period,REFUND
+test_000394,நான் எந்த நேரத்தில் தொடர்பு கொள்ள முடியும் என்று பார்க்க எனக்கு உதவுங்கள் cuswtomer ஆதரவு,ta,contact_customer_service,check_refund_policy,CONTACT
+test_001232,मला माहित नाही मी कसे पुनर्प्राप्ती करू शकता,mr,complaint,recover_password,FEEDBACK
+test_002077,मैं नहीं जानता कि कैसे मैं एक जीवित Ahent के साथ बात कर सकते हैं,hi,contact_human_agent,contact_customer_service,CONTACT
+test_000214,ನನ್ನ ಅಡ್ಫೆಸ್ ಅನ್ನು ನವೀಕರಿಸುವ ಬಗ್ಗೆ ನೀವು ನನಗೆ ಇನ್ನಷ್ಟು ಹೇಳಬಹುದು,kn,change_shipping_address,edit_account,SHIPPING
+test_002396,i do not know how i could switch tto the standard account,en,switch_account,delete_account,ACCOUNT
+test_000297,"ಹೇಗೆ ಸಂಪರ್ಕ ಪಡೆಯಲು, ಈ ಭೀಕರ ಗ್ರಾಹಕ ಸೇವೆ",kn,contact_customer_service,get_refund,CONTACT
+test_001732,நான் சில பொருட்களை ஒழுங்கு செய்ய முயற்சிக்கிறேன்,ta,change_order,place_order,ORDER
+test_001746,எனக்கு உதவி தேவை. நான் விரைவாகக் காசோலை #00108ஐ பார்க்க வேண்டும்.,ta,check_invoice,delivery_period,INVOICE
+test_000435,मला काही मदत मिळेल का?,mr,track_order,check_invoice,ORDER
+test_001510,थ्ड अॅड्रेस बदलण्याचा प्रयत्न करताना मदत हवी आहे,mr,change_shipping_address,change_order,SHIPPING
+test_000456,ನಾನು ಒಂದು ಕ್ಲಿಮ್ ಅನ್ನು ಸ್ಥಾಪಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತೇನೆ,kn,complaint,place_order,FEEDBACK
+test_001741,फ्रीम अकाउंटवर बदल,mr,switch_account,edit_account,ACCOUNT
+test_001246,मला अॅसिस्टन्सची गरज आहे.,mr,cancel_order,check_invoice,ORDER
+test_001301,i do not know how i could casncel order {{Order Number}},en,cancel_order,track_order,ORDER
+test_001009,నేను ఒక ఫలదీకరణం సమస్యను తెలియజేయడానికి సహాయం కావాలి,te,registration_problems,payment_issue,ACCOUNT
+test_001776,मेरे kiey रीसेट के साथ एक समस्या है,hi,recover_password,registration_problems,ACCOUNT
+test_000795,ನನಗೆ ಸಹಾಯ ಬೇಕಾಗಿದೆ.,kn,get_invoice,check_invoice,INVOICE
+test_000854,ಮರುಪಾವತಿಗಾಗಿ ನಾನು ಏನು ಮಾಡಬೇಕು?,kn,track_refund,get_refund,REFUND
+test_000772,"माझ्याकडे अकाऊंट नाही, मला एक उघडण्यास मदत करा.",mr,create_account,registration_problems,ACCOUNT
+test_001925,आपल्या कंपनीला newxletter मध्ये नोंदणी करण्यात मदत,mr,newsletter_subscription,registration_problems,SUBSCRIPTION
+test_001544,ఆర్డర్ నెంబర్ను అన్ఇన్స్టాల్ చేయడం సాధ్యమేనా?,te,cancel_order,change_order,ORDER
+test_001048,क्या मैं रक्तपात से वापस लेने की सजा देख सकता हूँ?,hi,check_cancellation_fee,check_refund_policy,CANCEL
+test_000497,என் கடைசி தொகுப்பு மற்றும்,ta,track_order,get_invoice,ORDER
+test_001631,"நான் ஒரு பிட் வாங்க வேண்டும், நீங்கள் எனக்கு உதவ முடியுமா?",ta,change_order,place_order,ORDER
+test_000760,मला माझा पास परत मिळवून देण्यास मदत कर,mr,recover_password,get_refund,ACCOUNT
+test_000469,கப்பல் சேர்க்கை சிக்கல்,ta,set_up_shipping_address,change_shipping_address,SHIPPING
+test_000187,பிரீமியம் கணக்குக்கு உதவி தேவை,ta,switch_account,delete_account,ACCOUNT
+test_002319,ನನ್ನ ಲೇಖನ ಯಾವಾಗ ಸರಿದೂಗಿಸಲಿದೆ ಎಂಬುದನ್ನು ತೋರಿಸು,kn,delivery_period,change_shipping_address,DELIVERY
+test_001098,நான் எங்கே விரைவாக பார்க்க முடியும் #37777 அழைப்பு?,ta,check_invoice,complaint,INVOICE
+test_000308,मैं मृतक के आरोपों के साथ जांच करना चाहते हैं,hi,check_cancellation_fee,delivery_period,CANCEL
+test_001845,{{खाता श्रेणी}} खाता,hi,edit_account,create_account,ACCOUNT
+test_001401,मला माझ्या डिलिव्हरी सहाय्यकाची वेळ बघायला हवी,mr,track_order,delivery_period,ORDER
+test_001411,{{நபர் பெயர்}} இலிருந்து பெட்டிங் பில்,ta,get_invoice,check_invoice,INVOICE
+test_000966,मुझे जांचने की जरूरत है जब मेरे आदेश आ जाएगा,hi,delivery_period,track_order,DELIVERY
+test_001732,मैं कुछ आदेश के आइटम को कम करने की कोशिश करते हैं,hi,change_order,place_order,ORDER
+test_000825,ಬಳಕೆದಾರ ರಚಿಸಲು ಸಹಾಯ,kn,registration_problems,create_account,ACCOUNT
+test_002170,ಈಗಿನ ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಲು ನನಗೆ ಸಹಾಯ ಮಾಡಿ,kn,track_refund,track_order,REFUND
+test_000594,ನಾನು ಹಲವಾರು ಉತ್ಪನ್ನಗಳನ್ನು ಖರೀದಿಸಲು ಸಹಾಯ ಅಗತ್ಯವಿದೆ,kn,place_order,change_order,ORDER
+test_002170,मुझे चालू स्थिति की जाँच करने में मदद करें,hi,track_refund,track_order,REFUND
+test_001981,ಪರಿಶೀಲನೆ ಬಿಟ್ಟು,kn,review,contact_customer_service,FEEDBACK
+test_001184,"मला माझा डिलिव्हरी पत्ता बदलला पाहिजे, मी ते कसे करू शकतो?",mr,change_shipping_address,set_up_shipping_address,SHIPPING
+test_001401,ನನ್ನ ಡೆಲಿವರಿ ಸಹಾಯಕನ ಆಹ್ವಾನವನ್ನು ನಾನು ನೋಡಬೇಕಾಗಿದೆ,kn,track_order,delivery_options,ORDER
+test_000477,मला नोंदणी करून त्याचा वापर नोंदवावा लागेल,mr,registration_problems,switch_account,ACCOUNT
+test_000236,मला मदतीची गरज आहे. माझ्या प्रॉडक्टसाठी मी जे काही पाठवलं ते पाठव.,mr,review,delivery_period,FEEDBACK
+test_001806,தீங்கு தீர்க்கும் முகவரி பற்றி மேலும் அறிய விரும்புகிறேன்,ta,change_shipping_address,delivery_period,SHIPPING
+test_001021,what do i need to do to dowjload my bill #00108,en,get_invoice,check_invoice,INVOICE
+test_001544,{{பதிவு எண்}} ஐ ஒழுங்குபடுத்த முடியுமா?,ta,cancel_order,change_order,ORDER
+test_002192,मैं डिलीवरी पते को कहां सुधार सकता हूँ,hi,change_shipping_address,set_up_shipping_address,SHIPPING
+test_001261,நான் ஒரு பொருளை $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$,ta,get_refund,place_order,REFUND

@@ -1,0 +1,89 @@
+================================================================================
+MULTILINGUAL CUSTOMER SUPPORT INTENT CLASSIFICATION
+FINAL PROJECT RESULTS REPORT
+================================================================================
+
+1. DATASET
+--------------------------------------------------------------------------------
+total_samples: 147461
+train_samples: 117926
+validation_samples: 14754
+test_samples: 14781
+languages: ['English', 'Hindi', 'Kannada', 'Marathi', 'Tamil', 'Telugu']
+num_languages: 6
+num_intents: 27
+num_categories: 11
+
+2. TRANSLATION QUALITY
+--------------------------------------------------------------------------------
+total_translated_samples_checked: 123175
+flagged_samples: 349
+flag_rate_percent: 0.28
+clean_samples: 122826
+languages: ['Hindi', 'Kannada', 'Marathi', 'Tamil', 'Telugu']
+intent_mismatches: 0
+category_mismatches: 0
+
+3. MODEL COMPARISON
+--------------------------------------------------------------------------------
+                                 model  test_accuracy  macro_f1  weighted_f1
+          TF-IDF + Logistic Regression         0.9224    0.9205       0.9224
+XLM-R Embeddings + Logistic Regression         0.9593    0.9570       0.9592
+                    BiLSTM + Attention         0.9801    0.9793       0.9802
+
+4. LANGUAGE PERFORMANCE
+--------------------------------------------------------------------------------
+language  samples  accuracy  macro_f1  weighted_f1
+ English     2471    0.9899    0.9888       0.9899
+   Hindi     2465    0.9797    0.9789       0.9798
+ Kannada     2460    0.9780    0.9773       0.9782
+ Marathi     2457    0.9723    0.9718       0.9724
+   Tamil     2459    0.9776    0.9762       0.9776
+  Telugu     2469    0.9830    0.9824       0.9830
+
+5. TRAINING CONFIGURATION
+--------------------------------------------------------------------------------
+model: BiLSTM + Attention
+epochs: 15
+embedding_dimension: 128
+hidden_dimension: 128
+lstm_layers: 2
+dropout: 0.3
+max_sequence_length: 32
+batch_size: 256
+optimizer: Adam
+learning_rate: 0.001
+best_epoch: 15
+best_validation_accuracy: 0.9814
+best_validation_macro_f1: 0.9808
+
+6. ERROR ANALYSIS
+--------------------------------------------------------------------------------
+test_samples: 14781
+correct_predictions: 14487
+incorrect_predictions: 294
+error_rate_percent: 1.989
+best_language: English
+best_language_accuracy: 0.9899
+lowest_language_accuracy: 0.9723
+lowest_language: Marathi
+highest_error_intent: cancel_order
+highest_error_intent_error_rate: 0.056856
+
+7. KEY FINDINGS
+--------------------------------------------------------------------------------
+1. The final dataset contains 147,461 multilingual samples across 6 languages.
+2. The dataset covers 27 customer-support intents grouped into 11 categories.
+3. The BiLSTM with Attention achieved the best overall performance.
+4. BiLSTM + Attention achieved 98.01% test accuracy and 97.93% Macro F1.
+5. The BiLSTM outperformed the TF-IDF baseline by 5.77 percentage points in accuracy.
+6. XLM-R embeddings achieved 95.93% test accuracy.
+7. English achieved the highest language-specific accuracy at 98.99%.
+8. Marathi achieved the lowest language-specific accuracy at 97.23%.
+9. Translation validation found zero intent mismatches and zero category mismatches.
+10. Translation quality filtering flagged 349 of 123,175 translated samples.
+11. Most remaining classification errors occurred between semantically similar customer-support intents.
+
+8. CONCLUSION
+--------------------------------------------------------------------------------
+The multilingual customer-support intent classification system demonstrates strong classification performance across English, Hindi, Kannada, Marathi, Tamil, and Telugu. Among the evaluated approaches, the BiLSTM with Attention produced the strongest results, achieving 98.01% test accuracy, 97.93% Macro F1, and 98.02% Weighted F1. The evaluation also shows strong performance across all six languages, with language-specific accuracy ranging from 97.23% to 98.99%. The remaining errors are concentrated primarily in semantically related intent classes such as invoice retrieval/checking, order modification/tracking, cancellation/order changes, and refund-related intents.

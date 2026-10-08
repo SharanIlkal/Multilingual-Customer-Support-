@@ -1,0 +1,741 @@
+﻿intent,length_group,language,english_text,translated_text
+check_invoice,short,hi,checkmy invoice #37777,मेरी चालान #37777 चेक करें
+check_invoice,short,hi,seeing bil #00108,बिल #00108 को देखना
+check_invoice,short,hi,show me bill #37777,मुझे बिल #37777 दिखाओ
+check_invoice,short,hi,see bill from {{Person Name}},{{व्यक्ति नाम}} से बिल देखें
+check_invoice,short,hi,ser the bill #85632,बिल #85632 पर
+check_invoice,medium,hi,I want help giving a quick look at invoice #85632,मैं # 85632 का एक त्वरित नज़र देने में मदद करना चाहता हूँ
+check_invoice,medium,hi,want assistance to take a quick look at the invoice #85632,#85632 पर एक त्वरित नज़र डालने के लिए सहायता चाहते हैं
+check_invoice,medium,hi,can uhelp me  looking for the bills from {{Person Name}},आप मुझे {{Person Name}} से बिल खोजने में मदद कर सकते हैं
+check_invoice,medium,hi,need hepl looking for my invoices from {{Person Name}},मुझे {{व्यक्ति का नाम}} से अपने चालानों की तलाश है।
+check_invoice,medium,hi,where to look for the damn bills from {{Person Name}},{{व्यक्ति का नाम}} से उन गंदगी बिलों को कहाँ ढूंढना है?
+check_invoice,long,hi,I do not know how to take a qauick look at my invoice #00108,मैं नहीं जानता कि कैसे एक qauick लेने के लिए मेरे चालान #00108 देखो
+check_invoice,long,hi,I do not know how to look for the invoice from {{Person Name}},मुझे नहीं पता कि {{व्यक्ति का नाम}} से चालान कैसे खोजें
+check_invoice,long,hi,I do not know what I need to do to look for bill #37777,मुझे नहीं पता कि बिल # 37777 को खोजने के लिए मुझे क्या करना चाहिए
+check_invoice,long,hi,I do not know what I have to do to check my bill #37777,मुझे नहीं पता कि मुझे अपना बिल #37777 चेक करने के लिए क्या करना है
+check_invoice,long,hi,what do i have to do to check my invoice from {{Person Name}},{{व्यक्ति का नाम}} से अपना चालान चेक करने के लिए मुझे क्या करना है?
+check_invoice,short,kn,checkmy invoice #37777,ನನ್ನ ಫ್ಯಾಕ್ಟ್ #37777 ಅನ್ನು ಪರಿಶೀಲಿಸಿ
+check_invoice,short,kn,seeing bil #00108,ಬಿಲ್ #00108 ಅನ್ನು ನೋಡುವ
+check_invoice,short,kn,show me bill #37777,ಬಿಲ್ #37777 ಅನ್ನು ತೋರಿಸು
+check_invoice,short,kn,see bill from {{Person Name}},{{ವ್ಯಕ್ತಿ ಹೆಸರು}} ನಿಂದ ಬಿಲ್ ನೋಡಿ
+check_invoice,short,kn,ser the bill #85632,ಬಿಲ್ #85632 ಅನ್ನು ಸೇರಿಸಿ
+check_invoice,medium,kn,I want help giving a quick look at invoice #85632,"ನನಗೆ ಸಹಾಯ ಬೇಕೆಂದರೆ, ಫ್ಯಾಕ್ಟ್ #85632 ಅನ್ನು ತ್ವರಿತವಾಗಿ ನೋಡೋಣ."
+check_invoice,medium,kn,want assistance to take a quick look at the invoice #85632,ಸಹಾಯ ಬೇಕಾದರೆ ತ್ವರಿತವಾಗಿ ಫ್ಯಾಕ್ಟ್ #85632 ಅನ್ನು ನೋಡೋಣ
+check_invoice,medium,kn,can uhelp me  looking for the bills from {{Person Name}},{{ಪರ್ಸನ್ ಹೆಸರು}} ನಿಂದ ಬಿಲ್ಗಳನ್ನು ಹುಡುಕಲು ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಹುದೇ?
+check_invoice,medium,kn,need hepl looking for my invoices from {{Person Name}},ನನ್ನ ಫ್ಯಾಕ್ಟ್ಸ್ ಹುಡುಕಲು ಅವರು ಅಗತ್ಯವಿದೆ
+check_invoice,medium,kn,where to look for the damn bills from {{Person Name}},ಅಲ್ಲಿ ಹುಡುಕಲು ಫಾರ್ ಅಶರೀರ ಬಿಲ್ಗಳು
+check_invoice,long,kn,I do not know how to take a qauick look at my invoice #00108,ನನ್ನ ಫ್ಯಾಕ್ಟ್ #00108 ಅನ್ನು ನೋಡೋಣ
+check_invoice,long,kn,I do not know how to look for the invoice from {{Person Name}},{{ಪರ್ಸನ್ ಹೆಸರು}} ನಿಂದ ಫ್ಯಾಕ್ಟ್ ಅನ್ನು ಹೇಗೆ ಹುಡುಕಬೇಕು ಎಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ.
+check_invoice,long,kn,I do not know what I need to do to look for bill #37777,ಬಿಲ್ # 37777 ಅನ್ನು ಹುಡುಕಲು ನಾನು ಏನು ಮಾಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ
+check_invoice,long,kn,I do not know what I have to do to check my bill #37777,ನನ್ನ ಬಿಲ್ #37777 ಅನ್ನು ಪರಿಶೀಲಿಸಲು ನಾನು ಏನು ಮಾಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ
+check_invoice,long,kn,what do i have to do to check my invoice from {{Person Name}},ನನ್ನ ಫ್ಯಾಕ್ಟ್ ಅನ್ನು ಪರಿಶೀಲಿಸಲು ನಾನು ಏನು ಮಾಡಬೇಕು?
+check_invoice,short,mr,checkmy invoice #37777,माझी फॅक्टरी चेक करा #37777
+check_invoice,short,mr,seeing bil #00108,बिल #00108 पाहणे
+check_invoice,short,mr,show me bill #37777,मला बिल #37777 दाखवा
+check_invoice,short,mr,see bill from {{Person Name}},{{व्यक्ती नाव}} पासून बिल पहा
+check_invoice,short,mr,ser the bill #85632,बिल #85632 चे उत्तर द्या
+check_invoice,medium,mr,I want help giving a quick look at invoice #85632,मला मदत हवी आहे. मी एका झटपट चौकशीसाठी नंबर 85632 वरून माहिती मागितली आहे.
+check_invoice,medium,mr,want assistance to take a quick look at the invoice #85632,तुम्हाला मदत हवी आहे.
+check_invoice,medium,mr,can uhelp me  looking for the bills from {{Person Name}},तुम्ही मला {{पार्सनल नाव}} वरून बिल शोधण्यात मदत करू शकता.
+check_invoice,medium,mr,need hepl looking for my invoices from {{Person Name}},मला माझ्या खात्याची माहिती हवी आहे.
+check_invoice,medium,mr,where to look for the damn bills from {{Person Name}},कुठे शोधायचे ते?
+check_invoice,long,mr,I do not know how to take a qauick look at my invoice #00108,मला माहित नाही की मला कसे घ्यावे. माझ्या खात्याकडे पहा #00108
+check_invoice,long,mr,I do not know how to look for the invoice from {{Person Name}},मला माहित नाही की {{ व्यक्तीचे नाव}} वरून कसे शोधायचे.
+check_invoice,long,mr,I do not know what I need to do to look for bill #37777,मला माहित नाही मला काय करावे लागेल बिल # 37777 शोधण्यासाठी
+check_invoice,long,mr,I do not know what I have to do to check my bill #37777,मला माहित नाही मला काय करावे लागेल माझा बिल #37777 तपासण्यासाठी
+check_invoice,long,mr,what do i have to do to check my invoice from {{Person Name}},{{व्यक्तीचे नाव}} वरून माझी faktura तपासण्यासाठी मला काय करावे लागेल
+check_invoice,short,ta,checkmy invoice #37777,என் விலைப்பட்டியல் #37777 ஐ சரிபார்க்கவும்
+check_invoice,short,ta,seeing bil #00108,பில் #00108 ஐப் பார்க்க
+check_invoice,short,ta,show me bill #37777,எனக்கு பில் #37777 காட்டு
+check_invoice,short,ta,see bill from {{Person Name}},பில் ஐப் பார்க்கவும்
+check_invoice,short,ta,ser the bill #85632,எண் #85632 என்ற மசோதாவை சேர்
+check_invoice,medium,ta,I want help giving a quick look at invoice #85632,நான் உதவி வேண்டும் ஒரு விரைவான பார்வை செய்ய வேண்டும் # 85632 கட்டணம்
+check_invoice,medium,ta,want assistance to take a quick look at the invoice #85632,#85632 என்ற விலைப்பட்டியலை விரைவாகப் பார்க்க உதவுங்கள்
+check_invoice,medium,ta,can uhelp me  looking for the bills from {{Person Name}},நீங்கள் எனக்கு உதவ முடியும் பில்கள் தேடல் இருந்து {{நபர் பெயர்}}
+check_invoice,medium,ta,need hepl looking for my invoices from {{Person Name}},என் விலைப்பட்டியல் தேடல் தேவை
+check_invoice,medium,ta,where to look for the damn bills from {{Person Name}},எங்கே பார்க்க வேண்டும் என்று அந்த பழுத்த பில்கள் இருந்து
+check_invoice,long,ta,I do not know how to take a qauick look at my invoice #00108,நான் எப்படி ஒரு qauick எடுக்க தெரியாது என் விலைப்பட்டியல் #00108 பாருங்கள்
+check_invoice,long,ta,I do not know how to look for the invoice from {{Person Name}},நான் எப்படி கணக்கு தேட வேண்டும் என்று தெரியாது
+check_invoice,long,ta,I do not know what I need to do to look for bill #37777,நான் என்ன செய்ய வேண்டும் என்று தெரியாது பில் # 37777 தேட
+check_invoice,long,ta,I do not know what I have to do to check my bill #37777,நான் என்ன செய்ய வேண்டும் என்று எனக்கு தெரியாது என் பில் # 37777 சரிபார்க்க
+check_invoice,long,ta,what do i have to do to check my invoice from {{Person Name}},எனது விலைப்பட்டியலை சரிபார்க்க நான் என்ன செய்ய வேண்டும்?
+check_invoice,short,te,checkmy invoice #37777,నా బిల్లును తనిఖీ చేయండి #37777
+check_invoice,short,te,seeing bil #00108,బిల్ #00108 ను చూస్తూ
+check_invoice,short,te,show me bill #37777,బిల్ #37777 ను చూపించు
+check_invoice,short,te,see bill from {{Person Name}},చూడండి బిల్లు నుండి {{వ్యక్తి పేరు}}
+check_invoice,short,te,ser the bill #85632,బిల్లు #85632 ను సర్
+check_invoice,medium,te,I want help giving a quick look at invoice #85632,నేను సహాయం కావాలి ఫాక్టు # 85632 లో శీఘ్ర వీక్షణ ఇవ్వడం
+check_invoice,medium,te,want assistance to take a quick look at the invoice #85632,#85632 వన్ ఫాక్స్ లోకి త్వరగా చూడటానికి సహాయం కావాలి
+check_invoice,medium,te,can uhelp me  looking for the bills from {{Person Name}},మీరు నాకు సహాయం చేయవచ్చు బిల్లులు శోధించడం నుండి {{వ్యక్తి పేరు}}
+check_invoice,medium,te,need hepl looking for my invoices from {{Person Name}},నా ఇన్పుట్లను వెతుకుతూ వుండాలి.
+check_invoice,medium,te,where to look for the damn bills from {{Person Name}},ఎక్కడ నుండి ఆ చెడ్డ బిల్లులు కోసం చూడండి
+check_invoice,long,te,I do not know how to take a qauick look at my invoice #00108,నేను ఎలా ఒక qauick తీసుకోవాలని తెలియదు నా బిల్లు # 00108 చూడండి
+check_invoice,long,te,I do not know how to look for the invoice from {{Person Name}},నేను ఎలా ఇన్వాయిస్ కోసం చూడండి తెలియదు
+check_invoice,long,te,I do not know what I need to do to look for bill #37777,బిల్లు #37777 కోసం నేను ఏమి చేయాలో నాకు తెలియదు
+check_invoice,long,te,I do not know what I have to do to check my bill #37777,నా బిల్లు #37777 ను తనిఖీ చేయడానికి నేను ఏమి చేయాలో నాకు తెలియదు
+check_invoice,long,te,what do i have to do to check my invoice from {{Person Name}},నా బిల్లును తనిఖీ చేయడానికి నేను ఏమి చేయాలి?
+get_invoice,short,hi,semd me bill #00108,मुझे बिल #00108
+get_invoice,short,hi,get ibll #00108,#00108 प्राप्त करें
+get_invoice,short,hi,get invoices from last purchase,अंतिम खरीद से चालान प्राप्त करें
+get_invoice,short,hi,mail me bill #12588,मुझे मेल बिल #12588
+get_invoice,short,hi,get invoice #85632,#85632 का बिल प्राप्त करें
+get_invoice,medium,hi,i do not know how to download my bill #00108,मुझे नहीं पता कि अपना बिल #00108 कैसे डाउनलोड करें
+get_invoice,medium,hi,I call to download my bill from {{Person Name}},मैं अपना बिल डाउनलोड करने के लिए कॉल करता हूँ
+get_invoice,medium,hi,getting invoices from eight months ago,आठ महीने पहले से चालान प्राप्त करना
+get_invoice,medium,hi,"I have got to get my bill #37777, I need assistance","मुझे अपना बिल #37777 प्राप्त करना है, मुझे सहायता की आवश्यकता है"
+get_invoice,medium,hi,is it possible to get my invoice from {{Person Name}},क्या यह संभव है कि मैं {{व्यक्ति नाम}} से अपना चालान प्राप्त करूं?
+get_invoice,long,hi,i do not know what i have to do to download invoice #12588,मुझे नहीं पता कि मुझे बिल #12588 डाउनलोड करने के लिए क्या करना है
+get_invoice,long,hi,I don't know what I have to do to get the bill #85632,मुझे नहीं पता कि बिल #85632 प्राप्त करने के लिए मुझे क्या करना है
+get_invoice,long,hi,"I have got to download the bill #12588, how do I do it?","मुझे बिल #12588 डाउनलोड करना है, मैं इसे कैसे करूँ?"
+get_invoice,long,hi,what do I need to do to download my bill from {{Person Name}}?,{{व्यक्ति नाम}} से अपना बिल डाउनलोड करने के लिए मुझे क्या करना होगा?
+get_invoice,long,hi,I do not know what I have to do to download the bill #12588,मुझे नहीं पता कि बिल #12588 डाउनलोड करने के लिए मुझे क्या करना है
+get_invoice,short,kn,semd me bill #00108,ನನಗೆ ಬಿಲ್ #00108 ಅನ್ನು ಹೇಳಿ
+get_invoice,short,kn,get ibll #00108,#00108 ಅನ್ನು ಪಡೆಯಿರಿ
+get_invoice,short,kn,get invoices from last purchase,ಕೊನೆಯ ಖರೀದಿಯಿಂದ ಇನ್ವಾಯ್ಸ್ ಪಡೆಯಿರಿ
+get_invoice,short,kn,mail me bill #12588,ನನಗೆ ಬಿಲ್ #12588 ಅನ್ನು ಮೇಲ್ ಮಾಡಿ
+get_invoice,short,kn,get invoice #85632,#85632 ರ ಫ್ಯಾಕ್ಟ್ ಪಡೆಯಿರಿ
+get_invoice,medium,kn,i do not know how to download my bill #00108,ನನ್ನ ಬಿಲ್ #00108 ಅನ್ನು ಹೇಗೆ ಡೌನ್ಲೋಡ್ ಮಾಡುವುದು ಎಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ
+get_invoice,medium,kn,I call to download my bill from {{Person Name}},ನನ್ನ ಬಿಲ್ ಅನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಲು ನಾನು ಕರೆ ಮಾಡುತ್ತೇನೆ
+get_invoice,medium,kn,getting invoices from eight months ago,ಎಂಟು ತಿಂಗಳ ಹಿಂದೆ ಮಾಡಿದ ಚಾರ್ಜ್ಗಳನ್ನು ಪಡೆಯುವುದು
+get_invoice,medium,kn,"I have got to get my bill #37777, I need assistance","ನನ್ನ ಬಿಲ್ #37777 ಅನ್ನು ನಾನು ಪಡೆಯಬೇಕಾಗಿದೆ, ನನಗೆ ಸಹಾಯ ಬೇಕು"
+get_invoice,medium,kn,is it possible to get my invoice from {{Person Name}},ನನ್ನ ಫ್ಯಾಕ್ಟ್ ಅನ್ನು {{ಪರ್ಸನ್ ಹೆಸರು}} ನಿಂದ ಪಡೆಯುವುದು ಸಾಧ್ಯವೇ?
+get_invoice,long,kn,i do not know what i have to do to download invoice #12588,ನಾನು ಏನು ಮಾಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ ಫ್ಯಾಕ್ಟ್ #12588 ಅನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಲು
+get_invoice,long,kn,I don't know what I have to do to get the bill #85632,ನನಗೆ ಗೊತ್ತಿಲ್ಲ. ನಾನು ಏನು ಮಾಡಬೇಕು.
+get_invoice,long,kn,"I have got to download the bill #12588, how do I do it?","ನಾನು ಬಿಲ್ #12588, ಹೇಗೆ ನಾನು ಅದನ್ನು ಮಾಡಬೇಕು ಡೌನ್ಲೋಡ್ ಮಾಡಬೇಕು?"
+get_invoice,long,kn,what do I need to do to download my bill from {{Person Name}}?,{{ಪಕ್ಷದ ಹೆಸರು}} ನಿಂದ ನನ್ನ ಬಿಲ್ ಅನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಲು ನಾನು ಏನು ಮಾಡಬೇಕು?
+get_invoice,long,kn,I do not know what I have to do to download the bill #12588,ನನಗೆ ಗೊತ್ತಿಲ್ಲ. ನಾನು ಏನು ಮಾಡಬೇಕು?
+get_invoice,short,mr,semd me bill #00108,मला बिल #00108 पाठवा
+get_invoice,short,mr,get ibll #00108,# 00108 मिळवा
+get_invoice,short,mr,get invoices from last purchase,गेल्या खरेदीच्या खात्याची माहिती मिळवा
+get_invoice,short,mr,mail me bill #12588,मला मेल करा बिल #12588
+get_invoice,short,mr,get invoice #85632,#85632 ची फाईल मिळवा
+get_invoice,medium,mr,i do not know how to download my bill #00108,मला माझा बिल #00108 कसा डाउनलोड करायचा हे माहित नाही
+get_invoice,medium,mr,I call to download my bill from {{Person Name}},मी माझ्या बिलला डाउनलोड करण्यासाठी कॉल करतो.
+get_invoice,medium,mr,getting invoices from eight months ago,आठ महिन्यांपूर्वीची फॅक्टरी मिळवत आहे
+get_invoice,medium,mr,"I have got to get my bill #37777, I need assistance","मला माझा बिल #37777 मिळवायचा आहे, मला मदतीची गरज आहे."
+get_invoice,medium,mr,is it possible to get my invoice from {{Person Name}},{{व्यक्ती नाव}} वरून माझा क्रमांक मिळणे शक्य आहे का?
+get_invoice,long,mr,i do not know what i have to do to download invoice #12588,मला माहित नाही मी काय करावे लागेल काच डाउनलोड करण्यासाठी #12588
+get_invoice,long,mr,I don't know what I have to do to get the bill #85632,मला माहित नाही मला काय करावे लागेल बिल #85632 मिळविण्यासाठी
+get_invoice,long,mr,"I have got to download the bill #12588, how do I do it?","मला बिल #12588, कसे करावे ते डाउनलोड करावे लागेल?"
+get_invoice,long,mr,what do I need to do to download my bill from {{Person Name}}?,{{व्यक्ती नाव}} वरून माझा बिल डाउनलोड करण्यासाठी मला काय करावे लागेल?
+get_invoice,long,mr,I do not know what I have to do to download the bill #12588,मला माहित नाही काय करावे लागेल बिल #12588 डाउनलोड करण्यासाठी
+get_invoice,short,ta,semd me bill #00108,எனக்கு பில் #00108
+get_invoice,short,ta,get ibll #00108,#00108 ஐப் பெறுங்கள்
+get_invoice,short,ta,get invoices from last purchase,கடைசி கொள்முதல் மூலம் கட்டணங்களை பெறுங்கள்
+get_invoice,short,ta,mail me bill #12588,எனக்கு மின்னஞ்சல் பில் #12588
+get_invoice,short,ta,get invoice #85632,#85632 என்ற புள்ளிவிவரத்தை பெறுங்கள்
+get_invoice,medium,ta,i do not know how to download my bill #00108,எனது மசோதா #00108ஐ எவ்வாறு பதிவிறக்குவது என்று எனக்குத் தெரியவில்லை
+get_invoice,medium,ta,I call to download my bill from {{Person Name}},எனது பில் பதிவிறக்கம் செய்ய அழைக்கிறேன்
+get_invoice,medium,ta,getting invoices from eight months ago,எட்டு மாதங்களுக்கு முன்னர் இருந்து விலைப்பட்டியல் பெறுதல்
+get_invoice,medium,ta,"I have got to get my bill #37777, I need assistance","நான் என் மசோதா #37777 பெற வேண்டும், நான் உதவி தேவை"
+get_invoice,medium,ta,is it possible to get my invoice from {{Person Name}},எனது விலைப்பட்டியலை {{நபர் பெயர்}} இலிருந்து பெற முடியுமா?
+get_invoice,long,ta,i do not know what i have to do to download invoice #12588,நான் என்ன செய்ய வேண்டும் என்று எனக்கு தெரியாது நான் விலைப்பட்டியல் பதிவிறக்க #12588
+get_invoice,long,ta,I don't know what I have to do to get the bill #85632,நான் என்ன செய்ய வேண்டும் என்று எனக்கு தெரியாது #85632 மசோதா பெற
+get_invoice,long,ta,"I have got to download the bill #12588, how do I do it?","நான் #12588 என்ற மசோதாவை பதிவிறக்கம் செய்ய வேண்டும், அதை எப்படி செய்வது?"
+get_invoice,long,ta,what do I need to do to download my bill from {{Person Name}}?,எனது பில்லை {{Person Name}} இலிருந்து பதிவிறக்கம் செய்ய நான் என்ன செய்ய வேண்டும்?
+get_invoice,long,ta,I do not know what I have to do to download the bill #12588,#12588 என்ற மசோதாவை பதிவிறக்கம் செய்ய எனக்கு என்ன செய்ய வேண்டும் என்று தெரியவில்லை
+get_invoice,short,te,semd me bill #00108,నాకు బిల్లు #00108 పంపండి
+get_invoice,short,te,get ibll #00108,#00108 ను పొందండి
+get_invoice,short,te,get invoices from last purchase,చివరి కొనుగోలు నుండి ఇన్వాయిస్లను పొందండి
+get_invoice,short,te,mail me bill #12588,నాకు మెయిల్ బిల్లు #12588
+get_invoice,short,te,get invoice #85632,#85632 వన్ ఫాక్టు పొందండి
+get_invoice,medium,te,i do not know how to download my bill #00108,నా బిల్లు #00108 ను ఎలా డౌన్లోడ్ చేయాలో నాకు తెలియదు
+get_invoice,medium,te,I call to download my bill from {{Person Name}},నా బిల్లును డౌన్లోడ్ చేసుకోవడానికి నేను కాల్ చేస్తున్నాను
+get_invoice,medium,te,getting invoices from eight months ago,ఎనిమిది నెలల క్రితం నుండి ఇన్వాయిస్లు పొందడం
+get_invoice,medium,te,"I have got to get my bill #37777, I need assistance","నేను నా బిల్లు # 37777 పొందాలి, నేను సహాయం అవసరం"
+get_invoice,medium,te,is it possible to get my invoice from {{Person Name}},నా బిల్లును {{వ్యక్తి పేరు}} నుండి పొందడం సాధ్యమేనా?
+get_invoice,long,te,i do not know what i have to do to download invoice #12588,నేను ఫాక్స్ డౌన్లోడ్ చేయడానికి ఏమి చేయాలో నాకు తెలియదు #12588
+get_invoice,long,te,I don't know what I have to do to get the bill #85632,నేను బిల్లు #85632 పొందడానికి ఏమి చేయాలో తెలియదు
+get_invoice,long,te,"I have got to download the bill #12588, how do I do it?","నేను బిల్లు #12588, ఎలా నేను దీన్ని చెయ్యాలి డౌన్లోడ్ చేయాలి?"
+get_invoice,long,te,what do I need to do to download my bill from {{Person Name}}?,నా బిల్లును {{వ్యక్తి పేరు}} నుండి డౌన్లోడ్ చేసుకోవడానికి నేను ఏమి చేయాలి?
+get_invoice,long,te,I do not know what I have to do to download the bill #12588,బిల్లు #12588 ను డౌన్లోడ్ చేసుకోవడానికి నేను ఏమి చేయాలో నాకు తెలియదు
+track_order,short,hi,lcate order {{Order Number}},क्रम क्रम संख्या
+track_order,short,hi,locate order {{Order Number}},स्थान क्रम {{क्रम संख्या}}
+track_order,short,hi,where is order {{Order Number}}?,आदेश संख्या कहाँ है?
+track_order,short,hi,tracking order {{Order Number}},ट्रैकिंग क्रम {{ऑर्डर नंबर}}
+track_order,short,hi,assiustance tracking purchase {{Order Number}},सहायता ट्रैकिंग खरीद {{ऑर्डर नंबर}}
+track_order,medium,hi,how can i see order {{Order Number}} status,मैं आदेश {{क्रम संख्या}} की स्थिति कैसे देख सकता हूँ
+track_order,medium,hi,i want asistance to check the damn ETA of order {{Order Number}},मैं आदेश के कमबख्त ETA की जांच करने के लिए सहायता चाहते हैं
+track_order,medium,hi,i want help checking order {{Order Number}} current status,मैं आदेश की जाँच करने में मदद करना चाहते हैं {{ आदेश संख्या}} वर्तमान स्थिति
+track_order,medium,hi,show me purchase {{Order Number}} status,मुझे {{ऑर्डर नंबर}} खरीद की स्थिति दिखाएँ
+track_order,medium,hi,I am trying to check purchase {{Order Number}} current status,मैं वर्तमान स्थिति की जांच करने की कोशिश कर रहा हूँ
+track_order,long,hi,i have got to locate order {{Order Number}} how can i do it,मुझे आदेश का पता लगाना है मैं इसे कैसे कर सकता हूँ
+track_order,long,hi,i have to see the status of order {{Order Number}} can ya helo me,मुझे आदेश की स्थिति देखना है
+track_order,long,hi,"I have to see the ETA of the order {{Order Number}}, how to do it?","मुझे आदेश {{ऑर्डर नंबर}} का ETA देखना है, इसे कैसे करना है?"
+track_order,long,hi,I do not know how to see the status of purchase {{Order Number}},मुझे नहीं पता कि खरीदारी की स्थिति कैसे देखें
+track_order,long,hi,i do not know what to do to see the ETA of order {{Order Number}},मुझे नहीं पता कि आदेश के ETA को देखने के लिए क्या करना है
+track_order,short,kn,lcate order {{Order Number}},ಐಕ್ಲೇಟ್ ಆರ್ಡರ್
+track_order,short,kn,locate order {{Order Number}},ಸ್ಥಳ ಕ್ರಮ {{ಆದೇಶ ಸಂಖ್ಯೆ}}
+track_order,short,kn,where is order {{Order Number}}?,ಆದೇಶ ಸಂಖ್ಯೆ ಎಲ್ಲಿ?
+track_order,short,kn,tracking order {{Order Number}},ಟ್ರ್ಯಾಕಿಂಗ್ ಆದೇಶ {{ಆದೇಶ ಸಂಖ್ಯೆ}}
+track_order,short,kn,assiustance tracking purchase {{Order Number}},ಸಹಾಯಕ ಟ್ರ್ಯಾಕಿಂಗ್ ಖರೀದಿ {{ಆದೇಶ ಸಂಖ್ಯೆ}}
+track_order,medium,kn,how can i see order {{Order Number}} status,ನಾನು ಹೇಗೆ ಆದೇಶವನ್ನು ನೋಡಬಹುದು {{ಆದೇಶ ಸಂಖ್ಯೆ}} ಸ್ಥಿತಿ
+track_order,medium,kn,i want asistance to check the damn ETA of order {{Order Number}},ಆದೇಶದ ಆಹ್ವಾನವನ್ನು ಪರಿಶೀಲಿಸಲು ಸಹಾಯಕನನ್ನು ನಾನು ಬಯಸುತ್ತೇನೆ
+track_order,medium,kn,i want help checking order {{Order Number}} current status,ನಾನು ಆದೇಶವನ್ನು ಪರಿಶೀಲಿಸಲು ಸಹಾಯ ಬಯಸುವ {{ಆದೇಶ ಸಂಖ್ಯೆ}} ಪ್ರಸ್ತುತ ಸ್ಥಿತಿ
+track_order,medium,kn,show me purchase {{Order Number}} status,ನನಗೆ {{ಆದೇಶ ಸಂಖ್ಯೆ}} ಖರೀದಿಸಲು ತೋರಿಸು
+track_order,medium,kn,I am trying to check purchase {{Order Number}} current status,ನಾನು ಖರೀದಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದೇನೆ {{ಆದೇಶ ಸಂಖ್ಯೆ}} ಪ್ರಸ್ತುತ ಸ್ಥಿತಿ
+track_order,long,kn,i have got to locate order {{Order Number}} how can i do it,ನಾನು ಆದೇಶವನ್ನು ಹುಡುಕಲು ಹೊಂದಿವೆ ಹೇಗೆ ನಾನು ಅದನ್ನು ಮಾಡಬಹುದು
+track_order,long,kn,i have to see the status of order {{Order Number}} can ya helo me,ನಾನು ಆದೇಶದ ಸ್ಥಿತಿಯನ್ನು ನೋಡಬೇಕಾಗಿದೆ ನೀವು ನನಗೆ ಕರೆ ಮಾಡಬಹುದು
+track_order,long,kn,"I have to see the ETA of the order {{Order Number}}, how to do it?","ನಾನು ಆದೇಶದ ETA ಅನ್ನು ನೋಡಬೇಕಾಗಿದೆ {{ಆದೇಶ ಸಂಖ್ಯೆ}}, ಅದನ್ನು ಹೇಗೆ ಮಾಡುವುದು?"
+track_order,long,kn,I do not know how to see the status of purchase {{Order Number}},ನಾನು ಹೇಗೆ ಖರೀದಿಯ ಸ್ಥಿತಿಯನ್ನು ನೋಡಲು ಗೊತ್ತಿಲ್ಲ
+track_order,long,kn,i do not know what to do to see the ETA of order {{Order Number}},ನಾನು ಆದೇಶದ ETA ನೋಡಲು ಏನು ಗೊತ್ತಿಲ್ಲ
+track_order,short,mr,lcate order {{Order Number}},क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक क्रमांक
+track_order,short,mr,locate order {{Order Number}},क्रम क्रमांक {{क्रम क्रमांक}}
+track_order,short,mr,where is order {{Order Number}}?,ऑर्डर क्रमांक कुठे आहे?
+track_order,short,mr,tracking order {{Order Number}},ट्रॅकिंग ऑर्डर {{ऑर्डर क्रमांक}}
+track_order,short,mr,assiustance tracking purchase {{Order Number}},सहाय्यक ट्रॅकिंग खरेदी {{ऑर्डर क्रमांक}}
+track_order,medium,mr,how can i see order {{Order Number}} status,मी ऑर्डर {{ऑर्डर क्रमांक}} स्थिती कशी पाहू शकतो?
+track_order,medium,mr,i want asistance to check the damn ETA of order {{Order Number}},"मला मदत हवी आहे, ऑर्डरची तारीख तपासण्यासाठी."
+track_order,medium,mr,i want help checking order {{Order Number}} current status,मला ऑर्डर क्रमांक तपासाची मदत हवी आहे
+track_order,medium,mr,show me purchase {{Order Number}} status,मला {{ऑर्डर क्रमांक}} खरेदी स्थिती दाखवा
+track_order,medium,mr,I am trying to check purchase {{Order Number}} current status,मी सध्याच्या स्थितीची तपासणी करण्याचा प्रयत्न करत आहे
+track_order,long,mr,i have got to locate order {{Order Number}} how can i do it,मला ऑर्डर क्रमांक शोधायचा आहे. मी ते कसे करू शकतो?
+track_order,long,mr,i have to see the status of order {{Order Number}} can ya helo me,मला ऑर्डरची स्थिती पहावी लागेल.
+track_order,long,mr,"I have to see the ETA of the order {{Order Number}}, how to do it?","मला ऑर्डरची ETA बघायला हवी, कशी करावी?"
+track_order,long,mr,I do not know how to see the status of purchase {{Order Number}},मला खरेदीची स्थिती कशी कळावी हे माहित नाही.
+track_order,long,mr,i do not know what to do to see the ETA of order {{Order Number}},मला माहित नाही की ऑर्डरची ETA कशी पहावी
+track_order,short,ta,lcate order {{Order Number}},வரிசை எண்
+track_order,short,ta,locate order {{Order Number}},அமைக்க வரிசை {{Order Number}}
+track_order,short,ta,where is order {{Order Number}}?,எங்கே வரிசை எண்?
+track_order,short,ta,tracking order {{Order Number}},கண்காணிப்பு வரிசை {{பதிவு எண்}}
+track_order,short,ta,assiustance tracking purchase {{Order Number}},உதவி கண்காணிப்பு கொள்முதல் {{பதிவு எண்}}
+track_order,medium,ta,how can i see order {{Order Number}} status,எப்படி நான் வரிசை {{பதிவு எண்}} நிலையை பார்க்க முடியும்
+track_order,medium,ta,i want asistance to check the damn ETA of order {{Order Number}},"நான் உதவ வேண்டும், ஆர்டர் எண்"
+track_order,medium,ta,i want help checking order {{Order Number}} current status,நான் ஆர்டர் சரிபார்க்க உதவ வேண்டும் தற்போதைய நிலை
+track_order,medium,ta,show me purchase {{Order Number}} status,எனக்கு {{பதிவு எண்}} நிலையை காட்டு
+track_order,medium,ta,I am trying to check purchase {{Order Number}} current status,நான் தற்போதைய நிலையை சரிபார்க்க முயற்சிக்கிறேன்
+track_order,long,ta,i have got to locate order {{Order Number}} how can i do it,நான் வரிசை கண்டுபிடிக்க வேண்டும் எப்படி நான் அதை செய்ய முடியும்
+track_order,long,ta,i have to see the status of order {{Order Number}} can ya helo me,நான் ஆர்டர் நிலை பார்க்க வேண்டும் நீங்கள் என்னை அழைக்க முடியுமா
+track_order,long,ta,"I have to see the ETA of the order {{Order Number}}, how to do it?","நான் ஆர்டர் எண் ETA பார்க்க வேண்டும், எப்படி அதை செய்ய?"
+track_order,long,ta,I do not know how to see the status of purchase {{Order Number}},நான் எப்படி கொள்முதல் நிலையை பார்க்க தெரியாது
+track_order,long,ta,i do not know what to do to see the ETA of order {{Order Number}},நான் என்ன செய்ய வேண்டும் என்று தெரியாது வரிசை ETA பார்க்க
+track_order,short,te,lcate order {{Order Number}},ఆర్డర్ సంఖ్య
+track_order,short,te,locate order {{Order Number}},స్థానాన్ని కనుగొనండి
+track_order,short,te,where is order {{Order Number}}?,ఆర్డర్ నెంబర్ ఎక్కడ ఉంది?
+track_order,short,te,tracking order {{Order Number}},ట్రాకింగ్ ఆర్డర్ {{ఆర్డర్ నంబర్}}
+track_order,short,te,assiustance tracking purchase {{Order Number}},సహాయక ట్రాకింగ్ కొనుగోలు {{ఆర్డర్ నంబర్}}
+track_order,medium,te,how can i see order {{Order Number}} status,నేను ఎలా ఆర్డర్ {{ఆర్డర్ నంబర్}} స్థితి చూడగలరు
+track_order,medium,te,i want asistance to check the damn ETA of order {{Order Number}},నేను ఆర్డర్ యొక్క ఆరాధన తనిఖీ సహాయం కావాలి
+track_order,medium,te,i want help checking order {{Order Number}} current status,నేను ఆర్డర్ తనిఖీ సహాయం కావాలి ఆర్డర్ సంఖ్య {{ఆర్డర్ సంఖ్య}} ప్రస్తుత స్థితి
+track_order,medium,te,show me purchase {{Order Number}} status,నాకు చూపించు కొనుగోలు {{ఆర్డర్ నంబర్}} స్థితి
+track_order,medium,te,I am trying to check purchase {{Order Number}} current status,నేను కొనుగోలు {{ఆర్డర్ నంబర్}} ప్రస్తుత స్థితి తనిఖీ ప్రయత్నిస్తున్నాను
+track_order,long,te,i have got to locate order {{Order Number}} how can i do it,నేను ఆర్డర్ సంఖ్య కనుగొనేందుకు కలిగి ఎలా నేను దీన్ని చెయ్యవచ్చు
+track_order,long,te,i have to see the status of order {{Order Number}} can ya helo me,నేను ఆర్డర్ యొక్క స్థితి చూడటానికి కలిగి {{ఆర్డర్ సంఖ్య}} మీరు నాకు కాల్ చేయవచ్చు
+track_order,long,te,"I have to see the ETA of the order {{Order Number}}, how to do it?","నేను ఆర్డర్ యొక్క ETA చూడాలి, ఎలా దీన్ని?"
+track_order,long,te,I do not know how to see the status of purchase {{Order Number}},నేను కొనుగోలు స్థితి చూడటానికి ఎలా తెలియదు
+track_order,long,te,i do not know what to do to see the ETA of order {{Order Number}},నేను ఆర్డర్ యొక్క ETA చూడటానికి ఏమి తెలియదు
+track_refund,short,hi,I can't track my reimbursement,मैं अपने धनवापसी का पता नहीं लगा सकता
+track_refund,short,hi,show me my restitution status,मुझे मेरी वापसी की स्थिति दिखाओ
+track_refund,short,hi,check my refund status,मेरी वापसी की स्थिति की जांच करें
+track_refund,short,hi,where to track the reimbursement,धनवापसी को कहां ट्रैक करना है
+track_refund,short,hi,see my restitution current status,मेरी प्रतिपूर्ति की वर्तमान स्थिति देखें
+track_refund,medium,hi,where do I see my rebate status?,मैं अपनी छूट की स्थिति कहाँ देख सकता हूँ?
+track_refund,medium,hi,where to know if there is anything new on the rebate,कैसे पता करें कि छूट पर कुछ नया है या नहीं
+track_refund,medium,hi,I'm waiting for a rebateof {{Currency Symbol}}{{Refund Amount}},मैं {{मुद्रा प्रतीक}} {{रिफंड राशि}} की वापसी की प्रतीक्षा कर रहा हूँ
+track_refund,medium,hi,I need to check my goddamn restitution status,मुझे अपनी भाड़ में जाओ वापसी की स्थिति की जांच करने की जरूरत है
+track_refund,medium,hi,i need help to check the rebate current status,मुझे छूट की वर्तमान स्थिति की जांच करने के लिए मदद की जरूरत है
+track_refund,long,hi,can you help me to see if there are any news on my refund?,क्या आप मुझे यह देखने में मदद कर सकते हैं कि क्या मेरे रिफंड के बारे में कोई खबर है?
+track_refund,long,hi,I do not know how I can see the current status of my refund,मुझे नहीं पता कि मैं अपनी वापसी की वर्तमान स्थिति को कैसे देख सकता हूं
+track_refund,long,hi,I do not know how I can check the status of my rebate,मुझे नहीं पता कि मैं अपनी छूट की स्थिति की जांच कैसे कर सकता हूं
+track_refund,long,hi,"I need to see if there are any news on the refund, help me","मुझे यह देखने की जरूरत है कि क्या धनवापसी के बारे में कोई खबर है, मेरी मदद करें"
+track_refund,long,hi,i dont know what i have to do to see the rebate status,मुझे नहीं पता कि छूट की स्थिति देखने के लिए मुझे क्या करना है
+track_refund,short,kn,I can't track my reimbursement,ನನ್ನ ಮರುಪಾವತಿಯನ್ನು ನಾನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ
+track_refund,short,kn,show me my restitution status,ನನ್ನ ಮರುಪಾವತಿ ಸ್ಥಿತಿಯನ್ನು ನನಗೆ ತೋರಿಸು
+track_refund,short,kn,check my refund status,ನನ್ನ ಮರುಪಾವತಿ ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ
+track_refund,short,kn,where to track the reimbursement,ಮರುಪಾವತಿಯನ್ನು ಎಲ್ಲಿ ಪತ್ತೆಹಚ್ಚಬೇಕು
+track_refund,short,kn,see my restitution current status,ನನ್ನ ಮರುಪಾವತಿ ಪ್ರಸ್ತುತ ಸ್ಥಿತಿಯನ್ನು ನೋಡಿ
+track_refund,medium,kn,where do I see my rebate status?,ನನ್ನ ರಿಯಾಯಿತಿ ಸ್ಥಿತಿಯನ್ನು ನಾನು ಎಲ್ಲಿ ನೋಡಬಹುದು?
+track_refund,medium,kn,where to know if there is anything new on the rebate,ರಿಯಾಯಿತಿಯಲ್ಲಿ ಏನಾದರೂ ಹೊಸತೇನಾದರೂ ಇದ್ದರೆ ಅಲ್ಲಿಂದ ತಿಳಿಯುವುದು
+track_refund,medium,kn,I'm waiting for a rebateof {{Currency Symbol}}{{Refund Amount}},ನಾನು ಮರುಪಾವತಿ ಪ್ರಮಾಣವನ್ನು ನಿರೀಕ್ಷಿಸುತ್ತಿದ್ದೇನೆ.
+track_refund,medium,kn,I need to check my goddamn restitution status,ನನ್ನ ಭೀಕರ ಮರುಪಾವತಿ ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಬೇಕಾಗಿದೆ
+track_refund,medium,kn,i need help to check the rebate current status,ರಿಯಾಯಿತಿ ಪ್ರಸ್ತುತ ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಲು ನನಗೆ ಸಹಾಯ ಬೇಕು
+track_refund,long,kn,can you help me to see if there are any news on my refund?,ನನ್ನ ಮರುಪಾವತಿಯ ಬಗ್ಗೆ ಏನಾದರೂ ಸುದ್ದಿ ಇದೆಯೇ ಎಂದು ನೋಡಲು ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಹುದೇ?
+track_refund,long,kn,I do not know how I can see the current status of my refund,ನನ್ನ ಮರುಪಾವತಿಯ ಪ್ರಸ್ತುತ ಸ್ಥಿತಿಯನ್ನು ನಾನು ಹೇಗೆ ನೋಡಬಹುದು ಎಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ
+track_refund,long,kn,I do not know how I can check the status of my rebate,ನನ್ನ ರಿಯಾಯಿತಿಯ ಸ್ಥಿತಿಯನ್ನು ನಾನು ಹೇಗೆ ಪರಿಶೀಲಿಸಬಹುದು ಎಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ
+track_refund,long,kn,"I need to see if there are any news on the refund, help me","ನಾನು ಮರುಪಾವತಿ ಬಗ್ಗೆ ಯಾವುದೇ ಸುದ್ದಿ ಇದ್ದರೆ ನೋಡಲು ಅಗತ್ಯವಿದೆ, ನನಗೆ ಸಹಾಯ"
+track_refund,long,kn,i dont know what i have to do to see the rebate status,ನಾನು ರಿಯಾಯಿತಿ ಸ್ಥಿತಿಯನ್ನು ನೋಡಲು ಏನು ಮಾಡಬೇಕು ಗೊತ್ತಿಲ್ಲ
+track_refund,short,mr,I can't track my reimbursement,मी माझ्या भरपाईचा मागोवा घेऊ शकत नाही
+track_refund,short,mr,show me my restitution status,मला माझी पुनर्वसन स्थिती दाखवा
+track_refund,short,mr,check my refund status,माझी परतावा स्थिती तपासा
+track_refund,short,mr,where to track the reimbursement,परताव्याचा मागोवा कुठे घ्यावा
+track_refund,short,mr,see my restitution current status,माझी पुनर्वसन चालू स्थिती पहा
+track_refund,medium,mr,where do I see my rebate status?,मी माझ्या सूट स्थितीची माहिती कुठे मिळवू शकतो?
+track_refund,medium,mr,where to know if there is anything new on the rebate,सूटावर काही नवीन आहे का हे कुठे कळेल
+track_refund,medium,mr,I'm waiting for a rebateof {{Currency Symbol}}{{Refund Amount}},मी परताव्याची वाट पाहत आहे.
+track_refund,medium,mr,I need to check my goddamn restitution status,मला माझ्या पुनर्प्राप्तीची स्थिती तपासण्याची गरज आहे
+track_refund,medium,mr,i need help to check the rebate current status,मला सवलतीची सद्य स्थिती तपासण्यासाठी मदतीची गरज आहे
+track_refund,long,mr,can you help me to see if there are any news on my refund?,माझ्या परताव्याबाबत काही बातमी आहे का हे बघायला तुम्ही मला मदत करू शकता का?
+track_refund,long,mr,I do not know how I can see the current status of my refund,मला माहित नाही मी माझ्या परताव्याची सध्याची स्थिती कशी पाहू शकतो
+track_refund,long,mr,I do not know how I can check the status of my rebate,मला माहित नाही मी माझ्या सूटची स्थिती कशी तपासू शकतो
+track_refund,long,mr,"I need to see if there are any news on the refund, help me","मला पैसे परत करण्याबाबत काही बातमी आहे का ते बघायचं आहे, मला मदत करा."
+track_refund,long,mr,i dont know what i have to do to see the rebate status,मला माहित नाही मला रिबेट स्टेटस पाहण्यासाठी काय करावे लागेल
+track_refund,short,ta,I can't track my reimbursement,நான் என் திருப்பிச் செலுத்த கண்காணிக்க முடியாது
+track_refund,short,ta,show me my restitution status,எனக்கு என் திருப்பிச் செலுத்தும் நிலையை காட்டு
+track_refund,short,ta,check my refund status,எனது பணத்தைத் திருப்பிச் செலுத்தும் நிலையை சரிபார்க்கவும்
+track_refund,short,ta,where to track the reimbursement,திருப்பிச் செலுத்தப்படும் இடத்தை கண்காணிக்க
+track_refund,short,ta,see my restitution current status,எனது திருப்பிச் செலுத்துதல் நிலையை காண்க
+track_refund,medium,ta,where do I see my rebate status?,நான் எங்கே என் தள்ளுபடி நிலையை பார்க்க?
+track_refund,medium,ta,where to know if there is anything new on the rebate,தள்ளுபடியில் புதியதொன்றும் இருக்கிறதா என்பதை எங்கே அறிவது
+track_refund,medium,ta,I'm waiting for a rebateof {{Currency Symbol}}{{Refund Amount}},நான் ஒரு தள்ளுபடி காத்திருக்கிறேன்
+track_refund,medium,ta,I need to check my goddamn restitution status,நான் என் மறுசீரமைப்பு நிலைமை பார்க்க வேண்டும்
+track_refund,medium,ta,i need help to check the rebate current status,நான் தள்ளுபடி தற்போதைய நிலையை சரிபார்க்க உதவி தேவை
+track_refund,long,ta,can you help me to see if there are any news on my refund?,என் பணத்தை திருப்பிச் செலுத்துவது குறித்து ஏதாவது செய்திகள் இருக்கிறதா என்று பார்க்க எனக்கு உதவ முடியுமா?
+track_refund,long,ta,I do not know how I can see the current status of my refund,எனது பணத்தைத் திருப்பிச் செலுத்தும் நிலையை எப்படி பார்க்க முடியும் என்று எனக்குத் தெரியவில்லை
+track_refund,long,ta,I do not know how I can check the status of my rebate,என் தள்ளுபடியின் நிலையை எப்படி சரிபார்க்க முடியும் என்று எனக்குத் தெரியவில்லை
+track_refund,long,ta,"I need to see if there are any news on the refund, help me","நான் பணத்தை திரும்ப வேண்டும் என்று ஏதாவது செய்தி இருந்தால் பார்க்க வேண்டும், எனக்கு உதவுங்கள்"
+track_refund,long,ta,i dont know what i have to do to see the rebate status,நான் தள்ளுபடி நிலை பார்க்க என்ன செய்ய வேண்டும் என்று எனக்கு தெரியாது
+track_refund,short,te,I can't track my reimbursement,నేను నా తిరిగి చెల్లించిన ట్రాక్ చేయలేరు
+track_refund,short,te,show me my restitution status,నా పునరుద్ధరణ స్థితిని చూపించు
+track_refund,short,te,check my refund status,నా రిఫండ్ స్థితిని తనిఖీ చేయండి
+track_refund,short,te,where to track the reimbursement,తిరిగి చెల్లించే స్థానం
+track_refund,short,te,see my restitution current status,నా పునరుద్ధరణ ప్రస్తుత స్థితిని చూడండి
+track_refund,medium,te,where do I see my rebate status?,నేను నా డిస్కౌంట్ స్థితి ఎక్కడ చూడగలరు?
+track_refund,medium,te,where to know if there is anything new on the rebate,డిస్కౌంట్ పై కొత్త ఏదైనా ఉందో లేదో తెలుసుకోవడం
+track_refund,medium,te,I'm waiting for a rebateof {{Currency Symbol}}{{Refund Amount}},నేను రిబేటు కోసం వేచి ఉన్నాను
+track_refund,medium,te,I need to check my goddamn restitution status,నేను నా నాశన పునరుద్ధరణ స్థితి తనిఖీ చేయాలి
+track_refund,medium,te,i need help to check the rebate current status,నేను డిస్కౌంట్ ప్రస్తుత స్థితి తనిఖీ సహాయం అవసరం
+track_refund,long,te,can you help me to see if there are any news on my refund?,మీరు నా వాపసు గురించి ఏ వార్తలు ఉన్నాయి లేదో చూడటానికి నాకు సహాయం చేయవచ్చు?
+track_refund,long,te,I do not know how I can see the current status of my refund,నా వాపసు యొక్క ప్రస్తుత స్థితిని నేను ఎలా చూడగలను అని నాకు తెలియదు
+track_refund,long,te,I do not know how I can check the status of my rebate,నా రాయితీ స్థితిని ఎలా తనిఖీ చేయాలో నాకు తెలియదు
+track_refund,long,te,"I need to see if there are any news on the refund, help me","నేను తిరిగి చెల్లించే గురించి ఏ వార్తలు ఉన్నాయి లేదో చూడాలి, నాకు సహాయం"
+track_refund,long,te,i dont know what i have to do to see the rebate status,నేను రిబేట్ స్థితి చూడటానికి ఏమి చేయాలో నాకు తెలియదు
+payment_issue,short,hi,help reporting troubles with payments,भुगतान के साथ समस्याओं की रिपोर्ट करने में सहायता
+payment_issue,short,hi,informing of troubles with payment,भुगतान के साथ समस्याओं के बारे में सूचित करना
+payment_issue,short,hi,reporting payment issues,भुगतान के मुद्दों की रिपोर्टिंग
+payment_issue,short,hi,inform of problems with payments,भुगतान संबंधी समस्याओं के बारे में सूचित करना
+payment_issue,short,hi,help regarding payments,भुगतान के संबंध में सहायता
+payment_issue,medium,hi,I need assistance to repor errors with online payments,मुझे ऑनलाइन भुगतान के साथ त्रुटियों को ठीक करने के लिए सहायता की आवश्यकता है
+payment_issue,medium,hi,where can I inform of issues with payments?,मैं भुगतान के मुद्दों के बारे में कहां सूचित कर सकता हूं?
+payment_issue,medium,hi,I need hnelp to solve a trouble with online payment,मुझे ऑनलाइन भुगतान के साथ एक समस्या को हल करने के लिए आपकी मदद की जरूरत है
+payment_issue,medium,hi,help me solving troubles with payment,भुगतान के साथ समस्याओं को हल करने में मेरी मदद करें
+payment_issue,medium,hi,assistance to solve a fucking payment error,एक बकवास भुगतान त्रुटि को हल करने के लिए सहायता
+payment_issue,long,hi,i dont know how i can notify of an error with online payment,मैं नहीं जानता कि कैसे मैं ऑनलाइन भुगतान के साथ एक त्रुटि की सूचना दे सकते हैं
+payment_issue,long,hi,i do not know what to do to inform of a payment issue,मुझे नहीं पता कि भुगतान के मुद्दे की जानकारी देने के लिए क्या करना है
+payment_issue,long,hi,I do not know what I need to do to inform of a payment issue,मुझे नहीं पता कि भुगतान के मुद्दे के बारे में सूचित करने के लिए मुझे क्या करने की आवश्यकता है
+payment_issue,long,hi,i dont know what i need to do to inform of payment errors,मुझे नहीं पता कि भुगतान त्रुटियों के बारे में सूचित करने के लिए मुझे क्या करना चाहिए
+payment_issue,long,hi,I do not know what I have to do to report payment issues,मुझे नहीं पता कि भुगतान के मुद्दों की रिपोर्ट करने के लिए मुझे क्या करना है
+payment_issue,short,kn,help reporting troubles with payments,ಪಾವತಿಗಳಲ್ಲಿನ ತೊಂದರೆಗಳನ್ನು ವರದಿ ಮಾಡಲು ಸಹಾಯ ಮಾಡುವುದು
+payment_issue,short,kn,informing of troubles with payment,ಪಾವತಿಯ ಸಮಸ್ಯೆಗಳ ಬಗ್ಗೆ ತಿಳಿಸುವುದು
+payment_issue,short,kn,reporting payment issues,ಪಾವತಿ ಸಮಸ್ಯೆಗಳನ್ನು ವರದಿ ಮಾಡುವುದು
+payment_issue,short,kn,inform of problems with payments,ಪಾವತಿಗಳ ಸಮಸ್ಯೆಗಳ ಬಗ್ಗೆ ತಿಳಿಸುವುದು
+payment_issue,short,kn,help regarding payments,ಪಾವತಿಗಳಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ನೆರವು
+payment_issue,medium,kn,I need assistance to repor errors with online payments,ಆನ್ಲೈನ್ ಪಾವತಿಗಳಲ್ಲಿನ ತಪ್ಪುಗಳನ್ನು ಸರಿಪಡಿಸಲು ನನಗೆ ಸಹಾಯ ಬೇಕು
+payment_issue,medium,kn,where can I inform of issues with payments?,ಪಾವತಿಗಳ ಬಗ್ಗೆ ನಾನು ಎಲ್ಲಿ ಮಾಹಿತಿ ನೀಡಬಹುದು?
+payment_issue,medium,kn,I need hnelp to solve a trouble with online payment,ಆನ್ಲೈನ್ ಪಾವತಿಯೊಂದಿಗೆ ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು ನನಗೆ ನಿಮ್ಮ ಸಹಾಯ ಬೇಕು
+payment_issue,medium,kn,help me solving troubles with payment,ಪಾವತಿಯ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸಲು ನನಗೆ ಸಹಾಯ ಮಾಡಿ
+payment_issue,medium,kn,assistance to solve a fucking payment error,ಒಂದು ಫಕ್ ಪಾವತಿ ದೋಷವನ್ನು ಪರಿಹರಿಸಲು ಸಹಾಯ
+payment_issue,long,kn,i dont know how i can notify of an error with online payment,ಆನ್ಲೈನ್ ಪಾವತಿಯಲ್ಲಿ ದೋಷವನ್ನು ಹೇಗೆ ತಿಳಿಸುವುದು ಎಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ
+payment_issue,long,kn,i do not know what to do to inform of a payment issue,ನಾನು ಪಾವತಿ ಸಮಸ್ಯೆಯನ್ನು ತಿಳಿಸಲು ಏನು ಮಾಡಬೇಕೆಂದು ಗೊತ್ತಿಲ್ಲ
+payment_issue,long,kn,I do not know what I need to do to inform of a payment issue,ನಾನು ಪಾವತಿ ಸಮಸ್ಯೆಯನ್ನು ತಿಳಿಸಲು ಏನು ಮಾಡಬೇಕು ಗೊತ್ತಿಲ್ಲ
+payment_issue,long,kn,i dont know what i need to do to inform of payment errors,ಪಾವತಿ ದೋಷಗಳ ಬಗ್ಗೆ ತಿಳಿಸಲು ನಾನು ಏನು ಮಾಡಬೇಕು ಎಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ
+payment_issue,long,kn,I do not know what I have to do to report payment issues,ಪಾವತಿ ಸಮಸ್ಯೆಗಳನ್ನು ವರದಿ ಮಾಡಲು ನಾನು ಏನು ಮಾಡಬೇಕು ಎಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ
+payment_issue,short,mr,help reporting troubles with payments,देयकांच्या समस्या नोंदवण्यास मदत
+payment_issue,short,mr,informing of troubles with payment,देयकाशी संबंधित समस्यांची माहिती देणे
+payment_issue,short,mr,reporting payment issues,देयकांच्या समस्यांचे अहवाल
+payment_issue,short,mr,inform of problems with payments,देयकांच्या समस्यांबाबत माहिती
+payment_issue,short,mr,help regarding payments,देयकासंदर्भात मदत
+payment_issue,medium,mr,I need assistance to repor errors with online payments,मला ऑनलाईन पेमेंट्समध्ये त्रुटी सुधारण्यासाठी मदतीची गरज आहे
+payment_issue,medium,mr,where can I inform of issues with payments?,मी पेमेंट्सच्या समस्यांबाबत कुठे माहिती देऊ शकतो?
+payment_issue,medium,mr,I need hnelp to solve a trouble with online payment,मला ऑनलाइन पेमेंटची समस्या सोडवण्यासाठी तुमची मदत हवी आहे
+payment_issue,medium,mr,help me solving troubles with payment,मला पेमेंट समस्या सोडविण्यात मदत करा
+payment_issue,medium,mr,assistance to solve a fucking payment error,पैसे देण्याच्या त्रुटी सोडवण्यासाठी मदत
+payment_issue,long,mr,i dont know how i can notify of an error with online payment,मला माहित नाही मी ऑनलाईन पेमेंटमध्ये त्रुटी कशी कळवू शकतो
+payment_issue,long,mr,i do not know what to do to inform of a payment issue,मला पैसे देण्याच्या समस्येची माहिती देण्यासाठी काय करावे हे माहित नाही
+payment_issue,long,mr,I do not know what I need to do to inform of a payment issue,मला माहित नाही मी काय करावे लागेल पैसे समस्या सूचित करण्यासाठी
+payment_issue,long,mr,i dont know what i need to do to inform of payment errors,मला माहित नाही मी काय करावे लागेल पैसे चुका सूचित करण्यासाठी
+payment_issue,long,mr,I do not know what I have to do to report payment issues,मला माहित नाही मी काय करावे लागेल पैसे समस्या अहवाल
+payment_issue,short,ta,help reporting troubles with payments,பணம் செலுத்துவதில் சிக்கல்களை தெரிவிக்க உதவுதல்
+payment_issue,short,ta,informing of troubles with payment,பணம் செலுத்துவதில் ஏற்படும் பிரச்சனைகள் குறித்து தெரிவித்தல்
+payment_issue,short,ta,reporting payment issues,பணம் செலுத்தும் பிரச்சினைகளை தெரிவித்தல்
+payment_issue,short,ta,inform of problems with payments,பணம் செலுத்துவதில் உள்ள பிரச்சினைகள் குறித்து தெரிவித்தல்
+payment_issue,short,ta,help regarding payments,பணம் செலுத்துதல் தொடர்பான உதவி
+payment_issue,medium,ta,I need assistance to repor errors with online payments,ஆன்லைன் கட்டணங்களில் தவறுகளை சரிசெய்ய எனக்கு உதவி தேவை
+payment_issue,medium,ta,where can I inform of issues with payments?,பணம் செலுத்துவதில் உள்ள பிரச்சினைகள் குறித்து நான் எங்கே தெரிவிக்க முடியும்?
+payment_issue,medium,ta,I need hnelp to solve a trouble with online payment,ஆன்லைன் கட்டணத்தில் ஒரு சிக்கலை தீர்க்க எனக்கு உங்கள் உதவி தேவை
+payment_issue,medium,ta,help me solving troubles with payment,பணம் செலுத்துவதில் எனக்கு உதவுங்கள்
+payment_issue,medium,ta,assistance to solve a fucking payment error,ஒரு fucking கட்டணம் தவறு தீர்க்க உதவி
+payment_issue,long,ta,i dont know how i can notify of an error with online payment,ஆன்லைன் கட்டணத்தில் ஒரு பிழை இருப்பதை நான் எப்படி அறிவிக்க முடியும் என்று எனக்குத் தெரியவில்லை
+payment_issue,long,ta,i do not know what to do to inform of a payment issue,நான் ஒரு கட்டண பிரச்சினை பற்றி தெரிவிக்க என்ன செய்ய தெரியாது
+payment_issue,long,ta,I do not know what I need to do to inform of a payment issue,நான் ஒரு கட்டணம் பிரச்சினை பற்றி தெரிவிக்க என்ன செய்ய வேண்டும் என்று எனக்கு தெரியாது
+payment_issue,long,ta,i dont know what i need to do to inform of payment errors,நான் கட்டண தவறுகள் பற்றி தெரிவிக்க என்ன செய்ய வேண்டும் என்று எனக்கு தெரியாது
+payment_issue,long,ta,I do not know what I have to do to report payment issues,நான் பணம் பிரச்சினைகள் அறிக்கை செய்ய என்ன செய்ய வேண்டும் என்று எனக்கு தெரியாது
+payment_issue,short,te,help reporting troubles with payments,చెల్లింపులతో సమస్యలను నివేదించడంలో సహాయం
+payment_issue,short,te,informing of troubles with payment,చెల్లింపు సమస్యల గురించి తెలియజేయడం
+payment_issue,short,te,reporting payment issues,చెల్లింపు సమస్యల గురించి నివేదించడం
+payment_issue,short,te,inform of problems with payments,చెల్లింపుల సమస్యల గురించి తెలియజేయడం
+payment_issue,short,te,help regarding payments,చెల్లింపులకు సంబంధించిన సహాయం
+payment_issue,medium,te,I need assistance to repor errors with online payments,ఆన్లైన్ చెల్లింపుల లో తప్పులను సరిచేయడానికి నాకు సహాయం కావాలి
+payment_issue,medium,te,where can I inform of issues with payments?,చెల్లింపుల సమస్యల గురించి నేను ఎక్కడ తెలియజేయగలను?
+payment_issue,medium,te,I need hnelp to solve a trouble with online payment,ఆన్లైన్ చెల్లింపు సమస్యను పరిష్కరించడానికి నాకు మీ సహాయం కావాలి
+payment_issue,medium,te,help me solving troubles with payment,చెల్లింపు సమస్యలను పరిష్కరించడంలో నాకు సహాయం చేయండి
+payment_issue,medium,te,assistance to solve a fucking payment error,ఒక ఫకింగ్ చెల్లింపు లోపం పరిష్కరించడానికి సహాయం
+payment_issue,long,te,i dont know how i can notify of an error with online payment,ఆన్లైన్ చెల్లింపులో లోపం ఎలా ఉంటుందో నాకు తెలియదు
+payment_issue,long,te,i do not know what to do to inform of a payment issue,నేను చెల్లింపు సమస్య గురించి తెలియజేయడానికి ఏమి చేయాలో తెలియదు
+payment_issue,long,te,I do not know what I need to do to inform of a payment issue,నేను ఒక చెల్లింపు సమస్య గురించి తెలియజేయడానికి ఏమి చేయాలో నాకు తెలియదు
+payment_issue,long,te,i dont know what i need to do to inform of payment errors,నేను చెల్లింపు లోపాలు గురించి తెలియజేయడానికి ఏమి చేయాలో నాకు తెలియదు
+payment_issue,long,te,I do not know what I have to do to report payment issues,నేను చెల్లింపు సమస్యలను నివేదించడానికి ఏమి చేయాలో నాకు తెలియదు
+recover_password,short,hi,find information about my passreset,मेरे पाससेट के बारे में जानकारी खोजें
+recover_password,short,hi,information about a PIN recovery,पिन रिकवरी के बारे में जानकारी
+recover_password,short,hi,question about the pwd recovery,pwd वसूली के बारे में प्रश्न
+recover_password,short,hi,information about the password retrieval,पासवर्ड प्राप्त करने के बारे में जानकारी
+recover_password,short,hi,problems with my PIN retrieval,मेरी पिन निकालने में समस्याएं
+recover_password,medium,hi,help me recover my user password,मेरे उपयोगकर्ता पासवर्ड को पुनर्प्राप्त करने में मदद करें
+recover_password,medium,hi,help me reset my profile key,मेरी प्रोफ़ाइल कुंजी को रीसेट करने में मदद करें
+recover_password,medium,hi,I want help to recover my user profile access key,मैं अपने उपयोगकर्ता प्रोफ़ाइल पहुँच कुंजी को पुनर्प्राप्त करने के लिए मदद की जरूरत है
+recover_password,medium,hi,can you help me resetting my user account key?,क्या आप मुझे अपने उपयोगकर्ता खाता कुंजी को रीसेट करने में मदद कर सकते हैं?
+recover_password,medium,hi,how can I restore the PIN code of my profile?,मैं अपनी प्रोफ़ाइल का पिन कोड कैसे बहाल करूं?
+recover_password,long,hi,I don't know what I need to do to reset my account  password,मुझे नहीं पता कि मुझे अपना खाता पासवर्ड रीसेट करने के लिए क्या करना है
+recover_password,long,hi,i have to reset my user account pwd how cn i do it,मुझे अपने उपयोगकर्ता खाते pwd को रीसेट करना है कैसे cn मैं इसे करने के लिए
+recover_password,long,hi,"I want to retrieve the damn key of my user, I need help","मैं अपने उपयोगकर्ता की कुतिया कुंजी प्राप्त करना चाहते हैं, मुझे मदद की जरूरत है"
+recover_password,long,hi,i dont know what to do to restore the pass of my account,मुझे नहीं पता कि मेरे खाते के पास को बहाल करने के लिए क्या करना है
+recover_password,long,hi,I do not know what I need to do to restore my PIN code,मुझे नहीं पता कि मुझे अपना पिन कोड बहाल करने के लिए क्या करना है
+recover_password,short,kn,find information about my passreset,ನನ್ನ ಪಾಸ್ಸೆಟ್ ಬಗ್ಗೆ ಮಾಹಿತಿ ಪಡೆಯಿರಿ
+recover_password,short,kn,information about a PIN recovery,ಪಿನ್ ಮರುಪಡೆಯುವಿಕೆ ಕುರಿತು ಮಾಹಿತಿ
+recover_password,short,kn,question about the pwd recovery,pwd ಮರುಪಡೆಯುವಿಕೆ ಬಗ್ಗೆ ಪ್ರಶ್ನೆ
+recover_password,short,kn,information about the password retrieval,ಪಾಸ್ವರ್ಡ್ ಪಡೆಯುವ ಬಗ್ಗೆ ಮಾಹಿತಿ
+recover_password,short,kn,problems with my PIN retrieval,ನನ್ನ ಪಿನ್ ಪಡೆಯುವಲ್ಲಿ ಸಮಸ್ಯೆಗಳು
+recover_password,medium,kn,help me recover my user password,ನನ್ನ ಬಳಕೆದಾರರ ಪಾಸ್ವರ್ಡ್ ಅನ್ನು ಮರುಪಡೆಯಲು ಸಹಾಯ ಮಾಡಿ
+recover_password,medium,kn,help me reset my profile key,ನನ್ನ ಪ್ರೊಫೈಲ್ ಕೀಲಿ ಮರುಹೊಂದಿಸಲು ಸಹಾಯ
+recover_password,medium,kn,I want help to recover my user profile access key,ನನ್ನ ಬಳಕೆದಾರ ಪ್ರೊಫೈಲ್ ಪ್ರವೇಶ ಕೀಲಿ ಚೇತರಿಸಿಕೊಳ್ಳಲು ಸಹಾಯ ಬೇಕು
+recover_password,medium,kn,can you help me resetting my user account key?,ನನ್ನ ಬಳಕೆದಾರ ಖಾತೆ ಕೀಲಿ ಮರುಹೊಂದಿಸಲು ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?
+recover_password,medium,kn,how can I restore the PIN code of my profile?,ನನ್ನ ಪ್ರೊಫೈಲ್ನ ಪಿನ್ ಕೋಡ್ ಅನ್ನು ನಾನು ಹೇಗೆ ಮರುಸ್ಥಾಪಿಸಬಹುದು?
+recover_password,long,kn,I don't know what I need to do to reset my account  password,ನನ್ನ ಖಾತೆಯ ಪಾಸ್ವರ್ಡ್ ಅನ್ನು ಮರುಹೊಂದಿಸಲು ನಾನು ಏನು ಮಾಡಬೇಕು ಎಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ
+recover_password,long,kn,i have to reset my user account pwd how cn i do it,ನಾನು ನನ್ನ ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು ಮರುಹೊಂದಿಸಲು ಅಗತ್ಯವಿದೆ ಹೇಗೆ ನಾನು ಅದನ್ನು ಮಾಡಲು
+recover_password,long,kn,"I want to retrieve the damn key of my user, I need help","ನನ್ನ ಬಳಕೆದಾರರ ಆಕಸ್ಮಿಕ ಕೀಲಿಯನ್ನು ನಾನು ಪಡೆದುಕೊಳ್ಳಬೇಕು, ನನಗೆ ಸಹಾಯ ಬೇಕು"
+recover_password,long,kn,i dont know what to do to restore the pass of my account,ನನ್ನ ಖಾತೆಯ ಪಾಸ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ನಾನು ಏನು ಮಾಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ
+recover_password,long,kn,I do not know what I need to do to restore my PIN code,ನನ್ನ ಪಿನ್ ಕೋಡ್ ಅನ್ನು ಪುನಃಸ್ಥಾಪಿಸಲು ನಾನು ಏನು ಮಾಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ
+recover_password,short,mr,find information about my passreset,माझ्या पाससेटविषयी माहिती मिळवा
+recover_password,short,mr,information about a PIN recovery,पिन पुनर्प्राप्तीची माहिती
+recover_password,short,mr,question about the pwd recovery,पीव्हीडी पुनर्प्राप्तीबाबतचा प्रश्न
+recover_password,short,mr,information about the password retrieval,पासवर्ड पुनर्प्राप्तीविषयी माहिती
+recover_password,short,mr,problems with my PIN retrieval,माझ्या पिन पुनर्प्राप्ती समस्या
+recover_password,medium,mr,help me recover my user password,मला माझा वापरकर्ता संकेतशब्द पुनर्प्राप्त करण्यात मदत करा
+recover_password,medium,mr,help me reset my profile key,मला माझा प्रोफाइल चावी रीसेट करण्यास मदत करा
+recover_password,medium,mr,I want help to recover my user profile access key,मला माझा वापरकर्ता प्रोफाइल प्रवेश की पुनर्प्राप्त करण्यासाठी मदत हवी आहे
+recover_password,medium,mr,can you help me resetting my user account key?,तुम्ही मला माझा वापरकर्ता खाते चावी रीसेट करण्यात मदत करू शकता का?
+recover_password,medium,mr,how can I restore the PIN code of my profile?,मी माझ्या प्रोफाइलचा पिन कोड कसा पुनर्संचयित करू शकतो?
+recover_password,long,mr,I don't know what I need to do to reset my account  password,मला माहित नाही मी काय करावे लागेल माझ्या खात्याचा पासवर्ड रीसेट करण्यासाठी
+recover_password,long,mr,i have to reset my user account pwd how cn i do it,मला माझा वापरकर्ता खाते रीसेट करावे लागेल
+recover_password,long,mr,"I want to retrieve the damn key of my user, I need help","मला माझ्या वापरकर्त्याचा कुत्रा मिळवायचा आहे, मला मदतीची गरज आहे"
+recover_password,long,mr,i dont know what to do to restore the pass of my account,मला माहित नाही माझ्या खात्याचा पास पुनर्प्राप्त करण्यासाठी काय करावे
+recover_password,long,mr,I do not know what I need to do to restore my PIN code,मला माहित नाही माझा पिन कोड परत मिळवण्यासाठी मला काय करावे लागेल
+recover_password,short,ta,find information about my passreset,எனது கடவுச்சொல் அமைப்பைப் பற்றிய தகவல்களைக் கண்டறியவும்
+recover_password,short,ta,information about a PIN recovery,PIN மீட்பு பற்றிய தகவல்கள்
+recover_password,short,ta,question about the pwd recovery,pwd மீட்பு குறித்த கேள்வி
+recover_password,short,ta,information about the password retrieval,கடவுச்சொல் மீட்டெடுப்பு பற்றிய தகவல்கள்
+recover_password,short,ta,problems with my PIN retrieval,எனது PIN ஐ மீட்டெடுப்பதில் சிக்கல்கள்
+recover_password,medium,ta,help me recover my user password,எனது பயனர் கடவுச்சொல்லை மீட்டெடுக்க எனக்கு உதவுங்கள்
+recover_password,medium,ta,help me reset my profile key,என் சுயவிவரம் திறவுகோல் மீட்டமைக்க எனக்கு உதவுங்கள்
+recover_password,medium,ta,I want help to recover my user profile access key,நான் என் பயனர் சுயவிவர அணுகல் திறனை மீட்டெடுக்க உதவி வேண்டும்
+recover_password,medium,ta,can you help me resetting my user account key?,நீங்கள் எனக்கு என் பயனர் கணக்கு திறனை மீட்டமைக்க உதவ முடியுமா?
+recover_password,medium,ta,how can I restore the PIN code of my profile?,எனது சுயவிவரத்தின் PIN குறியீட்டை எவ்வாறு மீட்டெடுப்பது?
+recover_password,long,ta,I don't know what I need to do to reset my account  password,நான் என் கணக்கு கடவுச்சொல்லை மீட்டமைக்க என்ன செய்ய வேண்டும் என்று எனக்கு தெரியாது
+recover_password,long,ta,i have to reset my user account pwd how cn i do it,நான் என் பயனர் கணக்கை மீட்டமைக்க வேண்டும் எப்படி நான் அதை செய்ய cn
+recover_password,long,ta,"I want to retrieve the damn key of my user, I need help","நான் என் பயனர் இருந்து ஒரு துரத்தப்பட்ட திறவுகோல் பெற வேண்டும், நான் உதவி தேவை"
+recover_password,long,ta,i dont know what to do to restore the pass of my account,நான் என் கணக்கு பாஸ் மீட்டெடுக்க என்ன செய்ய வேண்டும் என்று தெரியாது
+recover_password,long,ta,I do not know what I need to do to restore my PIN code,நான் என் PIN குறியீடு மீட்டெடுக்க என்ன செய்ய வேண்டும் என்று எனக்கு தெரியாது
+recover_password,short,te,find information about my passreset,నా పాస్సెట్ గురించి సమాచారాన్ని కనుగొనండి
+recover_password,short,te,information about a PIN recovery,PIN రికవరీ గురించి సమాచారం
+recover_password,short,te,question about the pwd recovery,pwd రికవరీ గురించి ప్రశ్న
+recover_password,short,te,information about the password retrieval,పాస్వర్డ్ను వెలికితీసే సమాచారం
+recover_password,short,te,problems with my PIN retrieval,నా PIN రిట్రీవర్తో సమస్యలు
+recover_password,medium,te,help me recover my user password,నా వినియోగదారు పాస్వర్డ్ను తిరిగి పొందటానికి నాకు సహాయం చేయండి
+recover_password,medium,te,help me reset my profile key,నా ప్రొఫైల్ కీని రీసెట్ చేయడంలో నాకు సహాయం చేయండి
+recover_password,medium,te,I want help to recover my user profile access key,నా వినియోగదారు ప్రొఫైల్ యాక్సెస్ కీని తిరిగి పొందడానికి సహాయం కావాలి
+recover_password,medium,te,can you help me resetting my user account key?,మీరు నా వినియోగదారు ఖాతా కీ పునఃసృష్టి సహాయం చేయగలరా?
+recover_password,medium,te,how can I restore the PIN code of my profile?,నా ప్రొఫైల్ యొక్క పిన్ కోడ్ను ఎలా పునరుద్ధరించగలను?
+recover_password,long,te,I don't know what I need to do to reset my account  password,నా ఖాతా పాస్వర్డ్ను రీసెట్ చేయడానికి నేను ఏమి చేయాలో నాకు తెలియదు
+recover_password,long,te,i have to reset my user account pwd how cn i do it,నేను నా వినియోగదారు ఖాతాను పునఃసృష్టి చేయాలి pwd నేను ఎలా cn దీన్ని
+recover_password,long,te,"I want to retrieve the damn key of my user, I need help","నేను నా యూజర్ యొక్క కుడి కీ తిరిగి పొందాలనుకుంటున్నాను, నేను సహాయం అవసరం"
+recover_password,long,te,i dont know what to do to restore the pass of my account,నా ఖాతా పాస్ పునరుద్ధరించడానికి ఏమి చేయాలో నాకు తెలియదు
+recover_password,long,te,I do not know what I need to do to restore my PIN code,నా పిన్ కోడ్ను పునరుద్ధరించడానికి నేను ఏమి చేయాలో నాకు తెలియదు
+change_order,short,hi,edit ordr {{Order Number}},{{ऑर्डर नंबर}} को संपादित करें
+change_order,short,hi,help updating order {{Order Number}},आदेश अद्यतन करने में मदद {{ऑर्डर नंबर}}
+change_order,short,hi,update order {{Order Number}},अद्यतन क्रम {{ऑर्डर नंबर}}
+change_order,short,hi,chnaging order {{Order Number}},ऑर्डर नंबर
+change_order,short,hi,edit purchase {{Order Number}},{{ऑर्डर नंबर}} संपादित करें
+change_order,medium,hi,help me removing a product from order {{Order Number}},मुझे आदेश से उत्पाद हटाने में मदद करें
+change_order,medium,hi,remove several items from purchase {{Order Number}},{{ऑर्डर नंबर}} से कई आइटम हटाएं
+change_order,medium,hi,help removing several products from purchase {{Order Number}},{{ऑर्डर नंबर}} से कई उत्पादों को हटाने में सहायता करें
+change_order,medium,hi,help removing an article from order {{Order Number}},{{ऑर्डर नंबर}} से किसी लेख को हटाने में सहायता करें
+change_order,medium,hi,how do I change an article of purchase {{Order Number}}?,मैं खरीद के एक लेख {{ऑर्डर नंबर}} कैसे बदलूं?
+change_order,long,hi,"I would like to modify order {{Order Number}}, how can I do it?","मैं क्रम {{क्रम संख्या}} को संशोधित करना चाहूँगा, मैं इसे कैसे कर सकता हूँ?"
+change_order,long,hi,"I would like to edit purchase {{Order Number}}, how could I do it?","मैं {{ऑर्डर नंबर}} को संपादित करना चाहूँगा, मैं इसे कैसे कर सकता हूँ?"
+change_order,long,hi,"I want to switch an item of order {{Order Number}}, how can I do it?","मैं एक ऑर्डर आइटम {{ऑर्डर नंबर}} बदलना चाहता हूँ, मैं यह कैसे कर सकता हूँ?"
+change_order,long,hi,wanna add several products to order {{Order Number}} how can i do it,मैं आदेश करने के लिए कई उत्पादों को जोड़ना चाहते हैं कैसे मैं यह कर सकते हैं
+change_order,long,hi,"I have got to modify purchase {{Order Number}}, how do I do it?","मुझे {{ऑर्डर नंबर}} को संशोधित करना है, मैं इसे कैसे करूं?"
+change_order,short,kn,edit ordr {{Order Number}},{{ಆರ್ಡರ್ ಸಂಖ್ಯೆ}} ಅನ್ನು ಸಂಪಾದಿಸಿ
+change_order,short,kn,help updating order {{Order Number}},ಆದೇಶವನ್ನು ನವೀಕರಿಸಲು ಸಹಾಯ {{ಆದೇಶ ಸಂಖ್ಯೆ}}
+change_order,short,kn,update order {{Order Number}},ಅಪ್ಡೇಟ್ ಆದೇಶ {{ಆದೇಶ ಸಂಖ್ಯೆ}}
+change_order,short,kn,chnaging order {{Order Number}},ಆದೇಶ ಸಂಖ್ಯೆ
+change_order,short,kn,edit purchase {{Order Number}},{{ಆದೇಶ ಸಂಖ್ಯೆ}} ಸಂಪಾದಿಸಿ ಖರೀದಿ
+change_order,medium,kn,help me removing a product from order {{Order Number}},ಒಂದು ಉತ್ಪನ್ನವನ್ನು ಆದೇಶದಿಂದ ತೆಗೆದುಹಾಕಲು ನನಗೆ ಸಹಾಯ ಮಾಡಿ
+change_order,medium,kn,remove several items from purchase {{Order Number}},{{ಆದೇಶ ಸಂಖ್ಯೆ}} ಖರೀದಿಯಿಂದ ಹಲವಾರು ವಸ್ತುಗಳನ್ನು ತೆಗೆದುಹಾಕಿ
+change_order,medium,kn,help removing several products from purchase {{Order Number}},{{ಆದೇಶ ಸಂಖ್ಯೆ}} ಖರೀದಿಯಿಂದ ಹಲವಾರು ಉತ್ಪನ್ನಗಳನ್ನು ತೆಗೆದುಹಾಕಲು ಸಹಾಯ ಮಾಡಿ
+change_order,medium,kn,help removing an article from order {{Order Number}},ಒಂದು ಲೇಖನವನ್ನು ಆದೇಶದಿಂದ ತೆಗೆದುಹಾಕಲು ಸಹಾಯ ಮಾಡಿ {{ಆದೇಶ ಸಂಖ್ಯೆ}}
+change_order,medium,kn,how do I change an article of purchase {{Order Number}}?,ನಾನು ಹೇಗೆ ಖರೀದಿಯ ಒಂದು ಐಟಂ ಅನ್ನು ಬದಲಾಯಿಸುವುದು?
+change_order,long,kn,"I would like to modify order {{Order Number}}, how can I do it?","ನಾನು ಆದೇಶವನ್ನು ಬದಲಾಯಿಸಲು ಬಯಸುತ್ತೇನೆ, ನಾನು ಅದನ್ನು ಹೇಗೆ ಮಾಡಬಹುದು?"
+change_order,long,kn,"I would like to edit purchase {{Order Number}}, how could I do it?","ನಾನು {{ಆದೇಶ ಸಂಖ್ಯೆ}} ಅನ್ನು ಸಂಪಾದಿಸಲು ಬಯಸುತ್ತೇನೆ, ನಾನು ಅದನ್ನು ಹೇಗೆ ಮಾಡಬಹುದು?"
+change_order,long,kn,"I want to switch an item of order {{Order Number}}, how can I do it?","ನಾನು ಆದೇಶದ ಐಟಂ ಅನ್ನು ಬದಲಾಯಿಸಲು ಬಯಸುತ್ತೇನೆ {{ಆದೇಶ ಸಂಖ್ಯೆ}}, ನಾನು ಅದನ್ನು ಹೇಗೆ ಮಾಡಬಹುದು?"
+change_order,long,kn,wanna add several products to order {{Order Number}} how can i do it,ನಾನು ಆದೇಶಿಸಲು ಹಲವಾರು ಉತ್ಪನ್ನಗಳನ್ನು ಸೇರಿಸಲು ಬಯಸುವ ಹೇಗೆ ನಾನು ಅದನ್ನು ಮಾಡಬಹುದು
+change_order,long,kn,"I have got to modify purchase {{Order Number}}, how do I do it?","ನಾನು ಖರೀದಿ {{ಆದೇಶ ಸಂಖ್ಯೆ}} ಅನ್ನು ಮಾರ್ಪಡಿಸಬೇಕಾಗಿದೆ, ನಾನು ಅದನ್ನು ಹೇಗೆ ಮಾಡಲಿ?"
+change_order,short,mr,edit ordr {{Order Number}},{{ऑर्डर क्रमांक}} संपादित करा
+change_order,short,mr,help updating order {{Order Number}},ऑर्डर अद्यतनित करण्यात मदत करा
+change_order,short,mr,update order {{Order Number}},अद्यतन क्रमांक {{ऑर्डर क्रमांक}}
+change_order,short,mr,chnaging order {{Order Number}},क्रमांक क्रमांक
+change_order,short,mr,edit purchase {{Order Number}},{{ऑर्डर क्रमांक}} संपादन करा
+change_order,medium,mr,help me removing a product from order {{Order Number}},मला ऑर्डर क्रमांकातून एखादा उत्पादन काढण्यात मदत करा
+change_order,medium,mr,remove several items from purchase {{Order Number}},खरेदीमधून अनेक वस्तू काढून टाका {{ऑर्डर क्रमांक}}
+change_order,medium,mr,help removing several products from purchase {{Order Number}},खरेदीपासून अनेक उत्पादने काढण्यात मदत करा {{ऑर्डर क्रमांक}}
+change_order,medium,mr,help removing an article from order {{Order Number}},{{ऑर्डर क्रमांक}} पासून लेख काढण्यात मदत
+change_order,medium,mr,how do I change an article of purchase {{Order Number}}?,मी खरेदीची वस्तू कशी बदलू?
+change_order,long,mr,"I would like to modify order {{Order Number}}, how can I do it?","मला ऑर्डर क्रमांक बदलावा लागेल, मी ते कसे करू शकतो?"
+change_order,long,mr,"I would like to edit purchase {{Order Number}}, how could I do it?","मला {{ऑर्डर क्रमांक}} संपादन करायचे आहे, मी ते कसे करू शकतो?"
+change_order,long,mr,"I want to switch an item of order {{Order Number}}, how can I do it?","मला ऑर्डर क्रमांक बदलावा लागेल, मी ते कसे करू शकतो?"
+change_order,long,mr,wanna add several products to order {{Order Number}} how can i do it,मला ऑर्डर क्रमांक कसा करायचा?
+change_order,long,mr,"I have got to modify purchase {{Order Number}}, how do I do it?","मला खरेदी {{ऑर्डर क्रमांक}} बदलणे आवश्यक आहे, मी ते कसे करावे?"
+change_order,short,ta,edit ordr {{Order Number}},{{பதிவு எண்}}
+change_order,short,ta,help updating order {{Order Number}},வரிசை புதுப்பித்தல் உதவி {{பதிவு எண்}}
+change_order,short,ta,update order {{Order Number}},புதுப்பிப்பு வரிசை {{பதிவு எண்}}
+change_order,short,ta,chnaging order {{Order Number}},வரிசை எண்
+change_order,short,ta,edit purchase {{Order Number}},{{பதிவு எண்}}
+change_order,medium,ta,help me removing a product from order {{Order Number}},ஒரு பொருளை ஆர்டரிலிருந்து அகற்ற எனக்கு உதவுங்கள்
+change_order,medium,ta,remove several items from purchase {{Order Number}},{{பதிவு எண்}} வாங்குவதில் இருந்து பல பொருட்களை அகற்றவும்
+change_order,medium,ta,help removing several products from purchase {{Order Number}},பல தயாரிப்புகளை கொள்முதல் செய்வதில் உதவுங்கள்
+change_order,medium,ta,help removing an article from order {{Order Number}},ஒரு கட்டுரையை அகற்ற உதவுங்கள்
+change_order,medium,ta,how do I change an article of purchase {{Order Number}}?,ஒரு கொள்முதல் உருப்படி {{பதிவு எண்}} ஐ எவ்வாறு மாற்றுவது?
+change_order,long,ta,"I would like to modify order {{Order Number}}, how can I do it?","நான் வரிசை {Order Number} ஐ மாற்ற விரும்புகிறேன், அதை எப்படி செய்ய முடியும்?"
+change_order,long,ta,"I would like to edit purchase {{Order Number}}, how could I do it?","நான் {{பதிவு எண்}} ஐ திருத்த விரும்புகிறேன், அதை எப்படி செய்ய முடியும்?"
+change_order,long,ta,"I want to switch an item of order {{Order Number}}, how can I do it?","நான் ஒரு பொருளை மாற்ற விரும்புகிறேன், அதை எப்படி செய்வது?"
+change_order,long,ta,wanna add several products to order {{Order Number}} how can i do it,நான் எப்படி அதை செய்ய முடியும்
+change_order,long,ta,"I have got to modify purchase {{Order Number}}, how do I do it?","நான் வாங்கும் {பதிவு எண்} மாற்ற வேண்டும், நான் அதை எப்படி செய்ய வேண்டும்?"
+change_order,short,te,edit ordr {{Order Number}},ఆర్డర్ నంబర్ను సవరించు
+change_order,short,te,help updating order {{Order Number}},ఆర్డర్ నంబర్ను నవీకరించడానికి సహాయం
+change_order,short,te,update order {{Order Number}},క్రమం నవీకరణ {{ఆర్డర్ నంబర్}}
+change_order,short,te,chnaging order {{Order Number}},ఆర్డర్ సంఖ్య
+change_order,short,te,edit purchase {{Order Number}},{{ఆర్డర్ నంబర్}}
+change_order,medium,te,help me removing a product from order {{Order Number}},ఆర్డర్ నుండి ఒక ఉత్పత్తిని తొలగించడానికి నాకు సహాయం చేయండి
+change_order,medium,te,remove several items from purchase {{Order Number}},కొనుగోలు నుండి అనేక అంశాలను తొలగించండి {{ఆర్డర్ నంబర్}}
+change_order,medium,te,help removing several products from purchase {{Order Number}},కొనుగోలు నుండి అనేక ఉత్పత్తులను తొలగించడంలో సహాయపడండి {{ఆర్డర్ నంబర్}}
+change_order,medium,te,help removing an article from order {{Order Number}},ఆర్డర్ నుండి ఒక ఆర్టికల్ను తొలగించడంలో సహాయం {{ఆర్డర్ నంబర్}}
+change_order,medium,te,how do I change an article of purchase {{Order Number}}?,ఆర్డర్ నంబర్ను ఎలా మార్చాలి?
+change_order,long,te,"I would like to modify order {{Order Number}}, how can I do it?","నేను ఆర్డర్ను మార్చాలనుకుంటున్నాను, నేను దీన్ని ఎలా చేయగలను?"
+change_order,long,te,"I would like to edit purchase {{Order Number}}, how could I do it?","నేను {{ఆర్డర్ నంబర్}} ను కొనుగోలు చేయాలనుకుంటున్నాను, నేను దీన్ని ఎలా చేయగలను?"
+change_order,long,te,"I want to switch an item of order {{Order Number}}, how can I do it?","నేను ఆర్డర్ యొక్క అంశం మార్చాలనుకుంటున్నాను {{ఆర్డర్ నంబర్}}, నేను దీన్ని ఎలా చేయగలను?"
+change_order,long,te,wanna add several products to order {{Order Number}} how can i do it,నేను ఆర్డర్ సంఖ్య {{ఆర్డర్ సంఖ్య}} ఎలా చేయగలను
+change_order,long,te,"I have got to modify purchase {{Order Number}}, how do I do it?","నేను కొనుగోలు మార్చాలి {{ఆర్డర్ నంబర్}}, నేను దీన్ని ఎలా చేయాలి?"
+cancel_order,short,hi,help canceling order {{Order Number}},आदेश रद्द करने में सहायता
+cancel_order,short,hi,help cnceling order {{Order Number}},आदेश पर मदद करने के लिए
+cancel_order,short,hi,canceling order {{Order Number}},आदेश रद्द करना {{ आदेश संख्या}}
+cancel_order,short,hi,cancel order,रद्द करने का आदेश
+cancel_order,short,hi,canceling purechase {{Order Number}},{{ऑर्डर नंबर}} रद्द करना
+cancel_order,medium,hi,can ya help me cancel order {{Order Number}},आप मुझे आदेश रद्द करने में मदद कर सकते हैं
+cancel_order,medium,hi,I need help with cancelling order {{Order Number}},मुझे आदेश रद्द करने में मदद की जरूरत है
+cancel_order,medium,hi,i have a question about cancelling order {{Order Number}},मेरे पास आदेश रद्द करने के बारे में एक प्रश्न है
+cancel_order,medium,hi,want assistance canceling purchase {{Order Number}},खरीद रद्द करने के लिए सहायता चाहते हैं
+cancel_order,medium,hi,I am trying to cancel purchaes {{Order Number}},मैं खरीद रद्द करने की कोशिश कर रहा हूँ
+cancel_order,long,hi,i do not want these article i try to cancel order {{Order Number}},मैं इन लेखों को नहीं चाहता मैं आदेश को रद्द करने की कोशिश {{ऑर्डर नंबर}}
+cancel_order,long,hi,"I no longer want order {{Order Number}}, I would like to cancel it","मैं अब आदेश नहीं चाहता, मैं इसे रद्द करना चाहूंगा"
+cancel_order,long,hi,"I have got to cancel purchase {{Order Number}}, how do I do it?","मुझे खरीद रद्द करनी है, मैं इसे कैसे करूं?"
+cancel_order,long,hi,I do not knwo what I need to do to cancel order {{Order Number}},मुझे नहीं पता कि मुझे आदेश रद्द करने के लिए क्या करना है
+cancel_order,long,hi,"I do not want this item, I try to cancel order {{Order Number}}","मैं यह आइटम नहीं चाहता, मैं आदेश रद्द करने की कोशिश कर रहा हूँ"
+cancel_order,short,kn,help canceling order {{Order Number}},ಆದೇಶವನ್ನು ರದ್ದುಗೊಳಿಸಲು ಸಹಾಯ {{ಆದೇಶ ಸಂಖ್ಯೆ}}
+cancel_order,short,kn,help cnceling order {{Order Number}},ಆದೇಶದ ಸಂಖ್ಯೆಯನ್ನು ಕರೆ ಮಾಡಲು ಸಹಾಯ ಮಾಡಿ
+cancel_order,short,kn,canceling order {{Order Number}},ಆದೇಶವನ್ನು ರದ್ದುಗೊಳಿಸುವುದು
+cancel_order,short,kn,cancel order,ರದ್ದುಗೊಳಿಸುವ ಆದೇಶ
+cancel_order,short,kn,canceling purechase {{Order Number}},ಶುದ್ಧವಾದ ಚಾಸ್ ಅನ್ನು ರದ್ದುಗೊಳಿಸುವುದು
+cancel_order,medium,kn,can ya help me cancel order {{Order Number}},ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಹುದು ಆದೇಶವನ್ನು ರದ್ದುಗೊಳಿಸಲು
+cancel_order,medium,kn,I need help with cancelling order {{Order Number}},ಆದೇಶವನ್ನು ರದ್ದುಗೊಳಿಸಲು ನನಗೆ ಸಹಾಯ ಬೇಕು.
+cancel_order,medium,kn,i have a question about cancelling order {{Order Number}},ನಾನು ಆದೇಶವನ್ನು ರದ್ದುಗೊಳಿಸುವ ಬಗ್ಗೆ ಒಂದು ಪ್ರಶ್ನೆ ಹೊಂದಿವೆ
+cancel_order,medium,kn,want assistance canceling purchase {{Order Number}},ಖರೀದಿ ರದ್ದುಗೊಳಿಸುವಲ್ಲಿ ಸಹಾಯ ಬೇಕಾಗುವುದು
+cancel_order,medium,kn,I am trying to cancel purchaes {{Order Number}},ನಾನು ಖರೀದಿಗಳನ್ನು ರದ್ದುಗೊಳಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದೇನೆ.
+cancel_order,long,kn,i do not want these article i try to cancel order {{Order Number}},ನಾನು ಈ ಲೇಖನಗಳನ್ನು ಬಯಸುವುದಿಲ್ಲ ನಾನು ಆದೇಶವನ್ನು ರದ್ದುಗೊಳಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತೇನೆ
+cancel_order,long,kn,"I no longer want order {{Order Number}}, I would like to cancel it","ನಾನು ಆದೇಶವನ್ನು ಇನ್ನು ಮುಂದೆ ಬಯಸುವುದಿಲ್ಲ, ನಾನು ಅದನ್ನು ರದ್ದುಗೊಳಿಸಲು ಬಯಸುತ್ತೇನೆ"
+cancel_order,long,kn,"I have got to cancel purchase {{Order Number}}, how do I do it?","ನಾನು ಖರೀದಿ ರದ್ದು ಮಾಡಬೇಕು, ನಾನು ಅದನ್ನು ಹೇಗೆ ಮಾಡಬೇಕು?"
+cancel_order,long,kn,I do not knwo what I need to do to cancel order {{Order Number}},ಆದೇಶವನ್ನು ರದ್ದುಗೊಳಿಸಲು ನಾನು ಏನು ಮಾಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ.
+cancel_order,long,kn,"I do not want this item, I try to cancel order {{Order Number}}","ನಾನು ಈ ಐಟಂ ಬಯಸುವುದಿಲ್ಲ, ನಾನು ಆದೇಶವನ್ನು ರದ್ದುಗೊಳಿಸಲು ಪ್ರಯತ್ನಿಸಿ"
+cancel_order,short,mr,help canceling order {{Order Number}},ऑर्डर रद्द करण्यात मदत करा
+cancel_order,short,mr,help cnceling order {{Order Number}},ऑर्डर क्रमांक
+cancel_order,short,mr,canceling order {{Order Number}},ऑर्डर रद्द करणे
+cancel_order,short,mr,cancel order,रद्द करण्याचे आदेश
+cancel_order,short,mr,canceling purechase {{Order Number}},पुर्चेचेस रद्द करणे
+cancel_order,medium,mr,can ya help me cancel order {{Order Number}},तुम्ही मला ऑर्डर रद्द करण्यात मदत करू शकता का?
+cancel_order,medium,mr,I need help with cancelling order {{Order Number}},मला ऑर्डर रद्द करण्यात मदत हवी आहे.
+cancel_order,medium,mr,i have a question about cancelling order {{Order Number}},मला ऑर्डर रद्द करण्याबाबत एक प्रश्न आहे.
+cancel_order,medium,mr,want assistance canceling purchase {{Order Number}},खरेदी रद्द करण्यात मदत हवी आहे
+cancel_order,medium,mr,I am trying to cancel purchaes {{Order Number}},मी खरेदी रद्द करण्याचा प्रयत्न करत आहे.
+cancel_order,long,mr,i do not want these article i try to cancel order {{Order Number}},मला हा लेख नको आहे. मी ऑर्डर रद्द करण्याचा प्रयत्न करतो.
+cancel_order,long,mr,"I no longer want order {{Order Number}}, I would like to cancel it","मला आता ऑर्डर नको आहे, मला ती रद्द करायची आहे."
+cancel_order,long,mr,"I have got to cancel purchase {{Order Number}}, how do I do it?","मला खरेदी रद्द करावी लागेल, मी ते कसे करावे?"
+cancel_order,long,mr,I do not knwo what I need to do to cancel order {{Order Number}},मला माहित नाही ऑर्डर रद्द करण्यासाठी काय करावे लागेल
+cancel_order,long,mr,"I do not want this item, I try to cancel order {{Order Number}}","मला हा आयटम नको आहे, मी ऑर्डर रद्द करण्याचा प्रयत्न करतो."
+cancel_order,short,ta,help canceling order {{Order Number}},ஆர்டரை ரத்து செய்ய உதவுங்கள்
+cancel_order,short,ta,help cnceling order {{Order Number}},வரிசை எண்
+cancel_order,short,ta,canceling order {{Order Number}},ஒழுங்கு விண்ணப்பத்தை ரத்து செய்தல்
+cancel_order,short,ta,cancel order,ரத்து செய்ய உத்தரவு
+cancel_order,short,ta,canceling purechase {{Order Number}},purechase ஐ ரத்து செய்தல்
+cancel_order,medium,ta,can ya help me cancel order {{Order Number}},நீங்கள் எனக்கு உதவ முடியும் ஆர்டர் ரத்து செய்ய
+cancel_order,medium,ta,I need help with cancelling order {{Order Number}},நான் ஆர்டர் ரத்து உதவியுடன் தேவை
+cancel_order,medium,ta,i have a question about cancelling order {{Order Number}},நான் ஒரு கேள்விக்குறிப்பு உள்ளது ஆர்டர் ரத்து செய்ய
+cancel_order,medium,ta,want assistance canceling purchase {{Order Number}},கொள்முதல் ரத்து செய்ய உதவி தேவை
+cancel_order,medium,ta,I am trying to cancel purchaes {{Order Number}},நான் கொள்முதல் ரத்து செய்ய முயற்சிக்கிறேன்
+cancel_order,long,ta,i do not want these article i try to cancel order {{Order Number}},நான் இந்த கட்டுரைகளை விரும்பவில்லை நான் ஆர்டர் ஐ ரத்து செய்ய முயற்சிக்கிறேன்
+cancel_order,long,ta,"I no longer want order {{Order Number}}, I would like to cancel it","நான் இனி ஆர்டர் விரும்பவில்லை, நான் அதை ரத்து செய்ய விரும்புகிறேன்"
+cancel_order,long,ta,"I have got to cancel purchase {{Order Number}}, how do I do it?","நான் கொள்முதல் ரத்து செய்ய வேண்டும், நான் அதை எப்படி செய்ய வேண்டும்?"
+cancel_order,long,ta,I do not knwo what I need to do to cancel order {{Order Number}},நான் என்ன செய்ய வேண்டும் என்று எனக்கு தெரியாது ஆர்டர் ரத்து செய்ய
+cancel_order,long,ta,"I do not want this item, I try to cancel order {{Order Number}}","நான் இந்த உருப்படியை விரும்பவில்லை, நான் ஆர்டர் ரத்து செய்ய முயற்சி"
+cancel_order,short,te,help canceling order {{Order Number}},ఆర్డర్ రద్దుకు సహాయం
+cancel_order,short,te,help cnceling order {{Order Number}},ఆర్డర్ నెంబర్ను కన్సెలింగ్ చేయడంలో సహాయం
+cancel_order,short,te,canceling order {{Order Number}},ఆర్డర్ను రద్దు చేయడం
+cancel_order,short,te,cancel order,రద్దు చేయవలసిన ఆదేశం
+cancel_order,short,te,canceling purechase {{Order Number}},ప్యూరిచాస్ను రద్దు చేయడం
+cancel_order,medium,te,can ya help me cancel order {{Order Number}},మీరు నాకు సహాయం చేయవచ్చు ఆర్డర్ రద్దు
+cancel_order,medium,te,I need help with cancelling order {{Order Number}},నేను ఆర్డర్ రద్దు సహాయం అవసరం
+cancel_order,medium,te,i have a question about cancelling order {{Order Number}},ఆర్డర్ రద్దు గురించి నాకు ఒక ప్రశ్న ఉంది
+cancel_order,medium,te,want assistance canceling purchase {{Order Number}},కొనుగోలును రద్దు చేయడంలో సహాయం కావాలి
+cancel_order,medium,te,I am trying to cancel purchaes {{Order Number}},నేను కొనుగోలు రద్దు ప్రయత్నిస్తున్నాను
+cancel_order,long,te,i do not want these article i try to cancel order {{Order Number}},నేను ఈ వ్యాసం కావలసిన నేను ఆర్డర్ రద్దు ప్రయత్నించండి
+cancel_order,long,te,"I no longer want order {{Order Number}}, I would like to cancel it","నేను ఆర్డర్ సంఖ్య ఇకపై కావలసిన, నేను దానిని రద్దు చేయాలనుకుంటున్నాను"
+cancel_order,long,te,"I have got to cancel purchase {{Order Number}}, how do I do it?","నేను కొనుగోలు రద్దు చేయాలి, నేను ఎలా చేయాలి?"
+cancel_order,long,te,I do not knwo what I need to do to cancel order {{Order Number}},నేను ఆర్డర్ రద్దు చేయడానికి ఏమి చేయాలో తెలియదు
+cancel_order,long,te,"I do not want this item, I try to cancel order {{Order Number}}","నేను ఈ అంశం కావలసిన, నేను ఆర్డర్ రద్దు ప్రయత్నించండి"
+delivery_period,short,hi,what is the shpiping period?,शपिंग की अवधि क्या है?
+delivery_period,short,hi,delivery period,वितरण अवधि
+delivery_period,short,hi,find information about shipping period,शिपिंग अवधि के बारे में जानकारी प्राप्त करें
+delivery_period,medium,hi,is it possible to check when my item is gonna arrive,क्या यह पता लगाना संभव है कि मेरी वस्तु कब आने वाली है
+delivery_period,medium,hi,where can i get information about the delivery period,मैं प्रसव की अवधि के बारे में जानकारी कहां से प्राप्त कर सकता हूं
+delivery_period,medium,hi,wanna check how long it takes for my delivery to arrive,मैं जांचना चाहता हूँ कि मेरी डिलीवरी के आने में कितना समय लगता है
+delivery_period,medium,hi,help me see when my order is going to arrive,मुझे यह देखने में मदद करें कि मेरा आदेश कब आने वाला है
+delivery_period,medium,hi,assistance seeing how long it takes for my parcel to arrive,मेरी पार्सल के आने में कितना समय लगता है यह देखने के लिए सहायता
+delivery_period,long,hi,I need to see how long it takes for my parcel to arrive,मुझे यह देखने की जरूरत है कि मेरे पैकेज के आने में कितना समय लगता है
+delivery_period,long,hi,I need to check how long it takes for my shipment to arrive,मुझे यह जांचने की जरूरत है कि मेरे शिपमेंट के आने में कितना समय लगता है
+delivery_period,long,hi,i have got to se how long the shipment takes how to do it,मुझे यह देखना है कि शिपमेंट में कितना समय लगता है इसे कैसे करना है
+delivery_period,long,hi,i have to see how long it takes for the packgae to arrive,मुझे यह देखना है कि पैकगे के आने में कितना समय लगता है
+delivery_period,long,hi,wanna see how soon can i expect my delivery how to do it,मैं देखना चाहते हैं कि मैं कितनी जल्दी मेरी डिलीवरी की उम्मीद कर सकते हैं कैसे यह करने के लिए
+delivery_period,short,kn,what is the shpiping period?,ಯಾವ ಕಾಲದಲ್ಲಿ ಸ್ಪಿಪಿಪಿಂಗ್ ಮಾಡಲಾಗುತ್ತದೆ?
+delivery_period,short,kn,delivery period,ವಿತರಣಾ ಅವಧಿ
+delivery_period,short,kn,find information about shipping period,ಸಾಗಣೆ ಅವಧಿಯ ಬಗ್ಗೆ ಮಾಹಿತಿ ಪಡೆಯಿರಿ
+delivery_period,medium,kn,is it possible to check when my item is gonna arrive,ನನ್ನ ವಸ್ತು ಯಾವಾಗ ಬರಲಿದೆ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಲು ಸಾಧ್ಯವೇ?
+delivery_period,medium,kn,where can i get information about the delivery period,ವಿತರಣಾ ಅವಧಿಯ ಬಗ್ಗೆ ನಾನು ಎಲ್ಲಿ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಬಹುದು
+delivery_period,medium,kn,wanna check how long it takes for my delivery to arrive,ನನ್ನ ವಿತರಣಾ ತಲುಪಲು ಎಷ್ಟು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ ಎಂದು ಪರಿಶೀಲಿಸಲು ಬಯಸುವ
+delivery_period,medium,kn,help me see when my order is going to arrive,ನನ್ನ ಆದೇಶ ಯಾವಾಗ ಬರಲಿದೆ ಎಂಬುದನ್ನು ನೋಡಲು ನನಗೆ ಸಹಾಯ ಮಾಡಿ
+delivery_period,medium,kn,assistance seeing how long it takes for my parcel to arrive,ನನ್ನ ಪ್ಯಾಕೇಜ್ ತಲುಪಲು ಎಷ್ಟು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ ಎಂಬುದನ್ನು ನೋಡಲು ಸಹಾಯ
+delivery_period,long,kn,I need to see how long it takes for my parcel to arrive,ನನ್ನ ಪ್ಯಾಕೇಜ್ ತಲುಪಲು ಎಷ್ಟು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ ಎಂದು ನಾನು ನೋಡಬೇಕಾಗಿದೆ
+delivery_period,long,kn,I need to check how long it takes for my shipment to arrive,ನನ್ನ ಸರಕು ತಲುಪಲು ಎಷ್ಟು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ ಎಂದು ನಾನು ಪರಿಶೀಲಿಸಬೇಕಾಗಿದೆ
+delivery_period,long,kn,i have got to se how long the shipment takes how to do it,ನಾನು ಎಷ್ಟು ಸಮಯ ಸಾಗಣೆ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ ನೋಡಲು ಹೇಗೆ ಅದನ್ನು ಮಾಡಲು
+delivery_period,long,kn,i have to see how long it takes for the packgae to arrive,ಪ್ಯಾಕ್ ಗೇಗೆ ಎಷ್ಟು ಸಮಯ ಬೇಕು ಎಂದು ನಾನು ನೋಡಬೇಕಾಗಿದೆ
+delivery_period,long,kn,wanna see how soon can i expect my delivery how to do it,ನಾನು ಎಷ್ಟು ಬೇಗನೆ ನನ್ನ ವಿತರಣೆಯನ್ನು ನಿರೀಕ್ಷಿಸಬಹುದು ಎಂದು ನೋಡಲು ಬಯಸುವ ಹೇಗೆ ಅದನ್ನು ಮಾಡಲು
+delivery_period,short,mr,what is the shpiping period?,काय आहे स्पिपिंग पीरियड?
+delivery_period,short,mr,delivery period,वितरण कालावधी
+delivery_period,short,mr,find information about shipping period,शिपिंग कालावधीबद्दल माहिती मिळवा
+delivery_period,medium,mr,is it possible to check when my item is gonna arrive,माझी वस्तू कधी येईल हे तपासणे शक्य आहे का?
+delivery_period,medium,mr,where can i get information about the delivery period,मी प्रसूती कालावधीची माहिती कुठे मिळवू शकतो?
+delivery_period,medium,mr,wanna check how long it takes for my delivery to arrive,मला माझ्या डिलिव्हरीला किती वेळ लागेल हे बघायचं आहे
+delivery_period,medium,mr,help me see when my order is going to arrive,माझी ऑर्डर कधी येईल हे मला कळायला मदत करा
+delivery_period,medium,mr,assistance seeing how long it takes for my parcel to arrive,माझी पार्सल येण्यासाठी किती वेळ लागेल हे पाहण्यासाठी मदत
+delivery_period,long,mr,I need to see how long it takes for my parcel to arrive,मला बघायचं आहे की माझी पार्सल येण्यासाठी किती वेळ लागेल
+delivery_period,long,mr,I need to check how long it takes for my shipment to arrive,मला तपासणी करायची आहे की माझी मालवाहू येण्यासाठी किती वेळ लागेल
+delivery_period,long,mr,i have got to se how long the shipment takes how to do it,मी हे कसे करायचे हे पाहण्यासाठी किती वेळ लागतो
+delivery_period,long,mr,i have to see how long it takes for the packgae to arrive,"मला बघायचं आहे की, पॅकगेला येण्यासाठी किती वेळ लागतो."
+delivery_period,long,mr,wanna see how soon can i expect my delivery how to do it,मला बघायचं आहे की मी माझ्या प्रसूतीची अपेक्षा किती लवकर करू शकतो.
+delivery_period,short,ta,what is the shpiping period?,என்ன நேரம்?
+delivery_period,short,ta,delivery period,விநியோக காலம்
+delivery_period,short,ta,find information about shipping period,கப்பல் போக்குவரத்து காலம் பற்றிய தகவல்களைக் கண்டறியவும்
+delivery_period,medium,ta,is it possible to check when my item is gonna arrive,என் பொருளை எப்போது வரும் என்பதை சரிபார்க்க முடியுமா?
+delivery_period,medium,ta,where can i get information about the delivery period,விநியோக காலத்தைப் பற்றிய தகவல்களை நான் எங்கே பெற முடியும்?
+delivery_period,medium,ta,wanna check how long it takes for my delivery to arrive,நான் என் விநியோகம் வரும் வரை எவ்வளவு நேரம் எடுக்கும் பார்க்க வேண்டும்
+delivery_period,medium,ta,help me see when my order is going to arrive,என் ஆர்டர் எப்போது வரும் என்பதை பார்க்க எனக்கு உதவுங்கள்
+delivery_period,medium,ta,assistance seeing how long it takes for my parcel to arrive,எனது தொகுப்பு வருவதற்கு எவ்வளவு நேரம் ஆகும் என்பதை பார்க்க உதவுங்கள்
+delivery_period,long,ta,I need to see how long it takes for my parcel to arrive,நான் பார்க்க வேண்டும் எவ்வளவு நேரம் என் தொகுப்பு வரும் வரை எடுக்கும்
+delivery_period,long,ta,I need to check how long it takes for my shipment to arrive,நான் என் ஏற்றுமதி வரும் வரை எவ்வளவு நேரம் எடுக்கும் என்று பார்க்க வேண்டும்
+delivery_period,long,ta,i have got to se how long the shipment takes how to do it,நான் பார்க்க வேண்டும் எவ்வளவு நேரம் ஏற்றுமதி எடுக்கும் எப்படி அதை செய்ய
+delivery_period,long,ta,i have to see how long it takes for the packgae to arrive,நான் பார்க்க வேண்டும் எவ்வளவு நேரம் அது packgae வரும் எடுக்கும்
+delivery_period,long,ta,wanna see how soon can i expect my delivery how to do it,நான் எவ்வளவு விரைவில் என் விநியோகம் எதிர்பார்க்க முடியும் பார்க்க வேண்டும் எப்படி அதை செய்ய
+delivery_period,short,te,what is the shpiping period?,ఏ సమయంలో స్పిపిపింగ్ కాలం?
+delivery_period,short,te,delivery period,డెలివరీ కాలం
+delivery_period,short,te,find information about shipping period,రవాణా కాలం గురించి సమాచారం పొందండి
+delivery_period,medium,te,is it possible to check when my item is gonna arrive,నా వస్తువు ఎప్పుడు వస్తుందో తనిఖీ చేయడం సాధ్యమేనా
+delivery_period,medium,te,where can i get information about the delivery period,డెలివరీ కాలం గురించి సమాచారాన్ని నేను ఎక్కడ పొందగలను
+delivery_period,medium,te,wanna check how long it takes for my delivery to arrive,నా డెలివరీ రావడానికి ఎంత సమయం పడుతుంది తనిఖీ చేయాలనుకుంటున్నాను
+delivery_period,medium,te,help me see when my order is going to arrive,నా ఆర్డర్ ఎప్పుడు వస్తాయో చూడటానికి నాకు సహాయం చేయండి
+delivery_period,medium,te,assistance seeing how long it takes for my parcel to arrive,నా ప్యాకేజీకి ఎంత సమయం పడుతుందో చూడటానికి సహాయం
+delivery_period,long,te,I need to see how long it takes for my parcel to arrive,నా ప్యాకేజీకి ఎంత సమయం పడుతుంది అని నేను చూడాలి
+delivery_period,long,te,I need to check how long it takes for my shipment to arrive,నా సరుకు రవాణా రావడానికి ఎంత సమయం పడుతుంది అని నేను తనిఖీ చేయాలి
+delivery_period,long,te,i have got to se how long the shipment takes how to do it,నేను ఎలా అది చేయడానికి రవాణా ఎంత సమయం పడుతుంది చూడాలి
+delivery_period,long,te,i have to see how long it takes for the packgae to arrive,ప్యాక్గే రావడానికి ఎంత సమయం పడుతుంది అని నేను చూడాలి
+delivery_period,long,te,wanna see how soon can i expect my delivery how to do it,నేను నా డెలివరీ ఎంత త్వరగా ఆశిస్తారో చూడాలనుకుంటున్నాను ఎలా దీన్ని
+check_cancellation_fee,short,hi,see the early exit fees,प्रारंभिक प्रस्थान शुल्क देखें
+check_cancellation_fee,short,hi,want help seeing thecancellation fees,रद्द शुल्क देखने में सहायता चाहते हैं
+check_cancellation_fee,short,hi,seeing cancellation fees,रद्द करने की फीस देखना
+check_cancellation_fee,short,hi,are there any withdrawal charges?,क्या कोई निकासी शुल्क है?
+check_cancellation_fee,short,hi,help seeing the withdrawal fee,निकासी शुल्क देखने में मदद करें
+check_cancellation_fee,medium,hi,I want assistance to check the withdcrawal charge,मुझे डिक्रावल शुल्क की जांच करने के लिए सहायता की जरूरत है
+check_cancellation_fee,medium,hi,"I want to see the withdrawal fees, how can I do it?","मैं निकासी शुल्क देखना चाहता हूँ, मैं इसे कैसे कर सकता हूँ?"
+check_cancellation_fee,medium,hi,I need help to see the termination fees,मुझे समाप्ति शुल्क देखने के लिए मदद की जरूरत है
+check_cancellation_fee,medium,hi,"I want to see the withdrawal penalties, I need assistance","मैं वापसी जुर्माना देखना चाहते हैं, मुझे सहायता की जरूरत है"
+check_cancellation_fee,medium,hi,I want help seeing the withdrawal charges,मैं वापसी शुल्क देखने के लिए मदद की जरूरत है
+check_cancellation_fee,long,hi,I do not know what to do to check the early exit fee,मुझे नहीं पता कि प्रारंभिक प्रस्थान शुल्क की जांच करने के लिए क्या करना है
+check_cancellation_fee,long,hi,I don't know what I have to do to see the early exit charge,मुझे नहीं पता कि मुझे जल्दी से बाहर निकलने के लिए क्या करना है
+check_cancellation_fee,long,hi,I don't know what I have to do to see the withdrawal pemalty,मुझे नहीं पता कि मुझे वापसी पेमैल्टी देखने के लिए क्या करना है
+check_cancellation_fee,long,hi,I do not know what to do to see the early exit charge,मुझे नहीं पता कि जल्दी से प्रस्थान शुल्क देखने के लिए क्या करना है
+check_cancellation_fee,long,hi,i have got to see trhe withdrawal charge can i get some help,मुझे Trhe निकासी शुल्क देखना है क्या मैं कुछ मदद मिल सकती है
+check_cancellation_fee,short,kn,see the early exit fees,ಮುಂಚಿತವಾಗಿ ನಿರ್ಗಮನ ಶುಲ್ಕಗಳನ್ನು ನೋಡಿ
+check_cancellation_fee,short,kn,want help seeing thecancellation fees,ರದ್ದು ಶುಲ್ಕಗಳನ್ನು ನೋಡುವಲ್ಲಿ ಸಹಾಯ ಬೇಕಾಗುತ್ತದೆ
+check_cancellation_fee,short,kn,seeing cancellation fees,ರದ್ದು ಶುಲ್ಕಗಳನ್ನು ನೋಡುವುದು
+check_cancellation_fee,short,kn,are there any withdrawal charges?,ಯಾವುದೇ ವಾಪಸಾತಿ ಶುಲ್ಕಗಳು ಇದೆಯೇ?
+check_cancellation_fee,short,kn,help seeing the withdrawal fee,ವಾಪಸಾತಿ ಶುಲ್ಕವನ್ನು ನೋಡುವಲ್ಲಿ ಸಹಾಯ ಮಾಡಿ
+check_cancellation_fee,medium,kn,I want assistance to check the withdcrawal charge,ನಾನು ಡಕ್ಯುಲರ್ ಆರೋಪವನ್ನು ಪರಿಶೀಲಿಸಲು ಸಹಾಯ ಬೇಕು
+check_cancellation_fee,medium,kn,"I want to see the withdrawal fees, how can I do it?","ನಾನು ವಾಪಸಾತಿ ಶುಲ್ಕವನ್ನು ನೋಡಲು ಬಯಸುತ್ತೇನೆ, ನಾನು ಅದನ್ನು ಹೇಗೆ ಮಾಡಬಹುದು?"
+check_cancellation_fee,medium,kn,I need help to see the termination fees,ನನಗೆ ವಿರಾಮ ಶುಲ್ಕ ನೋಡುವ ಸಹಾಯ ಬೇಕು
+check_cancellation_fee,medium,kn,"I want to see the withdrawal penalties, I need assistance","ನಾನು ಹಿಂತೆಗೆದುಕೊಳ್ಳುವ ದಂಡವನ್ನು ನೋಡಲು ಬಯಸುತ್ತೇನೆ, ನನಗೆ ಸಹಾಯ ಬೇಕು"
+check_cancellation_fee,medium,kn,I want help seeing the withdrawal charges,ನಾನು ವಾಪಸಾತಿ ಶುಲ್ಕಗಳನ್ನು ನೋಡಲು ಸಹಾಯ ಅಗತ್ಯವಿದೆ
+check_cancellation_fee,long,kn,I do not know what to do to check the early exit fee,ಮುಂಚಿತ ನಿರ್ಗಮನ ಶುಲ್ಕವನ್ನು ಪರಿಶೀಲಿಸಲು ನಾನು ಏನು ಮಾಡಬೇಕೆಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ
+check_cancellation_fee,long,kn,I don't know what I have to do to see the early exit charge,ನಾನು ಮುಂಚಿನ ನಿರ್ಗಮನ ಶುಲ್ಕ ನೋಡಲು ಏನು ಮಾಡಬೇಕು ಗೊತ್ತಿಲ್ಲ
+check_cancellation_fee,long,kn,I don't know what I have to do to see the withdrawal pemalty,"ನಾನು ಏನು ಮಾಡಬೇಕು ಎಂದು ನನಗೆ ಗೊತ್ತಿಲ್ಲ, ನಾನು ಹಣವನ್ನು ಹಿಂತೆಗೆದುಕೊಳ್ಳುವ ಹಣವನ್ನು ನೋಡಬೇಕಾಗಿದೆ"
+check_cancellation_fee,long,kn,I do not know what to do to see the early exit charge,ನಾನು ಮುಂಚಿತವಾಗಿ ನಿರ್ಗಮನ ಶುಲ್ಕ ನೋಡಲು ಏನು ಮಾಡಬೇಕೆಂದು ಗೊತ್ತಿಲ್ಲ
+check_cancellation_fee,long,kn,i have got to see trhe withdrawal charge can i get some help,ನಾನು ಟ್ರೆಡ್ ವಾಪಸಾತಿ ಶುಲ್ಕ ನೋಡಬೇಕಿದೆ ನಾನು ಕೆಲವು ಸಹಾಯ ಪಡೆಯಬಹುದು
+check_cancellation_fee,short,mr,see the early exit fees,पहा लवकर निवृत्ती शुल्क
+check_cancellation_fee,short,mr,want help seeing thecancellation fees,रद्द करणा-या शुल्कांची पाहणी करण्यात मदत हवी आहे
+check_cancellation_fee,short,mr,seeing cancellation fees,रद्द करणा-या शुल्क पाहणे
+check_cancellation_fee,short,mr,are there any withdrawal charges?,पैसे काढण्याची किंमत आहे का?
+check_cancellation_fee,short,mr,help seeing the withdrawal fee,पैसे काढण्याची फी पाहण्यास मदत
+check_cancellation_fee,medium,mr,I want assistance to check the withdcrawal charge,मला या प्रकरणाची तपासणी करण्यासाठी मदत हवी आहे.
+check_cancellation_fee,medium,mr,"I want to see the withdrawal fees, how can I do it?","मला पैसे काढण्याची फी बघायची आहे, मी ते कसे करू शकतो?"
+check_cancellation_fee,medium,mr,I need help to see the termination fees,मला निलंबन शुल्क पाहण्यासाठी मदत हवी आहे
+check_cancellation_fee,medium,mr,"I want to see the withdrawal penalties, I need assistance","मला पैसे काढण्याची शिक्षा बघायची आहे, मला मदतीची गरज आहे."
+check_cancellation_fee,medium,mr,I want help seeing the withdrawal charges,मला पैसे काढण्याची शुल्का पाहण्यास मदत हवी आहे
+check_cancellation_fee,long,mr,I do not know what to do to check the early exit fee,मला माहित नाही लवकर निघाण्याची फी तपासण्यासाठी काय करावे
+check_cancellation_fee,long,mr,I don't know what I have to do to see the early exit charge,मला माहित नाही मला लवकर बाहेर पडण्यासाठी काय करावे लागेल
+check_cancellation_fee,long,mr,I don't know what I have to do to see the withdrawal pemalty,मला माहित नाही मला पैसे काढण्याची किंमत पाहण्यासाठी काय करावे लागेल
+check_cancellation_fee,long,mr,I do not know what to do to see the early exit charge,मला माहित नाही लवकर बाहेर पडण्यासाठी काय करावे
+check_cancellation_fee,long,mr,i have got to see trhe withdrawal charge can i get some help,मला तिचे पैसे काढण्याची रक्कम पाहणं आहे. मला काही मदत मिळेल का?
+check_cancellation_fee,short,ta,see the early exit fees,ஆரம்ப வெளியேறும் கட்டணங்களை பார்க்கவும்
+check_cancellation_fee,short,ta,want help seeing thecancellation fees,ரத்துச் செய்வதற்கான கட்டணங்களை பார்க்க உதவி தேவை
+check_cancellation_fee,short,ta,seeing cancellation fees,ரத்துச் செய்வதற்கான கட்டணங்களை பார்க்கவும்
+check_cancellation_fee,short,ta,are there any withdrawal charges?,எந்தவொரு திரும்பப் பெறுதல் கட்டணங்களும் உள்ளனவா?
+check_cancellation_fee,short,ta,help seeing the withdrawal fee,திரும்பப் பெறுவதற்கான கட்டணத்தை பார்க்க உதவுங்கள்
+check_cancellation_fee,medium,ta,I want assistance to check the withdcrawal charge,நான் உதவி தேவை என்று சோதனை செய்ய
+check_cancellation_fee,medium,ta,"I want to see the withdrawal fees, how can I do it?","நான் திரும்பப் பெற கட்டணம் பார்க்க வேண்டும், நான் அதை எப்படி செய்ய முடியும்?"
+check_cancellation_fee,medium,ta,I need help to see the termination fees,நான் முடிவுக்கு கட்டணம் பார்க்க உதவி தேவை
+check_cancellation_fee,medium,ta,"I want to see the withdrawal penalties, I need assistance","நான் திரும்பப் பெறும் தண்டனைகளை பார்க்க வேண்டும், நான் உதவி தேவை"
+check_cancellation_fee,medium,ta,I want help seeing the withdrawal charges,நான் திரும்பப் பெற கட்டணம் பார்க்க உதவ வேண்டும்
+check_cancellation_fee,long,ta,I do not know what to do to check the early exit fee,நான் முன்கூட்டியே வெளியேறும் கட்டணம் சரிபார்க்க என்ன செய்ய தெரியாது
+check_cancellation_fee,long,ta,I don't know what I have to do to see the early exit charge,நான் என்ன செய்ய வேண்டும் என்று எனக்கு தெரியாது ஆரம்ப வெளியேறும் கட்டணம் பார்க்க
+check_cancellation_fee,long,ta,I don't know what I have to do to see the withdrawal pemalty,நான் என்ன செய்ய வேண்டும் என்று எனக்கு தெரியாது திரும்பப்பெறுதல் பெமால்டி பார்க்க
+check_cancellation_fee,long,ta,I do not know what to do to see the early exit charge,நான் என்ன செய்ய வேண்டும் என்று தெரியாது முன்கூட்டியே வெளியேறும் கட்டணம் பார்க்க
+check_cancellation_fee,long,ta,i have got to see trhe withdrawal charge can i get some help,நான் டிரெய்ன்ட் தொகையை பார்க்க வேண்டும் நான் சில உதவி பெற முடியுமா
+check_cancellation_fee,short,te,see the early exit fees,ప్రారంభ నిష్క్రమణ ఫీజులను చూడండి
+check_cancellation_fee,short,te,want help seeing thecancellation fees,రద్దు ఫీజులను చూడటానికి సహాయం కావాలి
+check_cancellation_fee,short,te,seeing cancellation fees,రద్దు ఫీజులను చూసేందుకు
+check_cancellation_fee,short,te,are there any withdrawal charges?,ఉపసంహరణ రుసుము ఏదైనా ఉందా?
+check_cancellation_fee,short,te,help seeing the withdrawal fee,ఉపసంహరణ రుసుము చూసేందుకు సహాయం
+check_cancellation_fee,medium,te,I want assistance to check the withdcrawal charge,నేను డక్క్రవాల్ ఛార్జ్ తనిఖీ సహాయం కావాలి
+check_cancellation_fee,medium,te,"I want to see the withdrawal fees, how can I do it?","నేను ఉపసంహరణ రుసుము చూడాలనుకుంటున్నాను, నేను ఎలా చేయవచ్చు?"
+check_cancellation_fee,medium,te,I need help to see the termination fees,నేను విరమణ రుసుము చూడటానికి సహాయం అవసరం
+check_cancellation_fee,medium,te,"I want to see the withdrawal penalties, I need assistance","నేను ఉపసంహరణ జరిమానాలు చూడాలనుకుంటున్నాను, నేను సహాయం అవసరం"
+check_cancellation_fee,medium,te,I want help seeing the withdrawal charges,నేను ఉపసంహరణ రుసుము చూడటానికి సహాయం కావాలి
+check_cancellation_fee,long,te,I do not know what to do to check the early exit fee,నేను ముందుగానే నిష్క్రమణ రుసుము తనిఖీ ఏమి తెలియదు
+check_cancellation_fee,long,te,I don't know what I have to do to see the early exit charge,నేను ముందుగానే నిష్క్రమణ ఛార్జ్ చూడటానికి ఏమి చేయాలో తెలియదు
+check_cancellation_fee,long,te,I don't know what I have to do to see the withdrawal pemalty,నేను ఉపసంహరణ పెమాల్టీ చూడటానికి ఏమి చేయాలో నాకు తెలియదు
+check_cancellation_fee,long,te,I do not know what to do to see the early exit charge,నేను ముందుగానే నిష్క్రమణ ఛార్జ్ చూడటానికి ఏమి తెలియదు
+check_cancellation_fee,long,te,i have got to see trhe withdrawal charge can i get some help,నేను ట్రూ ఉపసంహరణ రుసుము చూడాలి నేను కొన్ని సహాయం పొందవచ్చు

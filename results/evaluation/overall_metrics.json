@@ -1,0 +1,8 @@
+{
+    "model": "BiLSTM + Attention",
+    "test_samples": 14781,
+    "num_classes": 27,
+    "accuracy": 0.9801096001623706,
+    "macro_f1": 0.9792726126712266,
+    "weighted_f1": 0.9801570563008792
+}

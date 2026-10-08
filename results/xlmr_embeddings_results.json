@@ -1,0 +1,15 @@
+{
+    "model": "XLM-R embeddings + Logistic Regression",
+    "encoder": "FacebookAI/xlm-roberta-base",
+    "embedding_dimension": 768,
+    "validation": {
+        "accuracy": 0.9622475260946184,
+        "macro_f1": 0.960722642129098,
+        "weighted_f1": 0.9622529756566435
+    },
+    "test": {
+        "accuracy": 0.9592720384277112,
+        "macro_f1": 0.9569584581871661,
+        "weighted_f1": 0.9592241642150086
+    }
+}

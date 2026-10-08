@@ -1,0 +1,140 @@
+{
+    "project": "Multilingual Customer Support Intent Classification",
+    "dataset": {
+        "total_samples": 147461,
+        "train_samples": 117926,
+        "validation_samples": 14754,
+        "test_samples": 14781,
+        "languages": [
+            "English",
+            "Hindi",
+            "Kannada",
+            "Marathi",
+            "Tamil",
+            "Telugu"
+        ],
+        "num_languages": 6,
+        "num_intents": 27,
+        "num_categories": 11
+    },
+    "translation_quality": {
+        "total_translated_samples_checked": 123175,
+        "flagged_samples": 349,
+        "flag_rate_percent": 0.28,
+        "clean_samples": 122826,
+        "languages": [
+            "Hindi",
+            "Kannada",
+            "Marathi",
+            "Tamil",
+            "Telugu"
+        ],
+        "intent_mismatches": 0,
+        "category_mismatches": 0
+    },
+    "model_comparison": [
+        {
+            "model": "TF-IDF + Logistic Regression",
+            "test_accuracy": 0.9224,
+            "macro_f1": 0.9205,
+            "weighted_f1": 0.9224
+        },
+        {
+            "model": "XLM-R Embeddings + Logistic Regression",
+            "test_accuracy": 0.9593,
+            "macro_f1": 0.957,
+            "weighted_f1": 0.9592
+        },
+        {
+            "model": "BiLSTM + Attention",
+            "test_accuracy": 0.9801,
+            "macro_f1": 0.9793,
+            "weighted_f1": 0.9802
+        }
+    ],
+    "language_evaluation": [
+        {
+            "language": "English",
+            "samples": 2471,
+            "accuracy": 0.9899,
+            "macro_f1": 0.9888,
+            "weighted_f1": 0.9899
+        },
+        {
+            "language": "Hindi",
+            "samples": 2465,
+            "accuracy": 0.9797,
+            "macro_f1": 0.9789,
+            "weighted_f1": 0.9798
+        },
+        {
+            "language": "Kannada",
+            "samples": 2460,
+            "accuracy": 0.978,
+            "macro_f1": 0.9773,
+            "weighted_f1": 0.9782
+        },
+        {
+            "language": "Marathi",
+            "samples": 2457,
+            "accuracy": 0.9723,
+            "macro_f1": 0.9718,
+            "weighted_f1": 0.9724
+        },
+        {
+            "language": "Tamil",
+            "samples": 2459,
+            "accuracy": 0.9776,
+            "macro_f1": 0.9762,
+            "weighted_f1": 0.9776
+        },
+        {
+            "language": "Telugu",
+            "samples": 2469,
+            "accuracy": 0.983,
+            "macro_f1": 0.9824,
+            "weighted_f1": 0.983
+        }
+    ],
+    "training_configuration": {
+        "model": "BiLSTM + Attention",
+        "epochs": 15,
+        "embedding_dimension": 128,
+        "hidden_dimension": 128,
+        "lstm_layers": 2,
+        "dropout": 0.3,
+        "max_sequence_length": 32,
+        "batch_size": 256,
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "best_epoch": 15,
+        "best_validation_accuracy": 0.9814,
+        "best_validation_macro_f1": 0.9808
+    },
+    "error_analysis": {
+        "test_samples": 14781,
+        "correct_predictions": 14487,
+        "incorrect_predictions": 294,
+        "error_rate_percent": 1.989,
+        "best_language": "English",
+        "best_language_accuracy": 0.9899,
+        "lowest_language_accuracy": 0.9723,
+        "lowest_language": "Marathi",
+        "highest_error_intent": "cancel_order",
+        "highest_error_intent_error_rate": 0.056856
+    },
+    "key_findings": [
+        "The final dataset contains 147,461 multilingual samples across 6 languages.",
+        "The dataset covers 27 customer-support intents grouped into 11 categories.",
+        "The BiLSTM with Attention achieved the best overall performance.",
+        "BiLSTM + Attention achieved 98.01% test accuracy and 97.93% Macro F1.",
+        "The BiLSTM outperformed the TF-IDF baseline by 5.77 percentage points in accuracy.",
+        "XLM-R embeddings achieved 95.93% test accuracy.",
+        "English achieved the highest language-specific accuracy at 98.99%.",
+        "Marathi achieved the lowest language-specific accuracy at 97.23%.",
+        "Translation validation found zero intent mismatches and zero category mismatches.",
+        "Translation quality filtering flagged 349 of 123,175 translated samples.",
+        "Most remaining classification errors occurred between semantically similar customer-support intents."
+    ],
+    "conclusion": "The multilingual customer-support intent classification system demonstrates strong classification performance across English, Hindi, Kannada, Marathi, Tamil, and Telugu. Among the evaluated approaches, the BiLSTM with Attention produced the strongest results, achieving 98.01% test accuracy, 97.93% Macro F1, and 98.02% Weighted F1. The evaluation also shows strong performance across all six languages, with language-specific accuracy ranging from 97.23% to 98.99%. The remaining errors are concentrated primarily in semantically related intent classes such as invoice retrieval/checking, order modification/tracking, cancellation/order changes, and refund-related intents."
+}

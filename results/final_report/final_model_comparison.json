@@ -1,0 +1,32 @@
+{
+    "models": [
+        {
+            "Model": "TF-IDF + Logistic Regression",
+            "Test Accuracy": 0.9224,
+            "Macro F1": 0.9205,
+            "Weighted F1": 0.9224
+        },
+        {
+            "Model": "XLM-R Embeddings + Logistic Regression",
+            "Test Accuracy": 0.9593,
+            "Macro F1": 0.957,
+            "Weighted F1": 0.9592
+        },
+        {
+            "Model": "BiLSTM + Attention",
+            "Test Accuracy": 0.9801,
+            "Macro F1": 0.9793,
+            "Weighted F1": 0.9802
+        }
+    ],
+    "best_model": {
+        "name": "BiLSTM + Attention",
+        "test_accuracy": 0.9801,
+        "macro_f1": 0.9793,
+        "weighted_f1": 0.9802
+    },
+    "baseline_improvement": {
+        "accuracy_points": 5.769999999999998,
+        "macro_f1_points": 5.879999999999996
+    }
+}
