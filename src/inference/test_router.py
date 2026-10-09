@@ -1,9 +1,7 @@
 from src.models.predict import load_model
 from src.inference.intent_router import IntentRouter
 
-
 def main():
-
     print("=" * 70)
     print("INTENT ROUTER TEST")
     print("=" * 70)
@@ -31,35 +29,14 @@ def main():
     ]
 
     for message in test_messages:
-
-        result = router.classify(
-            message
-        )
-
+        result = router.classify(message)
         print()
         print("-" * 70)
-
-        print(
-            f"Message    : {message}"
-        )
-
-        print(
-            f"Action     : {result['action']}"
-        )
-
-        print(
-            f"Intent     : {result['intent']}"
-        )
-
-        print(
-            f"Category   : {result['category']}"
-        )
-
-        print(
-            f"Confidence : "
-            f"{result['confidence'] * 100:.2f}%"
-        )
-
+        print(f"Message    : {message}")
+        print(f"Action     : {result['action']}")
+        print(f"Intent     : {result['intent']}")
+        print(f"Category   : {result['category']}")
+        print(f"Confidence : " f"{result['confidence'] * 100:.2f}%")
 
 if __name__ == "__main__":
     main()

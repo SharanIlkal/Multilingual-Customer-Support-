@@ -110,19 +110,6 @@ def get_response(
     **kwargs
 ):
 
-    language_responses = RESPONSES.get(
-        language,
-        RESPONSES["en"]
-    )
-
-    template = language_responses.get(
-        key,
-        RESPONSES["en"].get(
-            key,
-            ""
-        )
-    )
-
-    return template.format(
-        **kwargs
-    )
+    language_responses = RESPONSES.get(language, RESPONSES["en"])
+    template = language_responses.get(key, RESPONSES["en"].get(key, ""))
+    return template.format(**kwargs)

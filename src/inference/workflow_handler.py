@@ -1,181 +1,109 @@
-from .mock_database import (
-    get_order,
-    get_refund,
-    get_invoice,
-)
-
+from .mock_database import (get_order,get_refund,get_invoice,)
 
 class WorkflowHandler:
 
-    # =========================================================
-    # MAIN DISPATCHER
-    # =========================================================
-
     def handle(self, intent, context):
-
         handlers = {
-
             "track_order":
                 lambda: self.track_order(context),
-
             "place_order":
                 self.place_order,
-
             "change_order":
                 lambda: self.change_order(context),
-
             "cancel_order":
                 lambda: self.cancel_order(context),
-
             "change_shipping_address":
                 lambda: self.change_shipping_address(context),
-
             "set_up_shipping_address":
                 self.set_up_shipping_address,
-
             "delivery_options":
                 self.delivery_options,
-
             "delivery_period":
                 self.delivery_period,
-
             "get_refund":
                 lambda: self.get_refund(context),
-
             "track_refund":
                 lambda: self.track_refund(context),
-
             "check_refund_policy":
                 self.check_refund_policy,
-
             "check_invoice":
                 lambda: self.check_invoice(context),
-
             "get_invoice":
                 lambda: self.get_invoice(context),
-
             "payment_issue":
                 self.payment_issue,
-
             "check_payment_methods":
                 self.check_payment_methods,
-
             "recover_password":
                 self.recover_password,
-
             "create_account":
                 self.create_account,
-
             "delete_account":
                 self.delete_account,
-
             "edit_account":
                 self.edit_account,
-
             "switch_account":
                 self.switch_account,
-
             "check_cancellation_fee":
                 self.check_cancellation_fee,
-
             "complaint":
                 self.complaint,
-
             "contact_customer_service":
                 self.contact_customer_service,
-
             "contact_human_agent":
                 self.contact_human_agent,
-
             "newsletter_subscription":
                 self.newsletter_subscription,
-
             "registration_problems":
                 self.registration_problems,
-
             "review":
                 self.review,
         }
 
         handler = handlers.get(intent)
-
         if not handler:
-
             return {
                 "status": "unsupported",
-                "message": (
-                    "I am not able to handle this request yet."
-                )
+                "message": ("I am not able to handle this request yet.")
             }
-
         return handler()
 
-    # =========================================================
-    # CONFIRMATION EXECUTOR
-    # =========================================================
 
     def confirm(self, intent, context):
-
         handlers = {
-
             "cancel_order":
                 lambda: self._confirm_cancel_order(context),
-
             "get_refund":
                 lambda: self._confirm_get_refund(context),
-
             "delete_account":
                 self._confirm_delete_account,
-
             "change_order":
                 lambda: self._confirm_change_order(context),
-
             "change_shipping_address":
                 lambda: self._confirm_change_shipping_address(context),
         }
 
         handler = handlers.get(intent)
-
         if not handler:
-
             return {
                 "status": "success",
-                "message": (
-                    "Your request has been confirmed."
-                )
+                "message": ("Your request has been confirmed.")
             }
-
         return handler()
 
-    # =========================================================
-    # TRACK ORDER
-    # =========================================================
-
     def track_order(self, context):
-
-        order_id = self._get_id(
-            context,
-            "order_id"
-        )
-
+        order_id = self._get_id(context,"order_id")
         if not order_id:
-
             return {
                 "status": "need_information",
-                "message": (
-                    "Please provide your order number."
-                )
+                "message": ("Please provide your order number.")
             }
 
         order = get_order(order_id)
-
         if not order:
-
             return {
                 "status": "not_found",
-                "message": (
-                    f"I could not find order {order_id}."
-                )
+                "message": (f"I could not find order {order_id}.")
             }
 
         return {
@@ -189,12 +117,7 @@ class WorkflowHandler:
             "data": order,
         }
 
-    # =========================================================
-    # PLACE ORDER
-    # =========================================================
-
     def place_order(self):
-
         return {
             "status": "success",
             "message": (
@@ -203,42 +126,21 @@ class WorkflowHandler:
             )
         }
 
-    # =========================================================
-    # CHANGE ORDER
-    # =========================================================
-
     def change_order(self, context):
-
-        order_id = self._get_id(
-            context,
-            "order_id"
-        )
-
+        order_id = self._get_id(context,"order_id")
         if not order_id:
-
             return {
                 "status": "need_information",
-                "message": (
-                    "Please provide your order number."
-                )
+                "message": ("Please provide your order number.")
             }
-
         order = get_order(order_id)
-
         if not order:
-
             return {
                 "status": "not_found",
-                "message": (
-                    f"I could not find order {order_id}."
-                )
+                "message": (f"I could not find order {order_id}.")
             }
 
-        if order["status"] in {
-            "Shipped",
-            "Delivered",
-        }:
-
+        if order["status"] in {"Shipped", "Delivered",}:
             return {
                 "status": "cannot_change",
                 "message": (
@@ -260,52 +162,29 @@ class WorkflowHandler:
         }
 
     def _confirm_change_order(self, context):
-
-        order_id = self._get_id(
-            context,
-            "order_id"
-        )
-
+        order_id = self._get_id(context, "order_id")
         return {
             "status": "success",
             "message": (
                 f"Order {order_id} modification has been confirmed. "
                 "Please provide the changes you want to make."
             ),
-            "data": {
-                "order_id": order_id
-            },
+            "data": {"order_id": order_id},
         }
 
-    # =========================================================
-    # CANCEL ORDER
-    # =========================================================
-
     def cancel_order(self, context):
-
-        order_id = self._get_id(
-            context,
-            "order_id"
-        )
-
+        order_id = self._get_id(context, "order_id")
         if not order_id:
-
             return {
                 "status": "need_information",
-                "message": (
-                    "Please provide your order number."
-                )
+                "message": ("Please provide your order number.")
             }
 
         order = get_order(order_id)
-
         if not order:
-
             return {
                 "status": "not_found",
-                "message": (
-                    f"I could not find order {order_id}."
-                )
+                "message": (f"I could not find order {order_id}.")
             }
 
         if order["status"] in {
@@ -334,70 +213,37 @@ class WorkflowHandler:
         }
 
     def _confirm_cancel_order(self, context):
-
-        order_id = self._get_id(
-            context,
-            "order_id"
-        )
-
+        order_id = self._get_id(context, "order_id")
         order = get_order(order_id)
-
         if not order:
-
             return {
                 "status": "not_found",
-                "message": (
-                    f"I could not find order {order_id}."
-                )
+                "message": (f"I could not find order {order_id}.")
             }
 
-        # Simulate state change in mock database.
         order["status"] = "Cancelled"
-
         return {
             "status": "success",
-            "message": (
-                f"Order {order_id} cancellation has been confirmed."
-            ),
+            "message": (f"Order {order_id} cancellation has been confirmed."),
             "data": order,
         }
 
-    # =========================================================
-    # SHIPPING ADDRESS
-    # =========================================================
-
     def change_shipping_address(self, context):
-
-        order_id = self._get_id(
-            context,
-            "order_id"
-        )
-
+        order_id = self._get_id(context,"order_id")
         if not order_id:
-
             return {
                 "status": "need_information",
-                "message": (
-                    "Please provide your order number."
-                )
+                "message": ("Please provide your order number.")
             }
 
         order = get_order(order_id)
-
         if not order:
-
             return {
                 "status": "not_found",
-                "message": (
-                    f"I could not find order {order_id}."
-                )
+                "message": (f"I could not find order {order_id}.")
             }
 
-        if order["status"] in {
-            "Shipped",
-            "Delivered",
-        }:
-
+        if order["status"] in {"Shipped","Delivered",}:
             return {
                 "status": "cannot_change",
                 "message": (
@@ -419,16 +265,8 @@ class WorkflowHandler:
             "data": order,
         }
 
-    def _confirm_change_shipping_address(
-        self,
-        context
-    ):
-
-        order_id = self._get_id(
-            context,
-            "order_id"
-        )
-
+    def _confirm_change_shipping_address(self,context):
+        order_id = self._get_id(context,"order_id")
         return {
             "status": "success",
             "message": (
@@ -442,7 +280,6 @@ class WorkflowHandler:
         }
 
     def set_up_shipping_address(self):
-
         return {
             "status": "success",
             "message": (
@@ -451,12 +288,7 @@ class WorkflowHandler:
             )
         }
 
-    # =========================================================
-    # DELIVERY
-    # =========================================================
-
     def delivery_options(self):
-
         return {
             "status": "success",
             "message": (
@@ -467,7 +299,6 @@ class WorkflowHandler:
         }
 
     def delivery_period(self):
-
         return {
             "status": "success",
             "message": (
@@ -477,35 +308,19 @@ class WorkflowHandler:
             )
         }
 
-    # =========================================================
-    # REFUND
-    # =========================================================
-
     def get_refund(self, context):
-
-        order_id = self._get_id(
-            context,
-            "order_id"
-        )
-
+        order_id = self._get_id(context,"order_id")
         if not order_id:
-
             return {
                 "status": "need_information",
-                "message": (
-                    "Please provide your order number."
-                )
+                "message": ("Please provide your order number.")
             }
 
         order = get_order(order_id)
-
         if not order:
-
             return {
                 "status": "not_found",
-                "message": (
-                    f"I could not find order {order_id}."
-                )
+                "message": (f"I could not find order {order_id}.")
             }
 
         return {
@@ -519,26 +334,14 @@ class WorkflowHandler:
         }
 
     def _confirm_get_refund(self, context):
-
-        order_id = self._get_id(
-            context,
-            "order_id"
-        )
-
+        order_id = self._get_id(context,"order_id")
         order = get_order(order_id)
-
         if not order:
-
             return {
                 "status": "not_found",
-                "message": (
-                    f"I could not find order {order_id}."
-                )
+                "message": (f"I could not find order {order_id}.")
             }
-
-        # Generate a demo refund ID.
         refund_id = f"REF-{order_id}"
-
         return {
             "status": "success",
             "message": (
@@ -557,35 +360,19 @@ class WorkflowHandler:
             },
         }
 
-    # =========================================================
-    # TRACK REFUND
-    # =========================================================
-
     def track_refund(self, context):
-
-        refund_id = self._get_id(
-            context,
-            "refund_id"
-        )
-
+        refund_id = self._get_id(context,"refund_id")
         if not refund_id:
-
             return {
                 "status": "need_information",
-                "message": (
-                    "Please provide your refund ID."
-                )
+                "message": ("Please provide your refund ID.")
             }
 
         refund = get_refund(refund_id)
-
         if not refund:
-
             return {
                 "status": "not_found",
-                "message": (
-                    f"I could not find refund {refund_id}."
-                )
+                "message": (f"I could not find refund {refund_id}.")
             }
 
         return {
@@ -600,7 +387,6 @@ class WorkflowHandler:
         }
 
     def check_refund_policy(self):
-
         return {
             "status": "success",
             "message": (
@@ -610,43 +396,22 @@ class WorkflowHandler:
             )
         }
 
-    # =========================================================
-    # INVOICE
-    # =========================================================
-
     def check_invoice(self, context):
-
-        order_id = self._get_id(
-            context,
-            "order_id"
-        )
-
+        order_id = self._get_id(context,"order_id")
         if not order_id:
-
             return {
                 "status": "need_information",
-                "message": (
-                    "Please provide your order number."
-                )
+                "message": ("Please provide your order number.")
             }
 
         order = get_order(order_id)
-
         if not order:
-
             return {
                 "status": "not_found",
-                "message": (
-                    f"I could not find order {order_id}."
-                )
+                "message": (f"I could not find order {order_id}.")
             }
-
-        invoice = self._find_invoice_for_order(
-            order_id
-        )
-
+        invoice = self._find_invoice_for_order(order_id)
         if invoice:
-
             return {
                 "status": "success",
                 "message": (
@@ -666,38 +431,22 @@ class WorkflowHandler:
         }
 
     def get_invoice(self, context):
-
-        order_id = self._get_id(
-            context,
-            "order_id"
-        )
-
+        order_id = self._get_id(context,"order_id")
         if not order_id:
-
             return {
                 "status": "need_information",
-                "message": (
-                    "Please provide your order number."
-                )
+                "message": ("Please provide your order number.")
             }
 
         order = get_order(order_id)
-
         if not order:
-
             return {
                 "status": "not_found",
-                "message": (
-                    f"I could not find order {order_id}."
-                )
+                "message": (f"I could not find order {order_id}.")
             }
 
-        invoice = self._find_invoice_for_order(
-            order_id
-        )
-
+        invoice = self._find_invoice_for_order(order_id)
         if invoice:
-
             return {
                 "status": "success",
                 "message": (
@@ -718,38 +467,19 @@ class WorkflowHandler:
             },
         }
 
-    def _find_invoice_for_order(
-        self,
-        order_id
-    ):
-
+    def _find_invoice_for_order(self,order_id):
         for invoice_id in [
             "1",
-            "584",
-            "INV12345",
+            "2",
+            "3",
         ]:
 
-            invoice = get_invoice(
-                invoice_id
-            )
-
-            if (
-                invoice
-                and str(
-                    invoice.get("order_id")
-                ) == str(order_id)
-            ):
-
+            invoice = get_invoice(invoice_id)
+            if (invoice and str(invoice.get("order_id")) == str(order_id)):
                 return invoice
-
         return None
 
-    # =========================================================
-    # PAYMENT
-    # =========================================================
-
     def payment_issue(self):
-
         return {
             "status": "success",
             "message": (
@@ -760,7 +490,6 @@ class WorkflowHandler:
         }
 
     def check_payment_methods(self):
-
         return {
             "status": "success",
             "message": (
@@ -770,12 +499,7 @@ class WorkflowHandler:
             )
         }
 
-    # =========================================================
-    # ACCOUNT
-    # =========================================================
-
     def recover_password(self):
-
         return {
             "status": "success",
             "message": (
@@ -786,7 +510,6 @@ class WorkflowHandler:
         }
 
     def create_account(self):
-
         return {
             "status": "success",
             "message": (
@@ -797,7 +520,6 @@ class WorkflowHandler:
         }
 
     def delete_account(self):
-
         return {
             "status": "needs_confirmation",
             "requires_confirmation": True,
@@ -809,16 +531,12 @@ class WorkflowHandler:
         }
 
     def _confirm_delete_account(self):
-
         return {
             "status": "success",
-            "message": (
-                "Your account deletion request has been confirmed."
-            ),
+            "message": ("Your account deletion request has been confirmed."),
         }
 
     def edit_account(self):
-
         return {
             "status": "success",
             "message": (
@@ -828,7 +546,6 @@ class WorkflowHandler:
         }
 
     def switch_account(self):
-
         return {
             "status": "success",
             "message": (
@@ -837,13 +554,8 @@ class WorkflowHandler:
                 "with another account."
             )
         }
-
-    # =========================================================
-    # OTHER INTENTS
-    # =========================================================
-
+    
     def check_cancellation_fee(self):
-
         return {
             "status": "success",
             "message": (
@@ -853,7 +565,6 @@ class WorkflowHandler:
         }
 
     def complaint(self):
-
         return {
             "status": "success",
             "message": (
@@ -864,7 +575,6 @@ class WorkflowHandler:
         }
 
     def contact_customer_service(self):
-
         return {
             "status": "success",
             "message": (
@@ -874,16 +584,12 @@ class WorkflowHandler:
         }
 
     def contact_human_agent(self):
-
         return {
             "status": "success",
-            "message": (
-                "I will connect you with a human support agent."
-            )
+            "message": ("I will connect you with a human support agent.")
         }
 
     def newsletter_subscription(self):
-
         return {
             "status": "success",
             "message": (
@@ -893,7 +599,6 @@ class WorkflowHandler:
         }
 
     def registration_problems(self):
-
         return {
             "status": "success",
             "message": (
@@ -904,7 +609,6 @@ class WorkflowHandler:
         }
 
     def review(self):
-
         return {
             "status": "success",
             "message": (
@@ -913,24 +617,12 @@ class WorkflowHandler:
             )
         }
 
-    # =========================================================
-    # HELPERS
-    # =========================================================
-
     @staticmethod
-    def _get_id(
-        context,
-        key
-    ):
-
+    def _get_id(context, key):
         value = context.get(key)
-
         if value is None:
             return None
-
         value = str(value).strip()
-
         if not value:
             return None
-
         return value

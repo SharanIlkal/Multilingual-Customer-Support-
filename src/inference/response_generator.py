@@ -1,8 +1,6 @@
 from .response_templates import get_response
 
-
 class ResponseGenerator:
-
     LANGUAGES = {
         "en",
         "hi",
@@ -13,7 +11,6 @@ class ResponseGenerator:
     }
 
     STATIC = {
-
         "place_order": {
             "en": "You can place an order by selecting a product and completing checkout.",
             "hi": "आप उत्पाद चुनकर और चेकआउट पूरा करके ऑर्डर कर सकते हैं।",
@@ -187,22 +184,9 @@ class ResponseGenerator:
         if language not in self.LANGUAGES:
             language = "en"
 
-        action = router_result.get(
-            "action",
-            "handle_intent"
-        )
-
-        intent = router_result.get(
-            "intent",
-            "unknown"
-        )
-
-        # =====================================================
-        # HUMAN ESCALATION
-        # =====================================================
-
+        action = router_result.get("action", "handle_intent")
+        intent = router_result.get("intent", "unknown")
         if action == "human_escalation":
-
             messages = {
                 "en": "I'm not confident that I understood your request. I'll connect you with a support representative.",
                 "hi": "मुझे आपकी बात पूरी तरह समझ नहीं आई। मैं आपको एक सहायता प्रतिनिधि से जोड़ता हूँ।",
@@ -213,13 +197,8 @@ class ResponseGenerator:
             }
 
             return messages[language]
-
-        # =====================================================
-        # CLARIFICATION
-        # =====================================================
-
+        
         if action == "clarify":
-
             messages = {
                 "en": "I want to make sure I understood you correctly. Could you please provide a little more detail?",
                 "hi": "मैं यह सुनिश्चित करना चाहता हूं कि मैंने आपकी बात सही समझी है। कृपया थोड़ा और विवरण दें।",
@@ -230,70 +209,23 @@ class ResponseGenerator:
             }
 
             return messages[language]
-
         if not workflow_result:
             return get_response(
                 language,
                 "order_number"
             )
 
-        status = workflow_result.get(
-            "status"
-        )
-
-        # =====================================================
-        # MISSING ENTITY
-        # =====================================================
-
+        status = workflow_result.get("status")
         if status == "need_information":
-
             if intent == "track_refund":
-                return get_response(
-                    language,
-                    "refund_id"
-                )
-
-            return get_response(
-                language,
-                "order_number"
-            )
-
-        # =====================================================
-        # NOT FOUND
-        # =====================================================
-
+                return get_response(language, "refund_id")
+            return get_response(language, "order_number")
         if status == "not_found":
-
             if intent == "track_refund":
-                return get_response(
-                    language,
-                    "unknown_refund"
-                )
-
-            return get_response(
-                language,
-                "unknown_order"
-            )
-
-        # =====================================================
-        # CONFIRMATION
-        # =====================================================
-
+                return get_response(language, "unknown_refund")
+            return get_response(language, "unknown_order")
         if status == "needs_confirmation":
-
-            return self._confirmation(
-                intent,
-                workflow_result,
-                language
-            )
-
-        # =====================================================
-        # CONFIRMATION SUCCESS
-        # =====================================================
-
-        # Confirmation workflows return status="success" after the
-        # user answers yes. Localize these messages here instead of
-        # returning the English message from WorkflowHandler.
+            return self._confirmation(intent, workflow_result, language)
         if status == "success" and intent in {
             "cancel_order",
             "get_refund",
@@ -301,54 +233,16 @@ class ResponseGenerator:
             "change_order",
             "change_shipping_address",
         }:
-            return self._confirmation_success(
-                intent,
-                workflow_result,
-                language
-            )
-
-        # =====================================================
-        # DATA
-        # =====================================================
-
-        data = workflow_result.get(
-            "data",
-            {}
-        )
-
+            return self._confirmation_success(intent,workflow_result,language)
+        data = workflow_result.get("data",{})
         if data:
-
             if intent == "track_order":
-                return self._track_order(
-                    data,
-                    language
-                )
-
+                return self._track_order(data,language)
             if intent == "track_refund":
-                return self._track_refund(
-                    data,
-                    language
-                )
-
-        # =====================================================
-        # STATIC
-        # =====================================================
-
+                return self._track_refund(data,language)
         if intent in self.STATIC:
-
-            return self.STATIC[intent].get(
-                language,
-                self.STATIC[intent]["en"]
-            )
-
-        return workflow_result.get(
-            "message",
-            "How can I help you today?"
-        )
-
-    # =========================================================
-    # CONFIRMATION
-    # =========================================================
+            return self.STATIC[intent].get(language,self.STATIC[intent]["en"])
+        return workflow_result.get("message", "How can I help you today?")
 
     def _confirmation(
         self,
@@ -356,19 +250,9 @@ class ResponseGenerator:
         workflow_result,
         language
     ):
-
-        data = workflow_result.get(
-            "data",
-            {}
-        )
-
-        order_id = data.get(
-            "order_id",
-            ""
-        )
-
+        data = workflow_result.get("data", {})
+        order_id = data.get("order_id", "")
         messages = {
-
             "cancel_order": {
                 "en": f"Order {order_id} can be cancelled. Do you want to confirm the cancellation?",
                 "hi": f"ऑर्डर {order_id} को रद्द किया जा सकता है। क्या आप रद्द करने की पुष्टि करते हैं?",
@@ -417,31 +301,15 @@ class ResponseGenerator:
             )["en"]
         )
 
-    # =========================================================
-    # CONFIRMATION SUCCESS
-    # =========================================================
-
     def _confirmation_success(
         self,
         intent,
         workflow_result,
         language
     ):
-        data = workflow_result.get(
-            "data",
-            {}
-        )
-
-        order_id = data.get(
-            "order_id",
-            ""
-        )
-
-        refund_id = data.get(
-            "refund_id",
-            ""
-        )
-
+        data = workflow_result.get("data", {})
+        order_id = data.get("order_id", "")
+        refund_id = data.get("refund_id", "")
         messages = {
             "cancel_order": {
                 "en": f"Order {order_id} cancellation has been confirmed.",
@@ -543,82 +411,45 @@ class ResponseGenerator:
             },
         }
 
-        language_messages = messages.get(
-            intent,
-            messages["cancel_order"]
-        )
-
-        # Always select the response using the language detected by Chatbot.
-        # Never fall back to another Indian-language message.
+        language_messages = messages.get(intent, messages["cancel_order"])
         selected_language = language if language in self.LANGUAGES else "en"
-
         return language_messages.get(
             selected_language,
             language_messages["en"]
         )
 
-    # =========================================================
-    # TRACK ORDER
-    # =========================================================
 
-    def _track_order(
-        self,
-        data,
-        language
-    ):
-
-        order_id = data.get(
-            "order_id",
-            ""
-        )
-
-        status = data.get(
-            "status",
-            ""
-        )
-
-        item = data.get(
-            "item",
-            ""
-        )
-
-        delivery_date = data.get(
-            "delivery_date",
-            ""
-        )
-
+    def _track_order(self, data, language):
+        order_id = data.get("order_id", "")
+        status = data.get("status", "")
+        item = data.get("item", "")
+        delivery_date = data.get("delivery_date", "")
         status_map = {
-
             "en": {
                 "Shipped": "Shipped",
                 "Processing": "Processing",
                 "Delivered": "Delivered",
             },
-
             "hi": {
                 "Shipped": "भेज दिया गया",
                 "Processing": "प्रक्रिया में है",
                 "Delivered": "डिलीवर हो गया",
             },
-
             "kn": {
                 "Shipped": "ರವಾನೆಯಾಗಿದೆ",
                 "Processing": "ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿದೆ",
                 "Delivered": "ತಲುಪಿಸಲಾಗಿದೆ",
             },
-
             "mr": {
                 "Shipped": "पाठवण्यात आला आहे",
                 "Processing": "प्रक्रियेत आहे",
                 "Delivered": "वितरित करण्यात आला आहे",
             },
-
             "ta": {
                 "Shipped": "அனுப்பப்பட்டுள்ளது",
                 "Processing": "செயல்பாட்டில் உள்ளது",
                 "Delivered": "விநியோகிக்கப்பட்டது",
             },
-
             "te": {
                 "Shipped": "పంపబడింది",
                 "Processing": "ప్రక్రియలో ఉంది",
@@ -629,13 +460,8 @@ class ResponseGenerator:
         localized_status = status_map.get(
             language,
             status_map["en"]
-        ).get(
-            status,
-            status
-        )
-
+        ).get(status, status)
         templates = {
-
             "en": (
                 f"Your order {order_id} is currently "
                 f"{localized_status}. "
@@ -684,31 +510,15 @@ class ResponseGenerator:
             templates["en"]
         )
 
-    # =========================================================
-    # TRACK REFUND
-    # =========================================================
-
     def _track_refund(
         self,
         data,
         language
     ):
 
-        refund_id = data.get(
-            "refund_id",
-            ""
-        )
-
-        status = data.get(
-            "status",
-            ""
-        )
-
-        amount = data.get(
-            "amount",
-            0
-        )
-
+        refund_id = data.get("refund_id", "")
+        status = data.get("status","")
+        amount = data.get("amount",0)
         status_map = {
 
             "en": {
@@ -745,11 +555,7 @@ class ResponseGenerator:
         localized_status = status_map.get(
             language,
             status_map["en"]
-        ).get(
-            status,
-            status
-        )
-
+        ).get(status, status)
         templates = {
 
             "en": (
@@ -788,8 +594,4 @@ class ResponseGenerator:
                 f"రీఫండ్ మొత్తం ₹{amount}."
             ),
         }
-
-        return templates.get(
-            language,
-            templates["en"]
-        )
+        return templates.get(language, templates["en"])

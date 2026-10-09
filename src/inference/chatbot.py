@@ -30,17 +30,117 @@ class SupportChatbot:
         self.state.add_message("user", message)
         detected_language = self.language_detector.detect(message)
         previous_language = self.state.get_context("language")
-        if (
-            previous_language
-            and (self.state.is_awaiting_confirmation() or self.state.is_awaiting_entity() or self._is_short_followup(message))
-        ):
+        if (previous_language and (self.state.is_awaiting_confirmation() or self.state.is_awaiting_entity() or self._is_short_followup(message))):
             language = previous_language
         else:
             language = detected_language
-
         self.state.set_context("language", language)
-
+        if not (self.state.is_awaiting_entity() or self.state.is_awaiting_confirmation()):
+            conversational_response = self._conversation_response(message, language,)
+            if conversational_response:
+                return self._result(conversational_response, None,  "CONVERSATION", 1.0, "small_talk",)
         if self.state.is_awaiting_entity():
+            greeting_phrases = {
+                "en": {
+                    "hello",
+                    "hi",
+                    "hey",
+                    "hello there",
+                    "hi there",
+                    "good morning",
+                    "good afternoon",
+                    "good evening",
+                    "ok",
+                    "okay",
+                    "hey there",
+                    "greetings",
+                },
+
+                "hi": {
+                    "नमस्ते",
+                    "नमस्कार",
+                    "हैलो",
+                    "हेलो",
+                    "हाय",
+                    "हाय जी",
+                    "सुप्रभात",
+                    "शुभ प्रभात",
+                    "शुभ संध्या",
+                    "शुभ संध्याकाळ",
+                    ""
+                },
+
+                "kn": {
+                    "ನಮಸ್ಕಾರ",
+                    "ನಮಸ್ತೆ",
+                    "ಹಲೋ",
+                    "ಹೆಲೋ",
+                    "ಹಾಯ್",
+                    "ಹಾಯ್ ಜೀ",
+                    "ಶುಭೋದಯ",
+                    "ಶುಭ ಸಂಜೆ",
+                    "ಶುಭ ಸಂಜೆಕಾಲ",
+                    
+                },
+
+                "mr": {
+                    "नमस्कार",
+                    "नमस्ते",
+                    "हॅलो",
+                    "हेलो",
+                    "हाय",
+                    "हाय जी",
+                    "शुभ प्रभात",
+                    "शुभ सकाळ",
+                    "शुभ संध्याकाळ",
+                    "शुभ संध्या",
+                    
+                },
+
+                "ta": {
+                    "வணக்கம்",
+                    "நமஸ்காரம்",
+                    "ஹலோ",
+                    "ஹெலோ",
+                    "ஹாய்",
+                    "ஹாய் ஜி",
+                    "காலை வணக்கம்",
+                    "மாலை வணக்கம்",
+                    "மாலை வணக்கம்",
+                },
+
+                "te": {
+                    "నమస్కారం",
+                    "నమస్తే",
+                    "హలో",
+                    "హెలో",
+                    "హాయ్",
+                    "హాయ్ జీ",
+                    "శుభోదయం",
+                    "శుభ సాయంత్రం",
+                    "శుభ సాయంత్రం",
+                },
+            }
+
+            normalized_greeting = re.sub(r"\s+", " ",message.lower().strip())
+
+            if (
+                not self.state.is_awaiting_entity()
+                and not self.state.is_awaiting_confirmation()
+                and normalized_greeting in greeting_phrases.get(language, set())
+            ):
+                greeting_response = self._localized(
+                    language,
+                    {
+                        "en": "Hello! How can I help you today?",
+                        "hi": "नमस्ते! मैं आपकी कैसे मदद कर सकता हूँ?",
+                        "kn": "ನಮಸ್ಕಾರ! ನಾನು ಇಂದು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?",
+                        "mr": "नमस्कार! मी आज तुमची कशी मदत करू शकतो?",
+                        "ta": "வணக்கம்! இன்று நான் உங்களுக்கு எப்படி உதவலாம்?",
+                        "te": "నమస్కారం! ఈ రోజు నేను మీకు ఎలా సహాయం చేయగలను?",
+                    }
+                )
+                return self._result(greeting_response, None, None, 1.0,"greeting")
             expected_entity = (self.state.get_expected_entity())
             entities = self.entity_extractor.extract(message, expected_entity=expected_entity)
             if expected_entity == "order_id":
@@ -57,7 +157,6 @@ class SupportChatbot:
                     self.state.clear_expected_entity()
                     return self._execute_current_intent(language)
                 return self._entity_error("refund_id", language)
-
         if self.state.is_awaiting_confirmation():
             confirmation = self._parse_confirmation(message)
             if confirmation is True:
@@ -74,17 +173,9 @@ class SupportChatbot:
                     "check_invoice",
                     "get_invoice",
                 }:
-                    self.state.set_context(
-                        "order_id",
-                        None
-                    )
-
+                    self.state.set_context("order_id", None)
                 if intent == "track_refund":
-                    self.state.set_context(
-                        "refund_id",
-                        None
-                    )
-
+                    self.state.set_context("refund_id", None)
                 response = self.response_generator.generate(
                     {
                         "action": "handle_intent",
@@ -95,7 +186,6 @@ class SupportChatbot:
                     result,
                     language=language
                 )
-
                 return self._result(
                     response,
                     intent,
@@ -104,16 +194,10 @@ class SupportChatbot:
                     "handle_intent",
                     result
                 )
-
             if confirmation is False:
-
                 intent = self.state.current_intent
                 category = self.state.current_category
-
                 self.state.clear_confirmation()
-
-                # User cancelled the confirmation, so the
-                # pending entity is no longer needed.
                 if intent in {
                     "track_order",
                     "get_refund",
@@ -123,17 +207,9 @@ class SupportChatbot:
                     "check_invoice",
                     "get_invoice",
                 }:
-                    self.state.set_context(
-                        "order_id",
-                        None
-                    )
-
+                    self.state.set_context("order_id", None)
                 if intent == "track_refund":
-                    self.state.set_context(
-                        "refund_id",
-                        None
-                    )
-
+                    self.state.set_context("refund_id", None)
                 response = self._localized(
                     language,
                     {
@@ -145,7 +221,6 @@ class SupportChatbot:
                         "te": "సరే. ఆ అభ్యర్థనను నేను రద్దు చేశాను.",
                     }
                 )
-
                 return self._result(
                     response,
                     intent,
@@ -153,7 +228,6 @@ class SupportChatbot:
                     1.0,
                     "handle_intent"
                 )
-
             response = self._localized(
                 language,
                 {
@@ -165,7 +239,6 @@ class SupportChatbot:
                     "te": "నిర్ధారించడానికి అవును లేదా రద్దు చేయడానికి కాదు అని సమాధానం ఇవ్వండి.",
                 }
             )
-
             return self._result(
                 response,
                 self.state.current_intent,
@@ -173,78 +246,23 @@ class SupportChatbot:
                 1.0,
                 "clarify"
             )
-
-        # =====================================================
-        # 3. ENTITY EXTRACTION
-        # =====================================================
-
-        entities = self.entity_extractor.extract(
-            message
-        )
-
-        # Persist only genuinely extracted entity values.
-        # The extractor supports arbitrary IDs, but normal words
-        # such as "order" must never be stored as an ID.
+        entities = self.entity_extractor.extract(message)
         for key, value in entities.items():
             if value is not None and str(value).strip():
-                self.state.set_context(
-                    key,
-                    str(value).strip()
-                )
-
-        # =====================================================
-        # 4. PREVIOUS INTENT
-        # =====================================================
-
+                self.state.set_context(key, str(value).strip())
         previous_intent = self.state.current_intent
         previous_category = self.state.current_category
-
-        # =====================================================
-        # 5. CLARIFICATION FOLLOW-UP
-        # =====================================================
-
         if self.state.is_awaiting_clarification():
-
-            matched_intent = self._resolve_clarification(
-                message
-            )
-
+            matched_intent = self._resolve_clarification(message)
             if matched_intent:
-
-                # A clarification answer selects a new intent.
-                # Clear any stale entity from the previous intent
-                # before executing the selected intent.
                 if matched_intent != previous_intent:
-                    self.state.set_context(
-                        "order_id",
-                        None
-                    )
-                    self.state.set_context(
-                        "refund_id",
-                        None
-                    )
-
-                self.state.set_intent(
-                    matched_intent,
-                    previous_category
-                )
-
-                self.state.set_clarification(
-                    False
-                )
-
-                return self._execute_current_intent(
-                    language
-                )
-
-        # =====================================================
-        # 6. ID-ONLY FOLLOW-UP
-        # =====================================================
-
+                    self.state.set_context("order_id", None)
+                    self.state.set_context("refund_id", None)
+                self.state.set_intent(matched_intent, previous_category)
+                self.state.set_clarification(False)
+                return self._execute_current_intent(language)
         if self._is_id_only(message):
-
             if previous_intent:
-
                 if previous_intent in {
                     "track_order",
                     "get_refund",
@@ -254,62 +272,19 @@ class SupportChatbot:
                     "check_invoice",
                     "get_invoice",
                 }:
-
-                    order_id = (
-                        self.entity_extractor.extract_order_id(
-                            message
-                        )
-                    )
-
+                    order_id = (self.entity_extractor.extract_order_id(messag))
                     if order_id:
-
-                        self.state.set_context(
-                            "order_id",
-                            order_id
-                        )
-
+                        self.state.set_context("order_id", order_id)
                         self.state.clear_expected_entity()
-
-                        return self._execute_current_intent(
-                            language
-                        )
-
+                        return self._execute_current_intent(language)
                 if previous_intent == "track_refund":
-
-                    refund_id = (
-                        self.entity_extractor.extract_refund_id(
-                            message
-                        )
-                    )
-
+                    refund_id = (self.entity_extractor.extract_refund_id(message))
                     if refund_id:
-
-                        self.state.set_context(
-                            "refund_id",
-                            refund_id
-                        )
-
+                        self.state.set_context("refund_id", refund_id)
                         self.state.clear_expected_entity()
-
-                        return self._execute_current_intent(
-                            language
-                        )
-
-        # =====================================================
-        # 7. NORMAL INTENT CLASSIFICATION
-        # =====================================================
-
-        router_result = self.router.classify(
-            message
-        )
-
-        # Explicit Kannada cancellation guard.
-        normalized_message = re.sub(
-            r"\s+",
-            " ",
-            message.lower().strip()
-        )
-
+                        return self._execute_current_intent(language)
+        router_result = self.router.classify(message)
+        normalized_message = re.sub(r"\s+", " ",message.lower().strip())
         kannada_cancel_phrases = {
             "ನನ್ನ ಆರ್ಡರ್ ಅನ್ನು ರದ್ದುಗೊಳಿಸಲು ಬಯಸುತ್ತೇನೆ",
             "ನನ್ನ ಆರ್ಡರ್ ರದ್ದುಗೊಳಿಸಲು ಬಯಸುತ್ತೇನೆ",
@@ -327,29 +302,9 @@ class SupportChatbot:
         ):
             router_result["intent"] = "cancel_order"
             router_result["action"] = "handle_intent"
-            router_result["confidence"] = max(
-                float(router_result.get("confidence", 0.0)),
-                0.99
-            )
-
-        # =====================================================
-        # 8. MULTILINGUAL OVERRIDES
-        # =====================================================
-
-        router_result = self._apply_intent_overrides(
-            message,
-            router_result
-        )
-
-        # Final Kannada cancellation guard.
-        # This runs after all generic overrides, so broad phrases such as
-        # "ನನ್ನ ಆರ್ಡರ್" can never overwrite an explicit cancellation request.
-        normalized_message = re.sub(
-            r"\s+",
-            " ",
-            message.lower().strip()
-        )
-
+            router_result["confidence"] = max(float(router_result.get("confidence", 0.0)),0.99)
+        router_result = self._apply_intent_overrides(message, router_result)
+        normalized_message = re.sub(r"\s+", " ", message.lower().strip())
         kannada_cancel_phrases = {
             "ನನ್ನ ಆರ್ಡರ್ ಅನ್ನು ರದ್ದುಗೊಳಿಸಲು ಬಯಸುತ್ತೇನೆ",
             "ನನ್ನ ಆರ್ಡರ್ ರದ್ದುಗೊಳಿಸಲು ಬಯಸುತ್ತೇನೆ",
@@ -367,55 +322,20 @@ class SupportChatbot:
         ):
             router_result["intent"] = "cancel_order"
             router_result["action"] = "handle_intent"
-            router_result["confidence"] = max(
-                float(router_result.get("confidence", 0.0)),
-                0.99
-            )
-
+            router_result["confidence"] = max(float(router_result.get("confidence", 0.0)), 0.99)
         new_intent = router_result["intent"]
-
-        # A new natural-language intent must not inherit an
-        # entity belonging to a previous intent.
-        #
-        # We do this AFTER classification, so an ID follow-up
-        # is never mistaken for a new request.
-        if (
-            previous_intent is not None
-            and new_intent != previous_intent
-        ):
-            self.state.set_context(
-                "order_id",
-                None
-            )
-            self.state.set_context(
-                "refund_id",
-                None
-            )
-
+        if (previous_intent is not None and new_intent != previous_intent):
+            self.state.set_context("order_id", None)
+            self.state.set_context("refund_id", None)
         self.state.clear_expected_entity()
-
-        self.state.set_intent(
-            new_intent,
-            router_result["category"]
-        )
-
-        # =====================================================
-        # 9. CLARIFICATION / ESCALATION
-        # =====================================================
-
+        self.state.set_intent(new_intent, router_result["category"])
         if router_result["action"] != "handle_intent":
-
             if router_result["action"] == "clarify":
-
-                self.state.set_clarification(
-                    True
-                )
-
+                self.state.set_clarification(True)
             response = self.response_generator.generate(
                 router_result,
                 language=language
             )
-
             return self._result(
                 response,
                 router_result["intent"],
@@ -423,19 +343,7 @@ class SupportChatbot:
                 router_result["confidence"],
                 router_result["action"]
             )
-
-        # =====================================================
-        # 10. WORKFLOW
-        # =====================================================
-
-        return self._execute_current_intent(
-            language,
-            router_result
-        )
-
-    # =========================================================
-    # EXECUTE INTENT
-    # =========================================================
+        return self._execute_current_intent(language, router_result)
 
     def _execute_current_intent(
         self,
@@ -444,11 +352,6 @@ class SupportChatbot:
     ):
         intent = self.state.current_intent
         category = self.state.current_category
-
-        # ---------------------------------------------------------
-        # Required entities
-        # ---------------------------------------------------------
-
         entity_requirements = {
             "track_order": "order_id",
             "get_refund": "order_id",
@@ -459,19 +362,11 @@ class SupportChatbot:
             "get_invoice": "order_id",
             "track_refund": "refund_id",
         }
-
         required_entity = entity_requirements.get(intent)
-
-        # ---------------------------------------------------------
-        # Check required entity
-        # ---------------------------------------------------------
-
         if required_entity:
             value = self.state.get_context(required_entity)
-
             if not value:
                 self.state.set_expected_entity(required_entity)
-
                 if required_entity == "order_id":
                     messages = {
                         "en": "Sure. Please provide your order number.",
@@ -491,11 +386,7 @@ class SupportChatbot:
                         "te": "తప్పకుండా. దయచేసి మీ రీఫండ్ IDని ఇవ్వండి.",
                     }
 
-                response = self._localized(
-                    language,
-                    messages
-                )
-
+                response = self._localized(language, messages)
                 return self._result(
                     response,
                     intent,
@@ -508,32 +399,9 @@ class SupportChatbot:
                     "handle_intent"
                 )
 
-        # ---------------------------------------------------------
-        # Execute workflow
-        # ---------------------------------------------------------
-
-        workflow_result = self.workflow.handle(
-            intent,
-            self.state.context
-        )
-
-        # ---------------------------------------------------------
-        # Confirmation-required workflows
-        # ---------------------------------------------------------
-
-        if workflow_result.get(
-            "requires_confirmation",
-            False
-        ):
-            self.state.set_confirmation(
-                True,
-                intent
-            )
-
-        # ---------------------------------------------------------
-        # Generate response
-        # ---------------------------------------------------------
-
+        workflow_result = self.workflow.handle(intent, self.state.context)
+        if workflow_result.get("requires_confirmation", False):
+            self.state.set_confirmation(True, intent)
         response = self.response_generator.generate(
             {
                 "action": "handle_intent",
@@ -555,25 +423,8 @@ class SupportChatbot:
             else 1.0
         )
 
-        # ---------------------------------------------------------
-        # Clear consumed entity ONLY after successful workflow
-        #
-        # Do NOT clear it when confirmation is pending.
-        # The confirmation step still needs the context.
-        # ---------------------------------------------------------
-
-        if (
-            required_entity
-            and not workflow_result.get(
-                "requires_confirmation",
-                False
-            )
-        ):
-            self.state.set_context(
-                required_entity,
-                None
-            )
-
+        if ( required_entity and not workflow_result.get("requires_confirmation", False)):
+            self.state.set_context(required_entity, None)
         return self._result(
             response,
             intent,
@@ -583,18 +434,12 @@ class SupportChatbot:
             workflow_result
         )
 
-    # =========================================================
-    # ENTITY ERROR
-    # =========================================================
-
     def _entity_error(
         self,
         entity,
         language
     ):
-
         if entity == "order_id":
-
             response = self._localized(
                 language,
                 {
@@ -606,9 +451,7 @@ class SupportChatbot:
                     "te": "దయచేసి సరైన ఆర్డర్ IDని ఇవ్వండి.",
                 }
             )
-
         else:
-
             response = self._localized(
                 language,
                 {
@@ -620,7 +463,6 @@ class SupportChatbot:
                     "te": "దయచేసి సరైన రీఫండ్ IDని ఇవ్వండి.",
                 }
             )
-
         return self._result(
             response,
             self.state.current_intent,
@@ -629,17 +471,8 @@ class SupportChatbot:
             "clarify"
         )
 
-    # =========================================================
-    # CONFIRMATION PARSER
-    # =========================================================
-
-    def _parse_confirmation(
-        self,
-        message
-    ):
-
+    def _parse_confirmation(self, message):
         text = message.strip().lower()
-
         yes_words = {
             "yes",
             "y",
@@ -651,20 +484,15 @@ class SupportChatbot:
             "confirm",
             "confirmed",
             "proceed",
-
             "हाँ",
             "हां",
             "जी हाँ",
-
             "ಹೌದು",
             "ಸರಿ",
-
             "हो",
             "होय",
-
             "ஆம்",
             "சரி",
-
             "అవును",
             "సరే",
         }
@@ -675,46 +503,100 @@ class SupportChatbot:
             "nope",
             "cancel",
             "stop",
-
             "नहीं",
             "नही",
-
             "ಇಲ್ಲ",
-
             "नाही",
-
             "இல்லை",
-
             "కాదు",
         }
 
         if text in yes_words:
             return True
-
         if text in no_words:
             return False
-
         return None
 
-    # =========================================================
-    # INTENT OVERRIDES
-    # =========================================================
+    def _conversation_response(self, message, language):
+        normalized = re.sub(
+            r"[^\w\s\u0900-\u0CFF]",
+            " ",
+            message.lower(),
+        )
+        normalized = " ".join(normalized.split())
+        greetings = {
+            "en": {"hi", "hello", "hey", "good morning", "good afternoon", "good evening", "greetings", "hey there", "hello there"},
+            "hi": {"नमस्ते", "नमस्कार", "हेलो", "हैलो", "हेल्लो", "हाय", "हाय जी", "सुप्रभात", "शुभ प्रभात", "शुभ संध्या", "शुभ संध्याकाळ"},
+            "kn": {"ನಮಸ್ಕಾರ", "ಹಾಯ್", "ಹಲೋ", "ಹೆಲೋ", "ಹಾಯ್ ಜೀ", "ಶುಭೋದಯ", "ಶುಭ ಸಂಜೆ", "ಶುಭ ಸಂಜೆಕಾಲ"},
+            "mr": {"नमस्कार", "हॅलो", "हेलो", "हाय", "हाय जी", "शुभ प्रभात", "शुभ सकाळ", "शुभ संध्याकाळ", "शुभ संध्या"},
+            "ta": {"வணக்கம்", "ஹலோ", "ஹெலோ", "ஹாய்", "ஹாய் ஜி", "காலை வணக்கம்", "மாலை வணக்கம்"},
+            "te": {"నమస్తే", "హలో", "హెలో", "హాయ్", "హాయ్ జీ", "శుభోదయం", "శుభ సాయంత్రం"},
+        }
+        thanks = {
+            "en": {"thanks", "thank you", "thank you so much", "okay thank you", "ok thank you", "thx", "appreciate"},
+            "hi": {"धन्यवाद", "शुक्रिया", "बहुत धन्यवाद", "ठीक है धन्यवाद", "ठीक है शुक्रिया", "ठीक है थैंक यू", "थैंक यू", "थैंक्स", "शुक्रिया बहुत"},
+            "kn": {"ಧನ್ಯವಾದ", "ಧನ್ಯವಾದಗಳು", "ಧನ್ಯವಾದಗಳು ತುಂಬಾ", "ಸರಿ ಧನ್ಯವಾದಗಳು", "ಸರಿ ಧನ್ಯವಾದಗಳು", "ಸರಿ ಧನ್ಯವಾದಗಳು", "ಥ್ಯಾಂಕ್ಸ್", "ಥ್ಯಾಂಕ್ಸ್ ತುಂಬಾ"},
+            "mr": {"धन्यवाद", "धन्यवाद आहे", "खूप धन्यवाद", "ठीक आहे धन्यवाद", "ठीक आहे धन्यवाद आहे", "ठीक आहे धन्यवाद आहे", "थँक्स", "थँक्स खूप"},
+            "ta": {"நன்றி", "மிக்க நன்றி", "நன்றி மிகவும்", "சரி நன்றி", "சரி நன்றி மிகவும்", "சரி நன்றி மிகவும்", "நன்றி", "நன்றி மிகவும்"},
+            "te": {"ధన్యవాదాలు", "ధన్యవాదము", "ధన్యవాదాలు చాలా", "సరే ధన్యవాదాలు", "సరే ధన్యవాదాలు చాలా", "సరే ధన్యవాదాలు చాలా", "ధన్యవాదాలు", "ధన్యవాదాలు చాలా"},
+        }
+        goodbyes = {
+            "en": {"bye", "goodbye", "see you", "see you later", "take care", "farewell", "later", "see ya"},
+            "hi": {"अलविदा", "बाय", "फिर मिलेंगे", "फिर मिलते हैं", "ध्यान रखना", "विदाई", "बाद में मिलते हैं", "फिर मिलेंगे"},
+            "kn": {"ವಿದಾಯ", "ಬೈ", "ಮತ್ತೆ ಭೇಟಿಯಾಗೋಣ", "ಮತ್ತೆ ಭೇಟಿಯಾಗುತ್ತೇವೆ", "ಕಾಳಜಿ ವಹಿಸು", "ವಿದಾಯ", "ನಂತರ ಭೇಟಿಯಾಗೋಣ", "ಮತ್ತೆ ಭೇಟಿಯಾಗೋಣ"},
+            "mr": {"निरोप", "बाय", "नंतर भेटू", "नंतर भेटूया", "काळजी घ्या", "विदाई", "नंतर भेटूया", "नंतर भेटू"},
+            "ta": {"பிரியாவிடை", "பை", "பின்னர் சந்திப்போம்", "பின்னர் சந்திப்போம்", "கவனமாக இரு", "விடைபெறல்", "பின்னர் சந்திப்போம்", "பின்னர் சந்திப்போம்"},
+            "te": {"వీడ్కోలు", "బై", "తరువాత కలుద్దాం", "తరువాత కలుద్దాం", "జాగ్రత్తగా ఉండండి", "వీడ్కోలు", "తరువాత కలుద్దాం", "తరువాత కలుద్దాం"},
+        }
 
+        if normalized in greetings.get(language, set()):
+            return self._localized(
+                language,
+                {
+                    "en": "Hello! How can I help you today?",
+                    "hi": "नमस्ते! मैं आज आपकी कैसे मदद कर सकता हूँ?",
+                    "kn": "ನಮಸ್ಕಾರ! ಇಂದು ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?",
+                    "mr": "नमस्कार! आज मी तुम्हाला कशी मदत करू शकतो?",
+                    "ta": "வணக்கம்! இன்று நான் உங்களுக்கு எப்படி உதவலாம்?",
+                    "te": "నమస్తే! ఈరోజు నేను మీకు ఎలా సహాయం చేయగలను?",
+                },
+            )
+
+        if normalized in thanks.get(language, set()):
+            return self._localized(
+                language,
+                {
+                    "en": "You’re welcome! Is there anything else I can help with?",
+                    "hi": "आपका स्वागत है! क्या मैं किसी और चीज़ में मदद कर सकता हूँ?",
+                    "kn": "ಸ್ವಾಗತ! ನಾನು ಬೇರೆ ಯಾವುದಾದರೂ ಸಹಾಯ ಮಾಡಬಹುದೇ?",
+                    "mr": "तुमचे स्वागत आहे! मी आणखी कशात मदत करू शकतो?",
+                    "ta": "உங்களை வரவேற்கிறேன்! வேறு ஏதாவது உதவி வேண்டுமா?",
+                    "te": "స్వాగతం! నేను ఇంకేమైనా సహాయం చేయగలనా?",
+                },
+            )
+
+        if normalized in goodbyes.get(language, set()):
+            return self._localized(
+                language,
+                {
+                    "en": "Goodbye! Have a great day.",
+                    "hi": "अलविदा! आपका दिन शुभ हो।",
+                    "kn": "ವಿದಾಯ! ನಿಮ್ಮ ದಿನ ಶುಭವಾಗಿರಲಿ.",
+                    "mr": "निरोप! तुमचा दिवस छान जावो.",
+                    "ta": "பிரியாவிடை! உங்கள் நாள் இனிதாக அமையட்டும்.",
+                    "te": "వీడ్కోలు! మీ రోజు మంచిగా సాగాలి.",
+                },
+            )
+        return None
+    
     def _apply_intent_overrides(
         self,
         message,
         router_result
     ):
-
-        # IntentRouter is the single source of routing decisions.  Its
-        # multilingual overrides are more specific than the legacy rules
-        # below, whose broad order-tracking phrases can otherwise replace a
-        # correctly matched request to change an order.
         if router_result.get("routing_source") != "model":
             return router_result
-
         text = message.lower()
-
         overrides = {
 
             "track_order": [
@@ -797,9 +679,6 @@ class SupportChatbot:
                 "ನನ್ನ ಆರ್ಡರ್ ರದ್ದುಗೊಳಿಸಲು ಬಯಸುತ್ತೇನೆ",],
         }
 
-        # Check specific intents before broad track_order phrases.
-        # For example, "ನನ್ನ ಆರ್ಡರ್ ..." is a broad track_order phrase,
-        # but explicit cancellation wording must remain cancel_order.
         override_order = [
             "cancel_order",
             "get_refund",
@@ -817,26 +696,12 @@ class SupportChatbot:
 
                 router_result["intent"] = intent
                 router_result["action"] = "handle_intent"
-                router_result["confidence"] = max(
-                    router_result["confidence"],
-                    0.99
-                )
-
+                router_result["confidence"] = max(router_result["confidence"],0.99)
                 break
-
         return router_result
 
-    # =========================================================
-    # CLARIFICATION RESOLUTION
-    # =========================================================
-
-    def _resolve_clarification(
-        self,
-        message
-    ):
-
+    def _resolve_clarification(self, message):
         text = message.lower()
-
         mappings = {
 
             "delivery_period": [
@@ -887,45 +752,23 @@ class SupportChatbot:
         }
 
         for intent, phrases in mappings.items():
-
-            if any(
-                phrase in text
-                for phrase in phrases
-            ):
+            if any(phrase in text for phrase in phrases):
                 return intent
-
         return None
 
-    # =========================================================
-    # HELPERS
-    # =========================================================
-
     def _is_id_only(self, message):
-
         text = message.strip()
-
-        return bool(
-            self.entity_extractor.extract_generic_id(
-                text
-            )
-        )
+        return bool(self.entity_extractor.extract_generic_id(text))
 
     def _is_short_followup(self, message):
-
         text = message.strip().lower()
-
         return (
             len(text.split()) <= 3
             or self._is_id_only(message)
             or self._parse_confirmation(message) is not None
         )
 
-    def _localized(
-        self,
-        language,
-        messages
-    ):
-
+    def _localized(self, language, messages):
         return messages.get(
             language,
             messages["en"]
@@ -940,12 +783,7 @@ class SupportChatbot:
         action,
         workflow_result=None
     ):
-
-        self.state.add_message(
-            "assistant",
-            response
-        )
-
+        self.state.add_message("assistant", response)
         result = {
             "response": response,
             "intent": intent,
@@ -953,30 +791,15 @@ class SupportChatbot:
             "confidence": confidence,
             "action": action,
         }
-
         if workflow_result:
-
-            result["workflow_status"] = (
-                workflow_result.get("status")
-            )
-
+            result["workflow_status"] = (workflow_result.get("status"))
         return result
 
-    # =========================================================
-    # PUBLIC HELPERS
-    # =========================================================
-
     def set_context(self, key, value):
-
-        self.state.set_context(
-            key,
-            value
-        )
+        self.state.set_context(key, value)
 
     def get_history(self):
-
         return self.state.get_history()
 
     def reset(self):
-
         self.state.clear()

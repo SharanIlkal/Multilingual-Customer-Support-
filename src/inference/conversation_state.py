@@ -2,21 +2,13 @@ class ConversationState:
 
     def __init__(self):
         self.history = []
-
         self.current_intent = None
         self.current_category = None
-
         self.context = {}
-
         self.awaiting_clarification = False
         self.awaiting_entity = None
-
         self.awaiting_confirmation = False
         self.confirmation_action = None
-
-    # =========================================================
-    # HISTORY
-    # =========================================================
 
     def add_message(self, role, message):
         self.history.append({
@@ -27,27 +19,15 @@ class ConversationState:
     def get_history(self):
         return self.history
 
-    # =========================================================
-    # INTENT
-    # =========================================================
-
     def set_intent(self, intent, category=None):
         self.current_intent = intent
         self.current_category = category
-
-    # =========================================================
-    # CONTEXT
-    # =========================================================
 
     def set_context(self, key, value):
         self.context[key] = value
 
     def get_context(self, key, default=None):
         return self.context.get(key, default)
-
-    # =========================================================
-    # ENTITY WAITING
-    # =========================================================
 
     def set_expected_entity(self, entity):
         self.awaiting_entity = entity
@@ -61,19 +41,11 @@ class ConversationState:
     def clear_expected_entity(self):
         self.awaiting_entity = None
 
-    # =========================================================
-    # CLARIFICATION
-    # =========================================================
-
     def set_clarification(self, value):
         self.awaiting_clarification = value
 
     def is_awaiting_clarification(self):
         return self.awaiting_clarification
-
-    # =========================================================
-    # CONFIRMATION
-    # =========================================================
 
     def set_confirmation(self, value, action=None):
         self.awaiting_confirmation = value
@@ -89,20 +61,12 @@ class ConversationState:
         self.awaiting_confirmation = False
         self.confirmation_action = None
 
-    # =========================================================
-    # RESET
-    # =========================================================
-
     def clear(self):
         self.history = []
-
         self.current_intent = None
         self.current_category = None
-
         self.context = {}
-
         self.awaiting_clarification = False
         self.awaiting_entity = None
-
         self.awaiting_confirmation = False
         self.confirmation_action = None
